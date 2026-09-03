@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evidencegap.vet/sitemap.xml

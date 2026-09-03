@@ -1,0 +1,488 @@
+title: Pimobendan in preclinical stage B2 mitral valve disease: where the effect comes
+from, how fragile it is, and what the regulatory record shows
+abstract_heading: Summary
+affil: A re-analysis of where the EPIC effect comes from, how fragile it is, and what the regulatory record shows. Published by <strong style="color:var(--ink)">evidencegap.vet</strong>
+randomised_trials: One
+type_of_work: Re-analysis
+keywords: pimobendan, myxomatous mitral valve disease ,
+stage B2, EPIC, reconstructed individual-patient data, landmark analysis
+, sensitivity analysis, single-arm trial, historical control
+short_title: Pimobendan in preclinical stage B2 disease
+related: <a href="gapmap.html#q-pimobendan-in-preclinical-stage-b2-disease">gap map entry</a> &middot;
+<a href="human-evidence.html#inotropes">the same drug class in people</a> &middot;
+<a href="reviews.html">all commentaries</a>
+id: EG-2026-006
+kind: Commentary
+domain: Canine cardiology
+published: 27 August 2026
+certainty: Moderate
+direction: Points to benefit, with caveats
+method: Re-analysis of reconstructed data
+
+== abstract
+:Claim
+That pimobendan delays the onset of congestive heart failure
+in dogs with stage B2 preclinical mitral valve disease. One randomised trial supports it, and it is
+the best trial in the field.
+
+:Method
+The published survival curves were digitised and
+approximate individual-level event times reconstructed, reproducing the paper's medians, hazard ratio and P value, so
+that analyses the trial does not report could be run.
+
+:Robustness
+Nine reclassified dogs remove statistical
+significance. On proportions alone the result is not significant (P = 0.135). The entire absolute
+separation between the arms occurs in the first six months, and significance is lost once 23 weeks
+are removed, faster than the loss of events can explain.
+
+:Residual effect
+A real effect. Restarting the clock at 23 weeks still
+leaves a 380-day median difference and 107 days of average event-free time gained, so this is not
+only early failures.
+
+:Regulatory basis
+Three non-identical versions of the trial are on
+the public record and none cross-references the others. FDA judged the trial not adequate and
+well-controlled without saying why. Full approval rests on a single-arm study whose success
+threshold was set below its own historical control rate.
+
+:Position
+Treat dogs that meet the trial's criteria. Whether dogs
+at the mild end of stage B2 benefit is not answerable from the published data, and the analysis that
+would answer several of these questions has already been collected and not reported.
+
+== summary
+Evidence :: One randomised, placebo-controlled, blinded, multicentre trial. 360 dogs; 354 in the analysis of the primary endpoint (178 pimobendan, 176 control).[1]
+Entry criteria :: LA/Ao &ge; 1.6, LVIDDN &ge; 1.7 and VHS &gt; 10.5, all three required. These are also the numeric criteria on the current label.[1,7]
+Endpoint :: Composite: onset of congestive heart failure, cardiac death, or euthanasia for cardiac disease. Roughly one dog in six reached it by dying rather than by developing heart failure.
+Reported effect :: Median time to endpoint 1228 days against 766; hazard ratio 0.64 (95% CI 0.47--0.87); log-rank P = .0038. Median survival 1059 days against 902 (P = .012).
+Robustness :: Reclassifying **nine** late placebo events as censored removes significance. On proportions alone, 74 of 178 against 88 of 176, Fisher's exact P = 0.135.
+Where the effect sits :: By day 180 the arms differ by 16 events, more than the 14 they finish with; thereafter they accrue 63 and 61. Removing 23 weeks gives P = 0.0501, against 0.0075 expected had the effect been constant.
+What survives that cut :: A 380-day median difference and 107 days of mean event-free time gained, in dogs alive and event-free at six months. The benefit is not confined to early failures.
+Regulatory basis :: Full approval (NADA 141-273, 19 December 2025) rests on a single-arm study of 125 dogs against a historical control. EPIC was treated as corroborative only, having "not met certain characteristics of an adequate and well-controlled study."[5]
+Not established :: Whether dogs at the mild end of stage B2 benefit; whether survival after heart failure is shortened in dogs treated beforehand. EPIC holds randomised data on the second question that have never been analysed.
+
+== 1. What the trial reported
+EPIC randomised dogs with preclinical myxomatous mitral valve disease and cardiomegaly to
+pimobendan or placebo, and reported a median time to the primary endpoint of 1228 days against
+766, a hazard ratio of 0.64 and a log-rank P of .0038.[1] The primary endpoint was a composite:
+the onset of congestive heart failure, cardiac death, or euthanasia for cardiac disease.
+
+It is the best-conducted trial in canine cardiology and the basis on which pimobendan is now
+licensed for stage B2 disease. This appraisal takes the result seriously enough to ask how much of
+it survives being pulled apart, and then sets it beside what the regulatory record actually says.
+
+== 2. Rebuilding the trial
+The published survival curves were digitised and approximate individual-level event times
+reconstructed from them, so that analyses the paper does not report could be run. These are
+pseudo-individual event times recovered from the curve, not the trial's own patient records;
+nothing here recovers an actual dog. Group sizes and total event counts were fixed to the published
+values; medians, hazard ratio and P were left free, so agreement with the paper is a genuine check
+rather than an assumption.
+
+| Primary endpoint | Reconstructed | Published[1] |
+|---|---|---|
+| Median, pimobendan | 1225 d | 1228 d |
+| Median, placebo | 758 d | 766 d |
+| Hazard ratio | 0.630 | 0.64 |
+| Log-rank P | 0.0039 | 0.0038 |
+
+The same procedure on the all-cause mortality curve gives medians of 1058 and 901 days against a
+published 1059 and 902, and a hazard ratio of 0.652, which the paper does not report.
+
+**Read this section with the reconstruction in mind.** Everything that follows
+in sections 3 to 7, and the modelling in section 14, is computed on reconstructed data, not on the
+trial's own dataset. Reconstruction from published curves recovers group-level quantities well
+and individual dogs only approximately. The agreement above is a reason to take these analyses
+seriously; it is not a substitute for the investigators running them.
+
+== 3. When the separation happens
+By day 180 the placebo arm has accrued 27 events against 11 on pimobendan. That gap of 16 events
+is already larger than the 14-event difference the trial finishes with. Over the whole of the
+remaining follow-up the two arms accrue 63 and 61 events respectively.
+
+Put plainly: the entire absolute separation between the arms occurs in the first six months, and
+after that the two curves fall at the same rate.
+
+== 4. Dropping the early period
+If the effect were confined to that early period, removing it should dissolve the result.
+Removing the first several weeks from both arms and restarting the clock:
+
+| Weeks removed | Events left | Hazard ratio | 95% CI | Observed P | Expected P |
+|---|---|---|---|---|---|
+| 0 | 162 | 0.630 | 0.46--0.86 | 0.0039 | 0.0033 |
+| 8 | 158 | 0.639 | 0.46--0.88 | 0.0056 | 0.0037 |
+| 16 | 150 | 0.640 | 0.46--0.89 | 0.0072 | 0.0047 |
+| 23 | 134 | 0.709 | 0.50--1.00 | 0.0501 | 0.0075 |
+| 26 | 124 | 0.715 | 0.50--1.03 | 0.0664 | 0.0101 |
+| 39 | 111 | 0.732 | 0.50--1.07 | 0.1061 | 0.0149 |
+| 52 | 91 | 0.765 | 0.50--1.17 | 0.2109 | 0.0275 |
+
+Significance goes at 23 weeks, with 134 of the original 162 events still in hand.
+
+On its own that is only a power argument, and it deserves to be dismissed as one: a quarter of
+the events have gone and the point estimate has moved no further than 0.63 to 0.71. The argument
+only works as a comparison. The last column is the P that would be expected if the hazard ratio
+never changed and the only thing lost were events, taken from the standard approximation
+SE(log HR) = 2/&radic;<span class="rt">d</span>. At 134 events a constant effect of 0.630 would
+still give P = 0.0075. What is observed is P = 0.0501, nearly seven times higher.
+
+[[figure: review-pimobendan-b2-fig1.html]]
+
+The observed P deteriorates faster than the loss of events can account for. That divergence is
+the argument, and the bare loss of significance is not.
+
+== 5. What survives the cut
+Losing significance is not the same as losing the effect. Restarting the clock at 23 weeks and
+asking what is left:
+
+| Analysis | Median, pimobendan | Median, placebo | Difference | Mean event-free time gained |
+|---|---|---|---|---|
+| Whole trial | 1225 d | 758 d | 466 d | 139 d |
+| From day 161 (23 weeks) | 1064 d | 684 d | 380 d | 107 d |
+
+Restricted mean survival is calculated to 1200 days and does not depend on where the curves cross
+fifty per cent. In calendar terms the day-161 analysis puts the medians at 1225 and 845 days from
+randomisation.
+
+So conditioning on a dog being alive and event-free at six months, the median gap is still 380
+days and the average event-free time gained is still 107. Smaller than the headline, and a long way
+from nothing. If the whole result were early failures, the residual gap among dogs nowhere near
+heart failure at six months should be small. It is not.
+
+== 6. How fragile the result is
+Taking placebo events latest-first and reclassifying them as censored, which is the least
+favourable realistic change that could be made. This is a sensitivity analysis, not the
+conventional fragility index: the fragility index converts events to non-events in the smaller
+arm of a two-by-two table, whereas this reclassifies late events as censorings in a
+time-to-event analysis. The counts below are therefore not comparable to published fragility
+indices and are not offered as such.
+
+| Analysis | Events | Starting P | Dogs needed to lose P &lt; 0.05 |
+|---|---|---|---|
+| Whole trial | 162 | 0.0039 | 9 |
+| From day 56 | 158 | 0.0056 | 8 |
+| From day 112 | 150 | 0.0072 | 7 |
+| From day 161 | 134 | 0.0501 | already above 0.05 |
+
+Nine dogs. Reclassify nine late placebo events as censored and the trial loses significance. For
+scale, the journal and FDA accounts of this same trial differ from each other by more than that:
+the control arm gains three events between the two, and loses six dogs.
+
+== 7. Timing, not counts
+Judged on proportions alone, 74 of 178 against 88 of 176, Fisher's exact test
+gives P = 0.135. Not significant.
+
+All of EPIC's statistical significance comes from *when* dogs had events, not from
+how many did. Much the same number of dogs reached heart failure in each arm. They reached it at
+different times.
+
+That is not a criticism. Delaying the onset of heart failure is precisely what the drug claims to
+do, and a time-to-event analysis is the right way to test it. But it explains why the result is so
+sensitive to any analysis that touches timing, and why nine reclassifications can undo it.
+
+== 8. Three versions on the public record
+The 2022 conditional approval and the 2025 full approval both summarise this trial. Neither
+agrees with the published paper, and they do not agree with each other.
+
+<table class="cmp">
+
+<tr><th></th><th class="n">JVIM 2016[1]</th><th class="n">FDA 2022[4]</th><th class="n">FDA 2025[5]</th></tr>
+
+<tr><td>Dogs analysed</td><td class="n">354</td><td class="n">353</td><td class="n">343</td></tr>
+<tr><td>Events, pimobendan / control</td><td class="n">74 / 88</td><td class="n">74 / 88</td><td class="n">73 / 91</td></tr>
+<tr><td>Verified CHF</td><td class="n">59 / 76</td><td class="n">59 / 76</td><td class="n">57 / 77</td></tr>
+<tr><td>Cardiac death or euthanasia</td><td class="n">15 / 12</td><td class="n">15 / 12</td><td class="n">16 / 14</td></tr>
+<tr><td>Median, pimobendan</td><td class="n">1228 d</td><td class="n">1228 d</td><td class="n">1127 d</td></tr>
+<tr><td>Median, control</td><td class="n">766 d</td><td class="n">761 d</td><td class="n">732 d</td></tr>
+<tr><td>Hazard ratio</td><td class="n">0.64</td><td class="n">0.626</td><td class="n">0.591</td></tr>
+<tr><td>Log-rank P</td><td class="n">.0038</td><td class="n">.0028</td><td class="n">.0008</td></tr>
+<tr><td>All-cause mortality, median</td><td class="n">1059 / 902</td><td class="n">1059 / 889</td><td class="n">1015 / 878</td></tr>
+
+</table>
+
+The 2025 summary prints three population figures and they should not be
+conflated: 363 dogs enrolled, an effectiveness population of 353, and 343
+"included in the effectiveness population in the final analysis" (173 pimobendan and
+170 control), which is the denominator for the event counts above.[5]
+
+The 2022 version sits almost exactly on the paper, down to the component event counts. The 2025
+version has ten fewer dogs and a stronger effect. The control arm loses six dogs and gains three
+events, which is what drags the hazard ratio down.
+
+There is a plausible and innocent explanation, and the documents supply it. The paper describes an
+endpoint committee reviewing the radiographs and the case records.[1] The 2025 summary states
+that "each case of CHF was verified by an endpoint committee, under masked conditions, based
+on the radiographs alone."[5] Re-adjudicating the same dogs under a narrower rule would
+move cases in both directions, which is what the component counts show.
+
+That can be tested. On the reconstructed data, removing five and six dogs from the two arms and
+reclassifying a few early censorings as events reproduces the FDA hazard ratio at 0.596 against
+their 0.591, the control median at 727 against 732, and the P at 0.0011 against 0.0008. So this is
+one dataset under two adjudication rules, not two different trials.
+
+What is not resolved is that nothing cross-references the three. Anyone citing EPIC is citing one
+version of it without being told the others exist.
+
+== 9. What the regulator did
+The 2025 summary states that EPIC "did not meet certain characteristics of an adequate and
+well-controlled study [21 CFR 514.117]," and that it was "considered corroborative to
+support this indication when evaluated in conjunction with Study No. 2019035, a single-arm field
+study with a historical control."[5]
+
+It never says which characteristics. The regulation is cited; the deficiencies are not
+enumerated anywhere in the document.
+
+The 2022 conditional approval was softer, accepting the data as a reasonable expectation of
+effectiveness.[4] Pimobendan was therefore marketed for preclinical B2 disease from June 2022
+under conditional approval, on a reasonable-expectation standard, for three and a half years before
+the full approval of 19 December 2025.[4,5]
+
+== 10. The pivotal study, and what it was measured against
+The study that converted conditional approval into full approval was 2019035: in FDA's own
+words a "historically controlled, open-label, multi-center field study," single-arm,
+with 125 dogs in the effectiveness population and one year of follow-up.[5]
+
+It reported a treatment success rate of "79.2% (95% confidence interval 70.3 to
+85.9%)." The criteria for success were fixed in advance: "the lower bound of the 95%
+confidence interval was greater than or equal to 54% and the estimated success rate for pimobendan
+was greater than or equal to 65%."[5] Nothing in the document explains where either
+threshold came from.
+
+The historical comparator was EPIC. The summary states that "the historical control was
+derived from a subset of the control population enrolled in the EPIC study … that met the
+enrollment criteria for this study," and, separately, that applying the new success criteria
+to EPIC "cases enrolled at US sites … resulted in a success rate of 80% with a lower
+80% confidence interval of 72%."[5]
+
+Two things follow, and the first is the more important.
+
+**The success threshold was set below the comparator.** If the 80 per cent figure
+describes untreated EPIC dogs, then the bar the pivotal study had to clear, a point estimate
+of 65 per cent, sat fifteen points beneath the historical control rate, and the observed 79.2
+per cent did not exceed that rate but matched it. The study was never required to beat its own
+comparator, and the document records no comparison against it. A single-arm design is not worthless in itself. The difficulty is that without a contemporaneous
+randomised comparator the
+result depends entirely on whether the historical benchmark describes a population comparable to the
+one enrolled, and the benchmark here was set below the rate it was drawn from.
+
+**The derivation of the benchmark is under-specified.** The two passages describe
+the source differently: a subset of the control population meeting this study's
+enrolment criteria in one place, and cases enrolled at US sites in another. They are not stated to
+be the same dogs. The arithmetic adds to the doubt: the failure definition in 2019035 is broader
+than EPIC's endpoint, so applying it to EPIC must give a *lower* rate than the
+event-free rate. EPIC placebo dogs at LA/Ao 1.8 and above are in the region of 70 per cent
+event-free at one year on the narrow definition, which does not obviously leave room for 80 per cent
+on a broader one. That estimate scales the published hazard ratio for LA/Ao by the study's own
+failure breakdown; it is arithmetic on published numbers rather than a measurement, and it is
+offered as a reason the derivation should be stated rather than as a finding.
+
+Two further features of the design deserve recording. Dogs with "current or previous
+evidence of clinically significant coughing" or "current or previous evidence of
+syncope" were excluded; new syncope, and "advanced coughing that required concomitant
+therapy in absence of radiographic CHF," then counted as treatment failures.[5] And entry
+required LA/Ao &ge; 1.8 and VHS &gt; 10.5, with no LVIDDN criterion at all,[5] so the two studies
+did not define stage B2 the same way.
+
+== 11. The label
+The approved indication is qualitative: asymptomatic disease with "a moderate or loud mitral
+murmur due to mitral regurgitation and cardiomegaly."[7] The numbers sit further down, under
+Precautions, where stage B2 cardiomegaly is defined as meeting *all three* of VHS &gt; 10.5,
+LA/Ao &ge; 1.6 and LVIDDN &ge; 1.7.[7] Two of the three are echocardiographic, so a dog cannot
+meet the label's definition on a radiograph alone.
+
+Those three values are EPIC's enrolment criteria.[1] They are not the pivotal
+study's, which required LA/Ao &ge; 1.8 and set no LVIDDN threshold.[5]
+
+So the label's numeric gate is drawn from the trial the regulator declined to treat as
+adequate and well-controlled, rather than from the study that supported full approval. Dogs with an
+LA/Ao between 1.6 and 1.8 are label-eligible and were never enrolled in 2019035. For that group the
+entire evidence base is EPIC.
+
+One line has changed wording between documents, and it is worth recording because it is the only
+thing standing between the indication and a dog without cardiomegaly. The 2022 conditional summary
+said that the drug "should also not be administered to dogs before they develop cardiomegaly,
+as this causes an increased risk of cardiac pathology associated with exaggerated hemodynamic
+responses."[4] That sentence does not appear in the 2025 summary. The current label carries
+the substance in different words: "If therapy is initiated prior to the development of
+cardiomegaly, treated dogs are at risk for cardiac pathology associated with exaggerated hemodynamic
+responses to VETMEDIN."[7] The warning survives; only its phrasing has moved.
+
+Its origin is the original 2007 safety package. In healthy Beagles at three and five times the
+label dose, pimobendan produced "severe left ventricular hypertrophy with multifocal
+subendocardial ischemic lesions," "moderate to marked myxomatous thickening of the
+mitral valves," and new murmurs of mitral insufficiency.[6] At the label dose there was
+nothing beyond what control dogs showed. This is not evidence of harm at 0.5 mg/kg. It is the
+reason the contraindication exists.
+
+== 12. The randomised test EPIC already contains
+Two retrospective cohorts report shorter survival after heart failure in dogs treated
+beforehand.[8,9] Both are confounded by indication, and the appraisal of that question is
+<a href="gapmap.html#q-does-preclinical-pimobendan-shorten-survival-once-heart-fa">on the gap map
+separately</a>.
+
+What appears to have been missed is that EPIC contains a randomised version of the same question.
+Figure 1 of the trial reports, for dogs that reached the primary endpoint, what happened to them
+afterwards:[1]
+
+| Arm | Reached endpoint | Later died | Alive at close | Lost |
+|---|---|---|---|---|
+| Pimobendan | 74 | 54 (73.0%) | 17 | 3 |
+| Placebo | 88 | 69 (78.4%) | 16 | 3 |
+
+The only post-endpoint outcome data EPIC publishes.
+
+This is a randomised comparison of survival after heart failure, in the same dogs, with allocation
+by chance rather than by clinician judgement. It has never been published as a time-to-event
+analysis. The crude proportions cannot settle it: Fisher's exact P is 0.464, and pimobendan
+dogs reached the endpoint later, so they had less remaining follow-up before the study closed.
+
+Simulating the analysis with EPIC's own event counts and censoring structure, at the hazard
+ratio the retrospective work reports the trial would detect it about 91 per cent of the time. At a
+modest effect of 1.3 it would not. So this is a specific, adequately powered analysis on data
+already collected, free of the confounding that undermines the retrospective studies, and reported
+so far only as counts in a flow diagram.
+
+== 13. Selection or harm
+There is an account of the retrospective findings that requires no harm from the drug at all.
+
+A dog that reaches heart failure despite being on pimobendan is, by definition, a dog in which the
+drug did not do what it was given to do. Treated dogs arriving in heart failure are therefore a
+selected group of non-responders. Untreated dogs arriving there are an unselected mixture of
+animals, some of whom would have responded had they been treated. Give both groups pimobendan at
+decompensation and the pretreated group does worse, because it has been enriched for animals the
+drug was never going to help.
+
+That is a selection effect, and it would produce exactly the pattern the retrospective studies
+report. It also explains the early concentration of benefit at the same time, since dogs closer to
+decompensation supply both most of the events and most of the opportunity to delay them.
+
+Selection and harm make opposite predictions about one thing, which is what makes them
+separable:
+
+- <h3>If the drug causes harm</h3>
+
+The deficit should grow with exposure. More
+time on treatment, worse outcome afterwards.
+
+- <h3>If it is selection</h3>
+
+The deficit should be largest in dogs that reached
+heart failure quickly despite treatment, since those are the most refractory, and should shrink in
+dogs that stayed preclinical for years before failing.
+
+The test is post-heart-failure survival regressed on time to heart failure, within the treated
+arm. A positive slope favours selection; a negative slope favours harm. The retrospective studies
+cannot do this, because the duration of preclinical treatment was not recorded. EPIC has it exactly:
+time to the primary endpoint is the trial's own primary variable.
+
+== 14. Does the trade-off still favour treating?
+If pimobendan delays heart failure but dogs then survive a shorter time after it, the question is
+whether the strategy still comes out ahead on total time. That can be modelled by adding a
+preclinical phase and a post-heart-failure phase, taking the first from EPIC and the second from the
+retrospective studies.[8,9]
+
+One correction is needed first. The EPIC primary endpoint is a composite, not the date of heart
+failure; roughly one dog in six reached it by dying of a cardiac cause and has no post-heart-failure
+phase at all. Adding one inflates every strategy, so the post-CHF term below is scaled by 0.833.
+
+| Strategy | Preclinical | Post-CHF | Total | vs reference |
+|---|---|---|---|---|
+| No preclinical pimobendan | 840 d | 382 d | 1222 d | --- |
+| Pimobendan in B2 | 1031 d | 179 d | 1209 d | −13 d |
+| Wait until CHF, then pimobendan | 840 d | 284 d | 1124 d | −98 d |
+
+On that basis treating in B2 is roughly break-even once the reported post-heart-failure penalty is
+carried, and waiting until heart failure is clearly the worst of the three.
+
+But the answer turns on one choice. The preclinical advantage can be measured two ways and they
+disagree badly. The area between the observed curves out to day 1570 gives 190 days. The mean of a
+Weibull fitted to the same data and extrapolated to infinity gives 478. Neither is right: the first
+truncates the pimobendan curve while it is still at 40 per cent and understates; the second
+extrapolates far beyond any data and overstates. On the measured basis treating in B2 loses 13 days.
+On the extrapolated basis it gains 275. **The comparison changes sign inside a range the trial
+never observed.**
+
+Break-even sits at a post-heart-failure median penalty of about 179 days on the measured basis.
+The reported penalties are 191 days[8] and 269 days.[9] So on measured data the reported
+penalties just cancel the preclinical gain, and on extrapolated data they do not come close.
+
+The one result stable across both bases is that waiting until heart failure before starting
+pimobendan is the worst of the three strategies, by roughly 98 days.
+
+This is a way of framing the trade-off, not an estimate. It combines three studies
+with different populations and endpoints, and both post-heart-failure inputs are retrospective. The
+analysis in section 12 would replace both of them with a randomised comparison and settle which side
+of break-even this falls on.
+
+== 15. Where this leaves it
+The randomised trial provides evidence of a treatment effect, and the effect is less secure than
+the headline estimate suggests. Reclassifying nine dogs removes statistical significance. The
+proportions alone are not significant. The great majority of the absolute separation happens in the
+first six months.
+
+It is not confined to that period. Restarting the clock at 23 weeks still leaves a 380-day median
+difference and 107 days of average event-free time gained, so dogs nowhere near heart failure at six
+months still show a benefit. That landmark comparison is computed on reconstructed curves and is not
+a randomised landmark analysis of patient-level data; it cannot establish the effect with the
+certainty the trial's own data would.
+
+The most defensible reading is that dogs approaching heart failure have the most to gain, because
+they have the most events available to delay, and that the trial's statistical signal is
+dominated by them. Whether dogs at the mild end of B2 benefit is not answerable from the published
+data. EPIC found no significant treatment-by-severity interaction, but it was never powered to find
+one, and no detected interaction is not evidence that none exists.
+
+The regulatory record is the sharper problem. The trial was judged not adequate and
+well-controlled without a stated reason; the pivotal evidence is a single-arm study with no
+concurrent comparator and success thresholds of unexplained origin, set below the historical control
+rate; and the label's numeric criteria come from the trial the regulator set aside rather than
+from the study that replaced it.
+
+**What would settle it.** From the investigators: time from the primary endpoint to
+death, by randomised arm, as Kaplan--Meier curves and a Cox model; within the pimobendan arm,
+post-endpoint survival regressed on time to endpoint, whose slope distinguishes selection from harm;
+and the baseline and day-35 characteristics of dogs reaching the endpoint, by arm, day 35 being where
+the trial's own longitudinal analysis finds change in heart size becomes prognostic.[2,3]
+From FDA, four questions each answerable in a sentence: which characteristics of an adequate and
+well-controlled study EPIC failed; whether the 80 per cent historical figure was computed on control
+dogs or treated dogs; how many dogs were in that historical group; and where the 54 per cent
+threshold came from.
+
+== declarations
+Peer review :: None. Not submitted to or reviewed by any journal.
+Funding :: None. No funding from any institution, journal, manufacturer or professional
+body, and no advertising.
+Competing interests :: None. No relationship with any manufacturer of the products
+discussed.
+Data and methods :: Analyses in sections 3 to 8 and 12 to 14 are computed on individual
+event times reconstructed from the published Kaplan--Meier curves, not on the trial's own
+dataset. Group sizes and total event counts were fixed to the published values; medians,
+hazard ratio and P value were left free and are reported in section 2 as a check. The
+reconstructed dataset and the raw pixel traces are available on request. Regulatory statements
+are quoted from the Freedom of Information summaries and the current label as cited, each
+checked against the primary document.
+Corrections :: Welcome at
+<a href="mailto:contact@evidencegap.vet">contact@evidencegap.vet</a>, and acknowledged.
+Revisions are dated.
+Disclaimer :: Commentary on published work and on the public regulatory record. Not
+clinical advice, and no substitute for the judgement of the attending clinician. Nothing here
+is a recommendation to give or withhold pimobendan in any individual dog.
+
+== cite as
+Pimobendan in preclinical stage B2 mitral valve disease: where the effect comes from, how
+fragile it is, and what the regulatory record shows. *evidencegap.vet.* 2026;EG-2026-006.
+https://evidencegap.vet/review-pimobendan-b2
+
+== references
+1. Boswood A, Häggström J, Gordon SG, Wess G, Stepien RL, Oyama MA, Keene BW, Bonagura J, MacDonald KA, Patteson M, Smith S, Fox PR, Sanderson K, Woolley R, Szatm&aacute;ri V, Menaut P, Church WM, O'Sullivan ML, Jaudon JP, Kresken JG, Rush J, Barrett KA, Rosenthal SL, Saunders AB, Ljungvall I, Deinert M, Bomassi E, Estrada AH, Fernandez Del Palacio MJ, Moise NS, Abbott JA, Fujii Y, Spier A, Luethy MW, Santilli RA, Uechi M, Tidholm A, Watson P. Effect of pimobendan in dogs with preclinical myxomatous mitral valve disease and cardiomegaly: the EPIC study --- a randomized clinical trial. *J Vet Intern Med.* 2016;30(6):1765--1779. doi:10.1111/jvim.14586. PMID 27678080.
+2. Boswood A, Gordon SG, Häggström J, Wess G, Stepien RL, Oyama MA, Keene BW, Bonagura J, MacDonald KA, Patteson M, Smith S, Fox PR, Sanderson K, Woolley R, Szatm&aacute;ri V, Menaut P, Church WM, O'Sullivan ML, Jaudon JP, Kresken JG, Rush J, Barrett KA, Rosenthal SL, Saunders AB, Ljungvall I, Deinert M, Bomassi E, Estrada AH, Fernandez Del Palacio MJ, Moise NS, Abbott JA, Fujii Y, Spier A, Luethy MW, Santilli RA, Uechi M, Tidholm A, Schummer C, Watson P. Longitudinal analysis of quality of life, clinical, radiographic, echocardiographic, and laboratory variables in dogs with preclinical myxomatous mitral valve disease receiving pimobendan or placebo: the EPIC study. *J Vet Intern Med.* 2018;32(1):72--85. doi:10.1111/jvim.14885. PMID 29214723.
+3. Boswood A, Gordon SG, Häggström J, Vanselow M, Wess G, Stepien RL, Oyama MA, Keene BW, Bonagura J, MacDonald KA, et al. Temporal changes in clinical and radiographic variables in dogs with preclinical myxomatous mitral valve disease: the EPIC study. *J Vet Intern Med.* 2020;34(3):1108--1118. doi:10.1111/jvim.15753. PMID 32200574.
+4. US Food and Drug Administration, Center for Veterinary Medicine. Freedom of Information Summary, original conditional new animal drug application, Vetmedin-CA1 (pimobendan) chewable tablets, application number 141-556. Conditional approval granted 16 June 2022. <span class="url">animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/12512</span>
+5. US Food and Drug Administration, Center for Veterinary Medicine. Freedom of Information Summary, supplemental new animal drug application, NADA 141-273, Vetmedin (pimobendan) chewable tablets and Vetmedin solution. Approved 19 December 2025. <span class="url">animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/17792</span>
+6. US Food and Drug Administration, Center for Veterinary Medicine. Freedom of Information Summary, original new animal drug application, NADA 141-273, Vetmedin (pimobendan) chewable tablets. Approved 30 April 2007. <span class="url">animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/832</span>
+7. Vetmedin (pimobendan) chewable tablets, prescribing information. Boehringer Ingelheim Animal Health USA Inc. Revised April 2026. <span class="url">dailymed.nlm.nih.gov</span>
+8. McAulay G, Hills M, Dukes-McEwan J, Dutton E, Jakubczak A, Singleton D, Bode E, Yangwanitset W, Hezzell M. Survival of dogs with myxomatous mitral valve disease administered preclinical pimobendan in comparison to pimobendan-na&iuml;ve dogs from the onset of congestive heart failure. *J Vet Cardiol.* 2026;66:63--73. doi:10.1016/j.jvc.2026.05.001. PMID 42247930.
+9. Park SW, Kim K, Do YJ, Lee JW, Ro WB, Lee CM. Impact of administering cardiac medication to small-breed dogs with preclinical myxomatous mitral valve disease on survival after congestive heart failure. *Vet Q.* 2025;45(1):2560412. doi:10.1080/01652176.2025.2560412. PMID 40975815.
+10. Keene BW, Atkins CE, Bonagura JD, Fox PR, Häggström J, Fuentes VL, Oyama MA, Rush JE, Stepien R, Uechi M. ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs. *J Vet Intern Med.* 2019;33(3):1127--1140. doi:10.1111/jvim.15488. PMID 30974015.

@@ -1,0 +1,251 @@
+title: Steroids and heart failure in cats: science, or an old wives' tale?
+keywords: glucocorticoids, methylprednisolone acetate, prednisolone, congestive heart failure, transient myocardial thickening, stress cardiomyopathy, takotsubo, plasma volume
+short_title: Steroids and heart failure in cats
+related: <a href="gapmap.html#q-do-glucocorticoids-precipitate-congestive-heart-failure">gap map entry</a> &middot; <a href="reviews.html">all commentaries</a>
+id: EG-2026-005
+kind: Commentary
+domain: Feline cardiology
+published: 17 August 2026
+last_revised: 27 August 2026
+certainty: Low
+direction: Causation not established
+controlled_trials: None
+
+== abstract
+:Claim
+That giving a cat a steroid, particularly a long-acting injection, can tip it into congestive heart failure. It is widely taught, widely repeated, and it changes what many practices are willing to prescribe.
+
+:Evidence base
+Two papers. A retrospective series of twelve cats from 2004, and a physiology study of twelve cats from 2006. Both get cited over and over as though they settled something.
+
+:Assessment
+Neither supports the claim. The arguments in the case series are undermined by its own data. The proposed mechanism does not survive arithmetic, and the study offering it recorded no change in echo, heart size or blood pressure.
+
+:Controlled data
+Nothing. Two studies dosing cats deliberately and looking for cardiac change found none. The largest count, 1042 cats, found heart failure in fewer treated cats than untreated ones. In human medicine prednisone is used to *increase* diuresis in heart failure.
+
+:Position
+No controlled study in cats, and no human study of the mechanism, supports the claim that a steroid causes heart failure by expanding plasma volume. Something is happening to these cats. It is more likely to be the illness, the handling and the stress that brought them in than the drug they went home with.
+
+== summary
+Evidence :: One retrospective case series of 12 cats (2004); one uncontrolled physiology study of 12 cats (2006); three prospective dosing studies, none of which enrolled a cat with cardiomyopathy; one cohort of 1042 cats. No controlled study has tested the claim directly.[1,2,3,4,5,6]
+Dosing studies :: Mixed, not negative. An 8-cat abstract and a 20-cat controlled crossover found no cardiac change. A 10-cat cohort found significant increases in left ventricular internal diameter in diastole and systole, left atrial dimension, left atrial to aortic ratio and left atrial area. No cat in any study developed heart failure.[3,4,5]
+Largest cohort :: Congestive heart failure occurred in **0.82%** of treated cats against **1.90%** of untreated cats, in the only study with a control group.[6]
+Proposed mechanism :: Plasma volume expansion, measured directly and confirmed: a rise of 13.4%, and over 40% in three of twelve cats, with falls in haematocrit, sodium and chloride. What was not shown is that an expansion of that size causes heart failure; no cat in the study developed it, and none had cardiomyopathy.[2]
+Comparison group :: In transient myocardial thickening, corticosteroid exposure was present in 3 of 21 affected cats and 2 of 21 with hypertrophic cardiomyopathy. The authors state there was no difference between the groups.[7]
+Human practice :: Prednisone is administered to augment diuresis in diuretic-resistant heart failure, and a randomised pilot in acute heart failure reported fewer events at 90 days.[11,12]
+Not established :: That a glucocorticoid has caused congestive heart failure in any cat. The question has not been studied in the population where it would matter — cats with existing cardiomyopathy given a steroid and followed.
+
+== 1. Where it started
+In 2004 a group from Minnesota described twelve cats that developed congestive heart failure after a corticosteroid, mostly methylprednisolone acetate, between one and nineteen days after dosing.[1] It is a careful, honest paper and it did what a case series is supposed to do: it flagged something.
+
+The authors offered two arguments for a real drug effect. One, that these cats lived longer than you would expect for heart failure caused by hypertrophic cardiomyopathy, so their disease was probably not ordinary cardiomyopathy. Two, that the temporal association was too strong to ignore.
+
+Both are worth taking seriously. Neither holds up.
+
+== 2. &ldquo;These cats lived longer than expected&rdquo;
+Five of the twelve died, four of them within days of presenting, so the survival argument rests on the seven that recovered.
+
+The problem is that recovering from heart failure with reversal of wall thickening is not evidence of a drug effect. It is the description of transient myocardial thickening, which was characterised properly in 2018.[7] In that study 21 affected cats were compared with 21 with hypertrophic cardiomyopathy. Wall thickness fell from 6.8 to 4.8 mm over about three months, cardiac treatment was stopped in 20 of 21, and all of them survived. Troponin normalised as the echo improved, which points at a myocardium that was injured and recovered.[7,15]
+
+Here is the part that matters most for the steroid question. Corticosteroid exposure in that study was present in 3 of the 21 affected cats and 2 of the 21 with cardiomyopathy. These were drugs given during the antecedent event, listed alongside antibiotics in 12, NSAIDs in 7 and opioids in 5.[7] If steroids were driving this, that is precisely where a difference should have appeared.
+
+The 2025 series describing a reversible restrictive form found the same pattern: an antecedent event in 11 of 17 affected cats and none of the 16 controls, with a glucocorticoid injection accounting for exactly one of those eleven.[8] Neutering accounted for five.
+
+A larger series in 2025 applied explicit criteria to 145 cats with a hypertrophic phenotype and found transient thickening in 16 of the 53 that had serial echocardiograms, with maximum wall thickness falling from 8.3 ± 1.7 to 5.4 ± 0.9 mm over a median of 3.5 months and every affected cat surviving.[28] Reversible thickening is not rare, and it is not confined to cats that received a drug.
+
+The point is not that the 2004 cats did not have heart disease. It is that nobody had looked before the steroid was given, so the series cannot separate a drug that caused the thickening from a drug that was given to a cat already carrying it.
+
+== 3. &ldquo;The temporal association is too strong to ignore&rdquo;
+The objection is not to the timing. A depot preparation such as methylprednisolone acetate releases drug for weeks, and glucocorticoid effects that require gene transcription do not track plasma concentration in any simple way, so an interval of days between injection and decompensation is entirely compatible with a drug effect. Pharmacokinetic reasoning does not settle this question in either direction.
+
+The objection is to what a series of this design can establish. It is retrospective, the cases were identified because they had both the exposure and the outcome, there are no pre-treatment echocardiograms, and there is no denominator: nobody knows how many cats in the same practice received steroids over the same period and were fine. A temporal association assembled that way is a signal worth investigating. It cannot distinguish a drug effect from the coincidence of a common drug and an undiagnosed cardiomyopathy, which is what a population with a 10--15% prevalence of subclinical disease guarantees will happen at some rate.
+
+== 4. The proposed mechanisms
+Four have been offered. Each is plausible in isolation and each falls over on the available data.
+
+=== 4.1 Hyperglycaemia expanding plasma volume
+This is the mechanism most often quoted, and it comes from Ployngam's study: twelve cats given 5 mg/kg methylprednisolone acetate for dermatological disease. Plasma volume and total body water were determined directly, not inferred. Plasma volume rose by 13.4%, and by more than 40% in three cats, while serum glucose rose --- the authors call the rise substantial --- at three to six days. Red cell count, haematocrit, haemoglobin, sodium and chloride all fell at the same visit, which is what dilution looks like. Everything had returned to baseline by 16 to 24 days.[2]
+
+Plasma volume expansion after methylprednisolone acetate in cats should be taken as demonstrated.
+
+What the study did not demonstrate is that the expansion was sufficient to cause congestive heart failure. No cat in it developed heart failure. Echocardiographic variables, radiographic heart size and systolic blood pressure did not change over the same period, so the volume shift was not accompanied by any measurable cardiac consequence in animals with normal hearts.[2] The authors drew the appropriate conclusion themselves, and it is conditional: that cardiovascular disorders impairing the normal compensatory response to increased plasma volume "may predispose cats to CHF".
+
+The unanswered question is quantitative. A 13% rise in plasma volume is within the range a healthy heart absorbs without difficulty; whether it is enough to decompensate a ventricle already stiff with hypertrophy has not been studied, because no dosing study has enrolled cats with cardiomyopathy. That is the gap, and it is a study that could be done.
+
+One inconsistency in the mechanism is worth noting. Ployngam attributes the expansion to an intracellular-to-extracellular shift driven by hyperglycaemia, by analogy with uncontrolled diabetes in people. Cats with spontaneous diabetes do develop diastolic dysfunction that persists despite treatment,[9] but no study has compared the two exposures directly, and the analogy has not been tested.
+
+=== 4.2 Mineralocorticoid effect
+The idea is that steroids act at the mineralocorticoid receptor, hold sodium, and water follows. But the synthetic glucocorticoids used in practice have minimal mineralocorticoid activity, and at mineralocorticoid receptor sites an enzyme deactivates glucocorticoid before it can act.
+
+The prediction is testable: retained sodium with normal serum sodium and a falling potassium. Khelik's group measured serum potassium *and* urinary sodium excretion directly across two prednisolone doses and found no change in either.[4] Nobody has done the full assessment in cats, measuring electrolytes, urinary excretion and the renin--angiotensin--aldosterone axis together, but the pieces that have been measured do not point this way.
+
+=== 4.3 A direct effect on the myocardium
+People with hyperadrenocorticism do develop thicker left ventricles, independent of blood pressure, and it resolves when the disease is treated. Dogs with Cushing's show something similar.
+
+Both of those take chronic, sustained cortisol excess. There is no echocardiographic data at all in cats with hyperadrenocorticism, and no reason to expect one injection to reproduce in a fortnight what takes months of endogenous overproduction.
+
+=== 4.4 Increased afterload through vascular reactivity
+Steroids can reduce nitric oxide availability and increase vascular responsiveness to alpha-1 and angiotensin II. A sudden rise in afterload is genuinely bad for a hypertrophied ventricle, so the theory is reasonable.
+
+In people, cortisol raises blood pressure within about a day, and in a dose-dependent way.[10] In cats, the crude surrogate is systolic blood pressure, and it did not change in Ployngam's study[2] or in Khelik's.[4] Whatever is happening to feline vasculature after a steroid, it is not showing up as hypertension.
+
+== 5. What happens when you give cats steroids and watch
+Three groups have done the experiment, and they did not all get the same answer. This literature is routinely summarised as uniformly negative. It is not.
+
+**Rishniw.** A Cornell group gave 30 mg of methylprednisolone acetate intramuscularly to eight healthy cats and echoed them at one, two, three and six weeks.[3] No ventricular measurement differed at any point. No cat showed volume overload. Left atrial dimensions went *down*. Their conclusion was that the results do not support high-dose methylprednisolone causing appreciable plasma volume change. This is a conference abstract of eight animals and has never appeared as a full paper.
+
+**Khelik.** Ten cats with allergic dermatitis received prednisolone at 1 and 2 mg/kg daily for seven days each in a crossover, against ten matched untreated controls, with blood pressure, glucose, potassium, urinary sodium excretion, troponin, NT-proBNP and a full echocardiogram measured throughout.[4] Nothing differed. Only glucose and NT-proBNP moved at the higher dose, and both stayed within the reference range. This is the best-controlled study in the set.
+
+**Block and Oyama, and this one is positive.** Ten client-owned cats starting at least a five-day oral course for a clinical indication were echoed before and after.[5] There were statistically significant increases in left ventricular internal diameter in diastole *and* in systole, in left atrial dimension, in the left atrial to aortic root ratio, and in left atrial and auricular area. Total solids rose as well. Absolute NT-proBNP did not change (P = .23), nor did blood pressure, heart rate, glucose or body weight; but six of ten cats had an individual NT-proBNP change greater than 60%, and three of the eight starting below 100 pmol/L finished above it. One cat went from 30 to 414 pmol/L, developed a new murmur and gallop, and acquired a dilated left ventricle. The authors read the pattern as plasma volume expansion.
+
+Two qualifications belong with it. The cohort was not healthy: eight of the ten had no echocardiographic evidence of cardiac disease, but one had newly diagnosed complete atrioventricular block with four-chamber dilation and one had hypertrophic obstructive cardiomyopathy. And no cat developed congestive heart failure. What the study demonstrates is a short-term loading effect measurable on echocardiography, which is a smaller claim than the one it is usually cited for.
+
+Then the counting study. Dutch and colleagues compared 732 cats given methylprednisolone acetate with 310 that had never had a steroid.[6] Heart failure occurred in 0.82% of the treated cats and 1.90% of the untreated ones. Diabetes went the same way, 3.83% against 7.10%.
+
+Steroids do not protect cats from heart failure or diabetes, so that result is telling you the two groups were not comparable. But it is worth being clear about what it does and does not show. It gives no signal of harm at all, and it is the only study anyone has published with a control group and a real denominator.
+
+Taken together the experimental literature is mixed rather than negative: plasma volume expansion demonstrated in one study, cardiac dimensional changes demonstrated in a second, nothing found in a third and a fourth, and no excess of heart failure in the only cohort with a comparison group. Nothing in it has yet shown a cat going into failure because of a steroid, and none of it enrolled the cats in whom that is supposed to happen.
+
+== 6. The awkward part: steroids are used to treat heart failure
+In human medicine, prednisone is given to heart failure patients to *improve* diuresis. In a randomised, double-blind, placebo-controlled trial of twenty patients with stable heart failure, prednisone increased maximum daily urine output by about 810 mL and daily sodium excretion by roughly 124 mmol, and creatinine fell.[11] The approach has been explored specifically in diuretic resistance.[12]
+
+So the same drug class is used deliberately to offload fluid in people with failing hearts, while in cats it is held responsible for causing fluid retention severe enough to precipitate failure. Both cannot be straightforwardly true, and the human evidence is the better controlled of the two.
+
+== 7. The same question in people
+The claim has a human counterpart, and it is worth setting out in full because it does not
+point one way.
+
+**The mechanism has been measured, and it was not there.** Whitworth gave six
+normal subjects five days each of prednisolone 40 mg, methylprednisolone 32 mg,
+triamcinolone 40 mg and dexamethasone 8 mg, at doses matched for glucocorticoid
+activity.[17] Their finding, verbatim: "There were no MC effects with any of the
+steroids. Body weight did not increase and urinary sodium excretion *increased rather than
+decreased*. Plasma volume (125I human serum albumin) and haematocrit were unchanged."
+Plasma volume measured directly with radiolabelled albumin, using two of the drugs given to
+cats, and it did not move.
+
+The volume effect belongs to cortisol rather than to the synthetics. Cortisol at 50 mg
+six-hourly for five days "caused a marked antinatriuresis and expansion of extracellular
+fluid and plasma volume".[18]
+
+**But not never.** Waller measured urine electrolytes during alternate-day
+methylprednisolone pulses and found suppression of urinary sodium excretion "for up to
+32 hr after pulsing", with a gradual escape during continued treatment.[19] So a
+synthetic glucocorticoid can retain sodium at pulse doses, briefly, and with escape.
+That qualification belongs in this appraisal rather than being left out of it.
+
+The effect has a ceiling in any case. Fludrocortisone at roughly ten times replacement for
+ten days moved body weight from 72.2 to 74.0 kg,[20] and sodium escape occurs by days
+four to seven.[21]
+
+**The association exists in people too, and it is large.** A self-controlled
+case series of 2,623,327 adults given a single oral burst of fourteen days or less found a
+heart-failure incidence rate ratio of **2.37 (95% CI 2.13--2.63) at days 5 to 30**,
+attenuating over days 31 to 90, at an absolute rate of 1.3 per 1000 person-years.[22] The
+commonest indications were skin disorders and respiratory tract infections, the same
+clinical picture as the cats. A Danish nationwide case-crossover across 71,821 incident
+heart-failure cases independently names corticosteroids among the drug classes associated with
+cardiovascular outcomes.[23]
+
+**And it behaves like confounding when tested.** CORT-AHF followed 11,356
+patients in acute heart failure, 1,594 of them newly started on a systemic corticosteroid:
+"There were several differences between treated and untreated patients, essentially
+because corticosteroid-treated patients were sicker. Although unadjusted outcomes were worse
+in corticosteroid-treated patients … these differences disappeared after adjustment".
+The 90-day mortality hazard ratio was 0.91 (0.76--1.10) without COPD, 0.99
+(0.78--1.26) with.[24]
+
+**Where allocation is random, nothing appears.** ESCAPe randomised 584 patients
+with severe pneumonia to methylprednisolone or placebo and counted cardiovascular complications
+under a definition that explicitly included "new congestive heart failure or acute
+worsening of long-term congestive heart failure". By day 28 these occurred in 11 of 251
+(4%) against 12 of 234 (5%), odds ratio 0.85 (0.37--1.96).[25] Underpowered for rare
+events, but directly on the point.
+
+The obstetric data are the strongest positive signal and the hardest to read. A
+self-controlled series of 52,119 women given antenatal corticosteroids found a heart-failure
+incidence rate ratio of 4.45 (2.63--7.55) at days 5 to 60, but also 3.65
+(2.14--6.22) at days 61 to 180.[26] A rate ratio still near four at six months is
+difficult to attribute to an acute volume effect.
+
+**One human case does look like the feline claim.** A 53-year-old man with
+thyrotoxicosis and Graves' ophthalmopathy, with "no previous history of cardiac
+disorder or conditions predisposing to cardiac failure other than thyrotoxicosis",
+"suddenly developed onset of acute pulmonary edema and hypertension" after the
+second day of intravenous methylprednisolone 1 g daily.[27] The authors call their own
+diagnosis presumptive. It is one case, at roughly a hundred times a feline anti-inflammatory
+dose, in an uncontrolled thyrotoxic patient. It is also the nearest analogue in the human
+literature and belongs here.
+
+<span class="lab">What the human evidence settles</span>The proposed mechanism
+is not a class effect of synthetic glucocorticoids: someone measured plasma volume after
+methylprednisolone and triamcinolone and it did not change. What the human evidence does not
+settle is whether a susceptible animal can be tipped over by a depot dose. The same temporal
+association appears in people at enormous scale, survives naive analysis, and dissolves in the
+one population where the confounding was addressed directly.
+
+== 8. What might actually be happening
+Cats do turn up in heart failure after a visit to the vet. That part is real, and every cardiologist has seen it.
+
+Look at what else is in the list of antecedent events in these studies: anaesthesia and surgery, fluids, trauma, upper respiratory infection, vaccination, bite wounds, neutering.[7,8] A steroid injection is one entry on a long list, and not a prominent one. What those events share is not a drug. It is a sick, frightened cat being handled.
+
+Stress cardiomyopathy is well described in people. Catecholamine surges produce myocardial stunning, with contraction band necrosis on biopsy, in hearts with no coronary disease.[13] It presents like a myocardial infarction and it resolves. There is a segmental variant that appears as focal or patchy wall thickening, which on a cat echo would be difficult to distinguish from hypertrophic cardiomyopathy.
+
+Stress-associated myocardial dysfunction is one biologically plausible alternative explanation, and it deserves investigation rather than assent. It would fit the transient thickening data, the troponin rise and fall, the recovery and the breadth of triggers; it has not been tested in cats, and it is offered here as a hypothesis, not as a finding that competes with the steroid one on equal evidential footing. Both are untested.
+
+None of which means the steroid is irrelevant in every case. One Maine Coon has been reported whose obstructive phenotype resolved when steroids were withdrawn and returned on re-exposure.[16] That is a single cat, and a single cat is a hypothesis.
+
+== 9. Where this leaves it
+There is no convincing evidence that glucocorticoids cause congestive heart failure in cats, which is a different statement from there being no evidence at all. There is a case series, there is a demonstrated physiological effect, and there is an echocardiographic study showing measurable cardiac dimensional change. What none of them establishes is causation: the series has no denominator and no pre-treatment echocardiograms, the physiological effect has never been shown to be large enough to decompensate a heart, and the study that found cardiac changes found no heart failure. The largest cohort, and the only one with a comparison group, found no excess.
+
+The honest position sits between the two the field offers. The claim as usually stated, that steroids cause heart failure in cats, is not supported. The opposite claim, that a steroid cannot contribute in a cat with an already compromised ventricle, is not supported either, and this appraisal does not make it. What follows for practice is a matter for the attending clinician and the individual animal, and this page takes no position on it.
+
+The ACVIM consensus statement flags extended-release glucocorticoids as one thing to consider before treating an older cat, and grades that recommendation as low-level evidence.[14] That is an accurate label, and worth reading as the caution it is rather than as a finding.
+
+What would settle it is not complicated. A prospective study of cats with known heart disease given steroids, or failing that a retrospective review of cardiac structure and function in cats with heart disease who received them. The population exists in every referral practice. Nobody has done it.
+
+Until somebody does, association is not causation, and repeating it more often does not turn it into evidence.
+
+== declarations
+Peer review :: None. Not submitted to or reviewed by any journal.
+Funding :: None. No funding from any institution, journal, manufacturer or professional body, and no advertising.
+Competing interests :: None. No relationship with any manufacturer of the products discussed.
+Data availability :: All figures are taken from the published papers listed above. No new data were generated.
+Corrections :: Welcome at <a href="mailto:contact@evidencegap.vet">contact@evidencegap.vet</a>, and acknowledged. Revisions are dated.
+
+**Note on the 2004 series.** *Intern J Appl Res Vet Med* is not indexed in PubMed and the full text of Smith et al. could not be obtained for this appraisal. Details of that series are reported here as they appear in secondary summaries, and are flagged where those summaries disagree.
+Disclaimer :: Commentary on published work. Not clinical advice, and no substitute for the judgement of the attending clinician. Nothing here is a recommendation to give or withhold a steroid in any individual cat.
+
+== cite as
+Steroids and heart failure in cats: science, or an old wives' tale? *evidencegap.vet.* 2026;EG-2026-005. https://evidencegap.vet/review-steroids-chf
+
+== references
+1. Smith SA, Tobias AH, Fine DM, Jacob KA, Ployngam T. Corticosteroid-associated congestive heart failure in 12 cats. *Int J Appl Res Vet Med.* 2004;2(3):159--170.
+2. Ployngam T, Tobias AH, Smith SA, Torres SM, Ross SJ. Hemodynamic effects of methylprednisolone acetate administration in cats. *Am J Vet Res.* 2006;67(4):583--587. PMID 16579749.
+3. Rishniw M, Center SA, Randolph JF, Warner KL, Stokol T. Methylprednisolone acetate fails to alter echocardiographic variables in healthy cats [abstract 33]. In: Oral Research Communications of the 18th ECVIM-CA Congress, Ghent, 4--6 September 2008. *J Vet Intern Med.* 2008;22(6):1456--1483 (abstract p. 1469). doi:10.1111/j.1939-1676.2008.0204.x.
+4. Khelik IA, Berger DJ, Mochel JP, Seo YJ, Palerme JS, Ware WA, Ward JL. Clinicopathologic, hemodynamic, and echocardiographic effects of short-term oral administration of anti-inflammatory doses of prednisolone to systemically normal cats. *Am J Vet Res.* 2019;80(8):743--755. doi:10.2460/ajvr.80.8.743. PMID 31339769.
+5. Block CL, Oyama MA. Echocardiographic and biomarker evidence of plasma volume expansion after short-term steroids administered orally in cats. *J Vet Intern Med.* 2020;34(1):29--34. doi:10.1111/jvim.15678. PMID 31816124.
+6. Dutch WA, Norsworthy GD, Mayfield MR, Mayfield JR, Schmitt CW. Incidences of steroid-induced diabetes mellitus and congestive heart failure in cats given non-immunosuppressive doses of methylprednisolone acetate: 1042 cats. *Can Vet J.* 2023;64(11):1051--1057. PMID 37915779.
+7. Novo Matos J, Pereira N, Glaus T, Wilkie L, Borgeat K, Loureiro J, Silva J, Law V, Kranjc A, Connolly DJ, Luis Fuentes V. Transient myocardial thickening in cats associated with heart failure. *J Vet Intern Med.* 2018;32(1):48--56. doi:10.1111/jvim.14897. PMID 29243322.
+8. Poissonnier C, Guigo P, Foulex P, et al. Transient restrictive cardiomyopathy in cats: first reported case series. *Front Vet Sci.* 2025;12:1607384. doi:10.3389/fvets.2025.1607384. PMID 40487386.
+9. Pereira NJ, Novo Matos J, Baron Toaldo M, Bartoszuk U, Summerfield N, Riederer A, Reusch C, Glaus TM. Cats with diabetes mellitus have diastolic dysfunction in the absence of structural heart disease. *Vet J.* 2017;225:50--55. doi:10.1016/j.tvjl.2017.04.017. PMID 28720299.
+10. Kelly JJ, Mangos G, Williamson PM, Whitworth JA. Cortisol and hypertension. *Clin Exp Pharmacol Physiol Suppl.* 1998;25:S51--S56. PMID 9809193.
+11. Liu C, Chen H, Zhou C, et al. Potent potentiating diuretic effects of prednisone in congestive heart failure. *J Cardiovasc Pharmacol.* 2006;48(4):173--176. doi:10.1097/01.fjc.0000245242.57088.5b. PMID 17086096.
+12. Liu C, Liu K. Effects of glucocorticoids in potentiating diuresis in heart failure patients with diuretic resistance [review]. *J Card Fail.* 2014;20(9):625--629. doi:10.1016/j.cardfail.2014.06.353. PMID 24969700.
+13. Sharkey SW, Lesser JR, Zenovich AG, Maron MS, Lindberg J, Longe TF, Maron BJ. Acute and reversible cardiomyopathy provoked by stress in women from the United States. *Circulation.* 2005;111(4):472--479. doi:10.1161/01.CIR.0000153801.51470.EB. PMID 15687136.
+14. Luis Fuentes V, Abbott J, Chetboul V, Côté E, Fox PR, Häggström J, Kittleson MD, Schober K, Stern JA. ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats. *J Vet Intern Med.* 2020;34(3):1062--1077. doi:10.1111/jvim.15745. PMID 32243654.
+15. Romito G, Elmi A, Guglielmini C, et al. Transient myocardial thickening: a retrospective analysis on etiological, clinical, laboratory, therapeutic, and outcome findings in 27 cats. *J Vet Cardiol.* 2023;50:51--62. doi:10.1016/j.jvc.2023.09.001. PMID 37924558.
+16. Henry P, Culshaw G, Oliveira MI, Glebocka M, Johnsen CT. Recurrent steroid-responsive hypertrophic obstructive cardiomyopathy in a Maine Coon cat. *Vet Rec Case Rep.* 2025;13(1):e1003. doi:10.1002/vrc2.1003.
+17. Whitworth JA, Gordon D, Andrews J, Scoggins BA. The hypertensive effect of synthetic glucocorticoids in man: role of sodium and volume. *J Hypertens.* 1989;7(7):537--549. doi:10.1097/00004872-198907000-00005. PMID 2760458.
+18. Connell JM, Whitworth JA, Davies DL, Lever AF, Richards AM, Fraser R. Effects of ACTH and cortisol administration on blood pressure, electrolyte metabolism, atrial natriuretic peptide and renal function in normal man. *J Hypertens.* 1987;5(4):425--433. PMID 2822795.
+19. Waller DG, Barrett DF, Polak A. Methylprednisolone pulses and urine electrolyte excretion. *Arch Int Pharmacodyn Ther.* 1988;292:258--265. PMID 3395172.
+20. Gaillard CA, Koomans HA, Rabelink TJ, Braam B, Boer P, Dorhout Mees EJ. Enhanced natriuretic effect of atrial natriuretic factor during mineralocorticoid escape in humans. *Hypertension.* 1988;12(4):450--456. PMID 2971618.
+21. Cappuccio FP, Markandu ND, Buckley MG, Sagnella GA, Shore AC, MacGregor GA. Changes in the plasma levels of atrial natriuretic peptides during mineralocorticoid escape in man. *Clin Sci.* 1987;72(5):531--539. doi:10.1042/cs0720531. PMID 2953526.
+22. Yao TC, Huang YW, Chang SM, Tsai SY, Wu AC, Tsai HJ. Association between oral corticosteroid bursts and severe adverse events: a nationwide population-based cohort study. *Ann Intern Med.* 2020;173(5):325--330. doi:10.7326/M20-0432. PMID 32628532.
+23. Abbasi SH, Lund LC, Hallas J, Ernst MT, Pottegård A. Acute cardiovascular effects associated with the use of prescription medications: a Danish nationwide screening study. *Br J Clin Pharmacol.* 2025;91(7):1947--1956. doi:10.1002/bcp.16406. PMID 39980130.
+24. Mir&oacute; Ò, Takagi K, Gayat E, et al. CORT-AHF study: effect on outcomes of systemic corticosteroid therapy during early management of acute heart failure. *JACC Heart Fail.* 2019;7(10):834--845. doi:10.1016/j.jchf.2019.04.022. PMID 31521676.
+25. Meduri GU, Shih MC, Bridges L, et al. Low-dose methylprednisolone treatment in critically ill patients with severe community-acquired pneumonia. *Intensive Care Med.* 2022;48(8):1009--1023. doi:10.1007/s00134-022-06684-3. PMID 35723686.
+26. Tsai HJ, Wallace BI, Waljee AK, et al. Association between antenatal corticosteroid treatment and severe adverse events in pregnant women. *BMC Med.* 2023;21:413. doi:10.1186/s12916-023-03125-w. PMID 37907932.
+27. Gursoy A, Cesur M, Erdogan MF, Corapcioglu D, Kamel N. New-onset acute heart failure after intravenous glucocorticoid pulse therapy in a patient with Graves ophthalmopathy. *Endocrine.* 2006;29(3):513--516. PMID 16943591.
+28. Park SW, Kim K, Lee YJ, Do YJ, Ro WB, Lee CM. Prevalence and characteristics of transient myocardial thickening in cats with hypertrophic cardiomyopathy phenotypes. *Vet Q.* 2025;45(1):2593357. doi:10.1080/01652176.2025.2593357. PMID 41358391.

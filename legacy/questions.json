@@ -1,0 +1,218 @@
+[
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Pimobendan in preclinical stage B2 disease",
+  "conf": "moderate",
+  "dirn": "benefit",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-pimobendan-in-preclinical-stage-b2-disease"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Does preclinical pimobendan shorten survival once heart failure develops?",
+  "conf": "low",
+  "dirn": "unclear",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-does-preclinical-pimobendan-shorten-survival-once-heart-fa"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Pimobendan in congestive heart failure",
+  "conf": "moderate",
+  "dirn": "benefit",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-pimobendan-in-congestive-heart-failure"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "ACE inhibitors before heart failure",
+  "conf": "moderate",
+  "dirn": "noeffect",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-ace-inhibitors-before-heart-failure"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Spironolactone added to standard heart-failure therapy",
+  "conf": "low",
+  "dirn": "benefit",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-spironolactone-added-to-standard-heart-failure-therapy"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Spironolactone with benazepril to delay the onset of heart failure",
+  "conf": "moderate",
+  "dirn": "noeffect",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-spironolactone-with-benazepril-to-delay-the-onset-of-heart"
+ },
+ {
+  "domain": "Myxomatous mitral valve disease (dogs)",
+  "title": "Furosemide dose and dosing frequency in stage C disease",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-furosemide-dose-and-dosing-frequency-in-stage-c-disease"
+ },
+ {
+  "domain": "Dilated cardiomyopathy (dogs)",
+  "title": "Pimobendan in preclinical dilated cardiomyopathy (Dobermanns)",
+  "conf": "low",
+  "dirn": "benefit",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-pimobendan-in-preclinical-dilated-cardiomyopathy-dobermann"
+ },
+ {
+  "domain": "Dilated cardiomyopathy (dogs)",
+  "title": "Diet change and taurine in diet-associated dilated cardiomyopathy",
+  "conf": "verylow",
+  "dirn": "unclear",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-diet-change-and-taurine-in-diet-associated-dilated-cardiom"
+ },
+ {
+  "domain": "Dilated cardiomyopathy (dogs)",
+  "title": "Screening intervals in at-risk breeds",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-screening-intervals-in-at-risk-breeds"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Clopidogrel to prevent recurrent arterial thromboembolism",
+  "conf": "moderate",
+  "dirn": "benefit",
+  "stage": "clin",
+  "species": "cat",
+  "id": "q-clopidogrel-to-prevent-recurrent-arterial-thromboembolism"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Atenolol in preclinical hypertrophic cardiomyopathy",
+  "conf": "low",
+  "dirn": "noeffect",
+  "stage": "pre",
+  "species": "cat",
+  "id": "q-atenolol-in-preclinical-hypertrophic-cardiomyopathy"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Pimobendan in feline congestive heart failure",
+  "conf": "verylow",
+  "dirn": "unclear",
+  "stage": "clin",
+  "species": "cat",
+  "id": "q-pimobendan-in-feline-congestive-heart-failure"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Rapamycin (sirolimus) in subclinical hypertrophic cardiomyopathy",
+  "conf": "verylow",
+  "dirn": "unclear",
+  "stage": "pre",
+  "species": "cat",
+  "id": "q-rapamycin-sirolimus-in-subclinical-hypertrophic-cardiomyop"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Any therapy that delays the onset of heart failure in hypertrophic cardiomyopathy",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "pre",
+  "species": "cat",
+  "id": "q-any-therapy-that-delays-the-onset-of-heart-failure-in-hype"
+ },
+ {
+  "domain": "Feline cardiomyopathy",
+  "title": "Do glucocorticoids precipitate congestive heart failure?",
+  "conf": "low",
+  "dirn": "against",
+  "stage": "pre",
+  "species": "cat",
+  "id": "q-do-glucocorticoids-precipitate-congestive-heart-failure"
+ },
+ {
+  "domain": "Congestive heart failure: management",
+  "title": "Torasemide as an alternative to furosemide (dogs)",
+  "conf": "low",
+  "dirn": "noeffect",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-torasemide-as-an-alternative-to-furosemide-dogs"
+ },
+ {
+  "domain": "Congestive heart failure: management",
+  "title": "Sacubitril&ndash;valsartan (ARNi) in congestive heart failure",
+  "conf": "verylow",
+  "dirn": "unclear",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-sacubitril-valsartan-arni-in-congestive-heart-failure"
+ },
+ {
+  "domain": "Congestive heart failure: management",
+  "title": "Dietary sodium restriction",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-dietary-sodium-restriction"
+ },
+ {
+  "domain": "Congestive heart failure: management",
+  "title": "Exercise restriction after diagnosis",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-exercise-restriction-after-diagnosis"
+ },
+ {
+  "domain": "Arrhythmias",
+  "title": "Rate control in atrial fibrillation: diltiazem with digoxin versus monotherapy",
+  "conf": "low",
+  "dirn": "benefit",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-rate-control-in-atrial-fibrillation-diltiazem-with-digoxin"
+ },
+ {
+  "domain": "Arrhythmias",
+  "title": "Sotalol versus mexiletine&ndash;atenolol in Boxer arrhythmogenic cardiomyopathy",
+  "conf": "low",
+  "dirn": "benefit",
+  "stage": "clin",
+  "species": "dog",
+  "id": "q-sotalol-versus-mexiletine-atenolol-in-boxer-arrhythmogenic"
+ },
+ {
+  "domain": "Arrhythmias",
+  "title": "When to treat ventricular arrhythmias in asymptomatic dogs",
+  "conf": "none",
+  "dirn": "untested",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-when-to-treat-ventricular-arrhythmias-in-asymptomatic-dogs"
+ },
+ {
+  "domain": "Arrhythmias",
+  "title": "Holter thresholds that predict sudden death",
+  "conf": "low",
+  "dirn": "unclear",
+  "stage": "pre",
+  "species": "dog",
+  "id": "q-holter-thresholds-that-predict-sudden-death"
+ }
+]
