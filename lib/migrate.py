@@ -13,9 +13,10 @@ sys.path.insert(0, '/root/repo/lib')
 from tocontent import undo  # noqa: E402
 
 
-def load(path, extra_dir='/root/build'):
+def load(path, extra_dir=None):
     """Exec a generator module and return its namespace."""
-    sys.path.insert(0, extra_dir)
+    if extra_dir:
+        sys.path.insert(0, extra_dir)
     ns = {'__name__': '__migrate__', '__file__': path}
     code = io.open(path, encoding='utf-8').read()
     exec(compile(code, path, 'exec'), ns)

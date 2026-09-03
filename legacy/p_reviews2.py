@@ -40,7 +40,7 @@ import json
 PUB  = sum(1 for r in ART if r[-1])
 PREP = len(ART) - PUB
 json.dump({'published':PUB,'inprep':PREP,'total':len(ART)},
-          open('/root/build/reviews.json','w'))
+          open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'reviews.json'),'w'))
 
 items = ''
 for aid, atype, dom, date, href, title, summ, grade, src, live in ART:
