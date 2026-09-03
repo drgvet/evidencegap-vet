@@ -1,41 +1,10 @@
 import sys; sys.path.insert(0, __import__('os').path.dirname(__import__('os').path.abspath(__file__)));sys.path.insert(0, __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.dirname(__import__('os').path.abspath(__file__))),'lib'))
 from shell import page
 
-STEPS = [
- ("Who was in it, and are they like my patient?",
-  "<p>Species, breed, age, and how sick they were at the start. A trial in young purpose-bred beagles "
-  "tells you very little about a fourteen-year-old cat with kidney disease. Check how many animals were "
-  "in each group, not just the total. A study of sixty cats split three ways is three studies of twenty.</p>",
-  "Numbers only given as a total. Entry criteria so narrow that almost nobody in your waiting room would qualify."),
- ("What was it compared with?",
-  "<p>If there was no control group, there is no comparison, and anything that got better might have got "
-  "better anyway. Look for what the control animals received. Placebo is the strongest comparison. "
-  "Standard treatment is useful. Nothing at all, or a group assembled afterwards from records, is much weaker.</p>",
-  "\"Cats improved after treatment.\" Improved compared with what?"),
- ("Was the outcome something the animal cares about?",
-  "<p>Survival, freedom from clinical signs, avoiding a hospital admission. Those matter. A number on an "
-  "echo, a blood value, a score on a scale, are stand-ins for what matters, and stand-ins can move without "
-  "the animal being any better off. Drugs get licensed on stand-ins all the time.</p>",
-  "The paper measures wall thickness or a biomarker, and the discussion talks about survival."),
- ("Did they decide what counted as success before they looked?",
-  "<p>This is the one most people skip, and it does more damage than anything else on this list. If the "
-  "outcome was chosen after the data came in, or a subgroup appeared that was not planned, the result is a "
-  "hypothesis and not a finding. Look in the methods for the word prespecified. Look in the results for a "
-  "subgroup that was not mentioned in the methods.</p>",
-  "A headline result that lives in one subgroup, and that subgroup is described for the first time in the results section."),
- ("How big was the effect, and could they even measure it?",
-  "<p>Statistically significant does not mean big enough to matter. Find the actual difference between the "
-  "groups, with units. Then ask whether the equipment can reliably detect a difference that size. Repeat "
-  "echo measurements on the same animal vary by a few percent, so an effect of a tenth of a millimetre on a "
-  "wall seven millimetres thick is inside the noise.</p>",
-  "A p-value in the abstract and no effect size anywhere. Or an effect smaller than the known repeatability of the test."),
- ("Who paid, and who did the analysis?",
-  "<p>Industry funding does not make a study wrong. Plenty of good trials are company-funded, because "
-  "somebody has to pay. It does mean you read the design more carefully, particularly the choice of "
-  "comparison and endpoint. Check whether the sponsor's staff did the statistics, and whether the same small "
-  "group of investigators appears on every paper about the drug.</p>",
-  "No funding statement at all. Or a conflicts section that reads \"the authors declare none\" on a paper about a product two of them consult for."),
-]
+import os as _os, records as _records
+STEPS = _records.as_steps(_os.path.join(
+    _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))),
+    'content', 'teaching-steps.txt'))
 
 steps_html = ''.join(
   f'<div class="step"><div class="n">{i+1}</div><div><h3>{t}</h3>{body}'

@@ -64,17 +64,50 @@ row in the sidebar, so you can invent your own without editing code.
 
 ## Correcting an entry on the gap map
 
-The 24 map entries are still in `legacy/p_gapmap.py`, in a list near the top.
-Each is a block like this, and the wording is safe to edit in place:
+`content/gapmap.txt`. One record per clinical question, like this:
 
-```python
-dict(t="Rapamycin (sirolimus) in subclinical hypertrophic cardiomyopathy",
-     conf="verylow", dirn="unclear",
-     basis="1 randomised trial, 43 cats, surrogate endpoint only",
-     verdict="RAPACAT is a dose-finding study ...")
+```
+question: Rapamycin (sirolimus) in subclinical hypertrophic cardiomyopathy
+species: cat
+stage: pre
+certainty: verylow
+direction: unclear
+surrogate: yes
+basis: 1 randomised trial, 43 cats, surrogate endpoint only
+sources: RAPACAT, 2023 · [full appraisal](review-rapamycin.html)
+appraisal: review-rapamycin.html
+limitations: Analysed per protocol · Funded by the sponsor
+verdict:
+  RAPACAT is a dose-finding study, described as such by its own
+  authors, that is now carrying a marketing approval.
+---
 ```
 
-`conf` is one of `high`, `moderate`, `low`, `verylow`, `none`.
+- `certainty` is one of `high`, `moderate`, `low`, `verylow`, `none`
+- `direction` is one of `benefit`, `noeffect`, `against`, `unclear`, `untested`
+- `stage` is `pre` for asymptomatic or `clin` for symptomatic
+- `limitations` are separated by `·`
+- `== Some heading` starts a new domain; `---` ends a record
+
+A field runs until the next line that starts at the left margin with
+`something:`. That is why continuation lines are indented two spaces — it
+means an ordinary sentence beginning "null: no difference…" is safe to write
+without the parser mistaking it for a field.
+
+## The other pages
+
+| Page | File |
+|---|---|
+| Human evidence | `content/human-evidence.txt` |
+| The six questions on the teaching page | `content/teaching-steps.txt` |
+
+Same record format. The human-evidence file has `analogy` (`close`, `partial`,
+`poor`, `none`), `trials`, `transfer`, and `bears_on` — a list of gap-map
+question titles separated by `·`, which must match the map exactly.
+
+The home page, the about page and the appraisals index are still assembled in
+`legacy/`. Their wording is editable there but it sits inside Python, so take
+care with quotes.
 
 ## Building it
 
