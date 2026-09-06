@@ -22,18 +22,18 @@ method: Re-analysis of reconstructed data
 == abstract
 :Claim
 That pimobendan delays the onset of congestive heart failure
-in dogs with stage B2 preclinical mitral valve disease. One randomised trial supports it, and it is
-the best trial in the field.
+in dogs with stage B2 preclinical mitral valve disease. One randomised trial (EPIC study) provides supportive evidence, and it is
+perhaps the best randomized trial in the field.
 
 :Method
 The published survival curves were digitised and
-approximate individual-level event times reconstructed, reproducing the paper's medians, hazard ratio and P value, so
+approximate individual-level event times reconstructed, reproducing the EPIC study's medians, hazard ratio and P value, so
 that analyses the trial does not report could be run.
 
 :Robustness
 Nine reclassified dogs remove statistical
-significance. On proportions alone the result is not significant (P = 0.135). The entire absolute
-separation between the arms occurs in the first six months, and significance is lost once 23 weeks
+significance. On proportions of dogs reaching events alone the result is not significant (P = 0.135). The entire absolute
+separation between the arms occurs in the first six months, and significance is lost once first 23 weeks
 are removed, faster than the loss of events can explain.
 
 :Residual effect
@@ -43,12 +43,12 @@ only early failures.
 
 :Regulatory basis
 Three non-identical versions of the trial are on
-the public record and none cross-references the others. FDA judged the trial not adequate and
-well-controlled without saying why. Full approval rests on a single-arm study whose success
+the public record and none cross-references the others. FDA judged the EPIC trial not adequate and
+well-controlled without saying why for preclinical MMVD approval. Full approval rests on a single-arm study whose success
 threshold was set below its own historical control rate.
 
 :Position
-Treat dogs that meet the trial's criteria. Whether dogs
+Dogs with severe MMVD (B2) are likely to benefit from pimobendan therapy during asymptomatic stage. Whether dogs
 at the mild end of stage B2 benefit is not answerable from the published data, and the analysis that
 would answer several of these questions has already been collected and not reported.
 
