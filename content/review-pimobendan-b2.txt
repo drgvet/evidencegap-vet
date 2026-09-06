@@ -437,8 +437,8 @@ one, and no detected interaction is not evidence that none exists.
 The regulatory record is the sharper problem. The trial was judged not adequate and
 well-controlled without a stated reason; the pivotal evidence is a single-arm study with no
 concurrent comparator and success thresholds of unexplained origin, set below the historical control
-rate; and the label's numeric criteria come from the trial the regulator set aside rather than
-from the study that replaced it.
+rate; and the label's numeric criteria come from the original EPIC study rather than
+from the study that the regulator asked the company to perform due to the original study not meeting the regulatory standards.
 
 **What would settle it.** From the investigators: time from the primary endpoint to
 death, by randomised arm, as Kaplan--Meier curves and a Cox model; within the pimobendan arm,
