@@ -95,7 +95,7 @@ for dom, qs in Q:
             sur  = '<span class="surro">Surrogate endpoint only</span>' if q.get('surrogate') else ''
             qual = f' &mdash; {q["qual"]}' if q.get('qual') else ''
             if q.get('more'):
-                more = f'<p class="seemore"><a href="{q["more"]}">&#42; Caveats in full &mdash; read the appraisal</a></p>'
+                more = f'<p class="seemore"><a href="{q["more"]}">&#42; Read the full appraisal for the caveats</a></p>'
             elif q.get('soon'):
                 more = '<p class="seemore soon">&#42; Full appraisal in preparation</p>'
             else:
@@ -117,21 +117,21 @@ key = ''.join(
 body = f"""
 <div class="kicker">Evidence and gap map</div>
 <h1>Small-animal cardiology</h1>
-<p class="standfirst">{WORD[NQ]} clinical questions and practices in small-animal cardiology, each assessed for the certainty of the evidence behind it and for what that evidence actually says. {WORD[NGAP]} have no supporting evidence of any kind.</p>
+<p class="standfirst">This map sets out {WORD[NQ].lower()} clinical questions and practices in small-animal cardiology. Each one is assessed for the certainty of the evidence behind it and for what that evidence actually says, and {WORD[NGAP].lower()} of them have no supporting evidence of any kind.</p>
 <div class="meta"><span>Living document</span><span>{NQ} entries &middot; {NDOM} domains</span><span>Revised August 2026</span></div>
 
 <section>
   <h2>How each question is assessed</h2>
   <p>Study design determines where the assessment begins; it does not determine where it ends. A randomised trial that measured a surrogate outcome, was funded by the manufacturer of the drug under test and has never been replicated may warrant less confidence than a well-conducted observational study. Each question therefore carries two marks rather than one composite score.</p>
   <p><strong>Certainty</strong> is the first mark. It is a GRADE-informed editorial judgement rather than a formal GRADE assessment: design sets the starting point, certainty is then rated down for risk of bias, imprecision, indirectness and inconsistency, and may be rated up for a large and consistent effect. GRADE itself has four levels; the fifth label used here, <em>No evidence</em>, is an editorial category for questions nobody has studied and has no GRADE equivalent.</p>
-  <p><strong>Direction</strong> is the second, with the studies on which it rests. The reasons certainty was not rated higher are set out in the assessment of each entry, so that the judgement can be examined and disputed.</p>
+  <p><strong>Direction</strong> is the second mark, and it is recorded alongside the studies on which it rests. The reasons why certainty was not rated higher are set out in the assessment attached to each entry, so that the judgement can be examined and disputed.</p>
   <div class="gradekey">{key}</div>
   <p class="note" style="margin-top:18px">One editorial rule is applied without exception: <strong>evidence resting solely on a surrogate outcome cannot be rated above Very low, irrespective of design.</strong> Wall thickness, ectopic counts and circulating biomarkers are proxies for outcomes that matter to the patient, and a proxy can improve without the patient benefiting. The principle is taken from SORT, the grading scheme used in human primary care, which assigns its weakest recommendation grade to evidence resting on disease-oriented outcomes; the hard cap applied here is this site's rule, not SORT's, since SORT grades recommendations rather than bodies of evidence. Those questions are flagged.</p>
 </section>
 
 <section>
   <h2>Summary of findings</h2>
-  <p>Every entry on the map, with the evidence that exists behind it and the assessment that follows. Each row links to the full entry below, where the verdict and the specific limitations are set out.</p>
+  <p>The table lists every entry on the map together with the evidence that exists behind it and the assessment that follows from that evidence. Each row links to the full entry below, where the verdict and the specific limitations are set out.</p>
   <div class="maplegend">
     <p class="lgrow"><span class="lglab">Domain</span>{splegend}</p>
   </div>
@@ -142,9 +142,9 @@ body = f"""
 
 <section class="callout">
   <h2>The same drugs, in people</h2>
-  <p>Much of small-animal cardiology is extrapolated from human cardiology, and the extrapolation is seldom stated. Human and animal cardiac disease differ enough that a human trial rarely settles a veterinary question &mdash; but drug classes travel further than diseases do, and several of these classes have been tested in people at a scale veterinary medicine will never reach.</p>
+  <p>Much of small-animal cardiology is extrapolated from human cardiology, and the extrapolation is seldom stated. Human and animal cardiac disease differ enough that a human trial rarely settles a veterinary question. Drug classes, however, travel further than diseases do, and several of the classes used here have been tested in people at a scale veterinary medicine will never reach.</p>
   <p>Oral inotropes increased mortality in two placebo-controlled trials. Suppressing asymptomatic ventricular ectopy after myocardial infarction more than doubled it, with no warning on any intermediate measure. Beta blockade in non-obstructive hypertrophic cardiomyopathy reduced exercise capacity against placebo. Glucocorticoids are given in human heart failure deliberately, to improve diuresis, rather than withheld.</p>
-  <p>A companion page sets out each intervention class: what was tested in people, what it showed, and an explicit judgement of how close the analogy is &mdash; from close, through partial, to no analogue at all.</p>
+  <p>A companion page sets out each intervention class in turn, describing what was tested in people, what the trials showed, and how close the analogy to the veterinary question is judged to be. The judgements range from close, through partial, to no analogue at all.</p>
   <p class="cta"><a class="btn solid" href="human-evidence.html">The human evidence, class by class</a></p>
 </section>
 
@@ -178,7 +178,7 @@ body = f"""
 
 <section>
   <h2>Status</h2>
-  <p>This map is incomplete and under revision. Every mark is a judgement; the reasons behind each are listed rather than summarised so that they can be checked and disputed. Corrections and omitted citations are welcome. See <a href="about.html">about</a>.</p>
+  <p>This map is incomplete and remains under revision. Every mark on it is a judgement, and the reasons behind each are listed rather than summarised so that they can be checked and disputed. Corrections and citations that have been omitted are welcome, and the <a href="about.html">about page</a> explains how to send them.</p>
 </section>
 """
 

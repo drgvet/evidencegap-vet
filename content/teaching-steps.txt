@@ -5,36 +5,36 @@
 
 == Who was in it, and are they like my patient?
 body:
-  Species, breed, age, and how sick they were at the start. A trial in young purpose-bred beagles tells you very little about a fourteen-year-old cat with kidney disease. Check how many animals were in each group, not just the total. A study of sixty cats split three ways is three studies of twenty.
-warning: Numbers only given as a total. Entry criteria so narrow that almost nobody in your waiting room would qualify.
+  Start with the species, the breed, the age, and how sick the animals were when they were enrolled. A trial conducted in young purpose-bred beagles tells you very little about a fourteen-year-old cat with kidney disease. Check how many animals were in each group rather than only the total, because a study of sixty cats split three ways is really three studies of twenty.
+warning: The numbers are given only as a total, or the entry criteria are so narrow that almost nobody in your waiting room would have qualified.
 ---
 
 == What was it compared with?
 body:
-  If there was no control group, there is no comparison, and anything that got better might have got better anyway. Look for what the control animals received. Placebo is the strongest comparison. Standard treatment is useful. Nothing at all, or a group assembled afterwards from records, is much weaker.
-warning: "Cats improved after treatment." Improved compared with what?
+  If there was no control group then there is no comparison, and any animal that improved might have improved anyway. Look for what the control animals actually received. A placebo comparison is the strongest, a comparison against standard treatment is useful, and a comparison against nothing at all, or against a group assembled afterwards from records, is considerably weaker than either.
+warning: The paper reports that cats improved after treatment without stating what they improved relative to.
 ---
 
 == Was the outcome something the animal cares about?
 body:
-  Survival, freedom from clinical signs, avoiding a hospital admission. Those matter. A number on an echo, a blood value, a score on a scale, are stand-ins for what matters, and stand-ins can move without the animal being any better off. Drugs get licensed on stand-ins all the time.
-warning: The paper measures wall thickness or a biomarker, and the discussion talks about survival.
+  Survival, freedom from clinical signs and avoiding a hospital admission are outcomes that matter to the patient. A number on an echocardiogram, a blood value or a score on a scale are stand-ins for those outcomes, and a stand-in can move without the animal being any better off. Drugs are licensed on stand-ins regularly, which is why the distinction is worth holding onto.
+warning: The paper measures wall thickness or a biomarker, and the discussion then talks about survival.
 ---
 
 == Did they decide what counted as success before they looked?
 body:
-  This is the one most people skip, and it does more damage than anything else on this list. If the outcome was chosen after the data came in, or a subgroup appeared that was not planned, the result is a hypothesis and not a finding. Look in the methods for the word prespecified. Look in the results for a subgroup that was not mentioned in the methods.
-warning: A headline result that lives in one subgroup, and that subgroup is described for the first time in the results section.
+  This is the question most readers skip, and skipping it does more damage than anything else on this list. If the outcome was chosen after the data came in, or if a subgroup appeared that had not been planned, then the result is a hypothesis rather than a finding. Look in the methods for the word prespecified, and look in the results for any subgroup that the methods never mentioned.
+warning: The headline result lives in a single subgroup, and that subgroup is described for the first time in the results section.
 ---
 
 == How big was the effect, and could they even measure it?
 body:
-  Statistically significant does not mean big enough to matter. Find the actual difference between the groups, with units. Then ask whether the equipment can reliably detect a difference that size. Repeat echo measurements on the same animal vary by a few percent, so an effect of a tenth of a millimetre on a wall seven millimetres thick is inside the noise.
-warning: A p-value in the abstract and no effect size anywhere. Or an effect smaller than the known repeatability of the test.
+  A statistically significant result is not necessarily a result large enough to matter. Find the actual difference between the groups, expressed with its units, and then ask whether the equipment used could reliably detect a difference of that size. Repeated echocardiographic measurements on the same animal vary by a few per cent, so an effect of a tenth of a millimetre on a wall seven millimetres thick sits inside the measurement noise.
+warning: The abstract carries a p-value and no effect size appears anywhere, or the effect reported is smaller than the known repeatability of the test.
 ---
 
 == Who paid, and who did the analysis?
 body:
-  Industry funding does not make a study wrong. Plenty of good trials are company-funded, because somebody has to pay. It does mean you read the design more carefully, particularly the choice of comparison and endpoint. Check whether the sponsor's staff did the statistics, and whether the same small group of investigators appears on every paper about the drug.
-warning: No funding statement at all. Or a conflicts section that reads "the authors declare none" on a paper about a product two of them consult for.
+  Industry funding does not make a study wrong, and plenty of good trials are company-funded because somebody has to pay for them. What it does mean is that the design deserves closer reading, particularly the choice of comparator and the choice of endpoint. Check whether the sponsor's own staff performed the statistical analysis, and whether the same small group of investigators appears on every paper written about the drug.
+warning: There is no funding statement at all, or the conflicts section declares none on a paper about a product that two of the authors consult for.
 ---

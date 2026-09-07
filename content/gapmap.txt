@@ -21,7 +21,7 @@ sources: EPIC, 2016 · FDA NADA 141-273, 2025 · [full appraisal](review-pimoben
 appraisal: review-pimobendan-b2.html
 limitations: Funded by the manufacturer · Stopped early at a pre-planned interim · Nine reclassified dogs remove significance · On proportions alone the result is not significant · Judged by FDA not adequate and well-controlled · Never replicated
 verdict:
-  EPIC, the single trial of pimobendan in preclinical stage B2 disease, supports delaying heart failure in dogs meeting its entry criteria, and nothing else on this map is better evidenced. It is also more fragile than the headline suggests: nine reclassified dogs remove significance, and on proportions alone the result is not significant. A 380-day median difference survives removing the first 23 weeks, so the benefit is not only early failures. Whether dogs at the mild end of stage B2 benefit is not answerable from the published data.
+  EPIC, the single trial of pimobendan in preclinical stage B2 disease, supports delaying heart failure in dogs meeting its entry criteria, and nothing else on this map is better evidenced. It is also more fragile than the headline suggests: nine reclassified dogs remove significance, and on proportions alone the result is not significant. A median difference of 380 days survives the removal of the first 23 weeks, so the benefit cannot be attributed to early failures alone. Whether dogs at the mild end of stage B2 benefit is not answerable from the published data.
 ---
 
 question: Does preclinical pimobendan shorten survival once heart failure develops?
@@ -33,7 +33,7 @@ basis: 2 retrospective cohorts, 137 and 143 dogs, no randomisation
 sources: McAulay, 2026 · Park, 2025
 limitations: Retrospective · Confounding by indication visible in the data · Underpowered
 verdict:
-  Two retrospective cohorts report shorter survival after heart failure in dogs treated beforehand, which is a question worth asking. Neither can answer it. In both, the pretreated dogs already had larger hearts at the point failure developed, which is enough on its own to explain the difference. The finding argues for a prospective study, not for a change in practice.
+  Two retrospective cohorts report shorter survival after heart failure in dogs that had been treated beforehand, and the question they raise is a reasonable one to ask. Neither study is able to answer it, because in both of them the pretreated dogs already had larger hearts at the point at which failure developed, and that difference is sufficient on its own to explain the survival gap. The finding argues for a prospective study, not for a change in practice.
 ---
 
 question: Pimobendan in congestive heart failure
@@ -60,7 +60,7 @@ sources: SVEP, 2002 · VETPROOF, 2007
 appraisal_in_preparation: yes
 limitations: Both failed their primary endpoint · SVEP restricted to one breed · VETPROOF conclusions rest on secondary endpoints
 verdict:
-  Two placebo-controlled trials set out to show that ACE inhibition delays heart failure in preclinical mitral valve disease, and neither did. That is a reasonably firm negative rather than an absence of evidence. VETPROOF is nonetheless cited as positive on the strength of secondary endpoints its design cannot carry. The same drug behaved the same way in the equivalent human trial.
+  Two placebo-controlled trials set out to show that ACE inhibition delays heart failure in preclinical mitral valve disease, and neither of them did so. The result should therefore be read as a reasonably firm negative rather than as an absence of evidence. VETPROOF is nonetheless cited as a positive trial on the strength of secondary endpoints that its design cannot carry. The same drug behaved the same way in the equivalent human trial.
 ---
 
 question: Spironolactone added to standard heart-failure therapy
@@ -97,7 +97,7 @@ direction: untested
 basis: No studies
 limitations: Practice rests on convention
 verdict:
-  No study has compared doses or dosing intervals of furosemide in dogs with heart failure. Practice derives from convention and from what worked in the individual animal. This is among the most frequently made decisions in cardiology and among the least examined, and the same gap exists in human medicine, so it is not a failing peculiar to this field.
+  No study has compared doses or dosing intervals of furosemide in dogs with heart failure. Practice derives from convention and from what worked in the individual animal. This is among the most frequently made decisions in cardiology and among the least examined, although the same gap exists in human medicine, so it is not a failing peculiar to this field.
 ---
 
 == Dilated cardiomyopathy (dogs)
@@ -113,7 +113,7 @@ sources: PROTECT, 2012
 appraisal_in_preparation: yes
 limitations: Primary endpoint not met by proportion (p = 0.1) · Interim analysis was not pre-planned · 76 dogs, from around 1000 screened · One breed only · Funded by the manufacturer
 verdict:
-  PROTECT, the preclinical pimobendan trial in Dobermanns, is routinely cited as positive. The proportion of dogs reaching its primary endpoint did not differ; the significant result comes from a time-to-event analysis at an interim look that was not pre-planned. Seventy-six Dobermanns were enrolled from around a thousand screened, so the finding is narrow as well as fragile, and applies to one breed.
+  PROTECT, the preclinical pimobendan trial in Dobermanns, is routinely cited as positive. The proportion of dogs reaching its primary endpoint did not differ; the significant result comes from a time-to-event analysis at an interim look that was not pre-planned. Seventy-six Dobermanns were enrolled from approximately a thousand screened, so the finding is narrow as well as fragile, and it applies to a single breed.
 ---
 
 question: Diet change and taurine in diet-associated dilated cardiomyopathy
@@ -127,7 +127,7 @@ sources: Kaplan, 2018 · Freid, 2021 · Freeman, 2022
 appraisal_in_preparation: yes
 limitations: No dog anywhere kept its original diet · No randomisation, no blinding · Echocardiograms read unblinded, by the authors' own admission · Taurine given alongside the diet change · Cardiac medication started at the same time · Cases recruited during an FDA publicity campaign · The 2022 prospective study was funded by a pet food manufacturer
 verdict:
-  In the diet-associated dilated cardiomyopathy literature, every dog in every study changed diet, so no comparison group exists. Improvement is confounded with pimobendan and furosemide started at the same time, with taurine supplementation, and with regression to the mean in animals enrolled at their worst measurement. Echocardiograms were read unblinded. The one study without industry funding is also the one stating that causation cannot be shown.
+  In the diet-associated dilated cardiomyopathy literature, every dog in every study changed diet, so no comparison group exists. Improvement is confounded with the pimobendan and furosemide started at the same time, with taurine supplementation, and with regression to the mean in animals enrolled at their worst measurement. The echocardiograms were read unblinded, by the authors' own account. The one study without industry funding is also the one that states plainly that causation cannot be shown.
 ---
 
 question: Screening intervals in at-risk breeds
@@ -138,7 +138,7 @@ direction: untested
 basis: No studies
 limitations: Expert opinion only
 verdict:
-  No study has compared screening intervals against any outcome. The intervals in current guidelines are expert judgement, offered as such by their authors and cited afterwards as though established. Whether annual screening detects disease earlier than biennial screening, and whether earlier detection changes what happens to the dog, are both unanswered.
+  No study has compared screening intervals against any outcome. The intervals in current guidelines are expert judgement, offered as such by their authors and cited afterwards as though established. Whether annual screening detects disease earlier than biennial screening, and whether earlier detection alters the outcome for the dog, both remain unanswered.
 ---
 
 == Feline cardiomyopathy
@@ -154,7 +154,7 @@ sources: FAT CAT, 2015
 appraisal_in_preparation: yes
 limitations: Independently funded · Active comparator, no placebo · 75 cats, wide confidence intervals · Published in a supplement issue
 verdict:
-  Clopidogrel after arterial thromboembolism carries the strongest independently funded evidence on this map: a double-blind randomised trial, paid for by the Morris Animal Foundation, showing longer time to recurrence than aspirin. Seventy-five cats gives wide confidence intervals, and the comparator was aspirin rather than placebo. In human medicine this drug class is the fallback rather than the preferred option, and no comparison against anticoagulation exists in cats.
+  Clopidogrel after arterial thromboembolism carries the strongest independently funded evidence on this map: a double-blind randomised trial, paid for by the Morris Animal Foundation, showing longer time to recurrence than aspirin. Seventy-five cats gives wide confidence intervals, and the comparator was aspirin rather than placebo. In human medicine this drug class is used as the fallback rather than as the preferred option, and no comparison against anticoagulation has been made in cats.
 ---
 
 question: Atenolol in preclinical hypertrophic cardiomyopathy
@@ -166,7 +166,7 @@ basis: 1 prospective observational cohort, 63 cats, not randomised or blinded
 sources: Schober et al., 2013
 limitations: Open label, treatment not randomised · Five-year follow-up but no control for why cats were treated
 verdict:
-  The atenolol evidence in preclinical hypertrophic cardiomyopathy is frequently described as a trial. It is a prospective observational cohort, open-label and not randomised, so the reason a cat was treated cannot be separated from what happened to it. Within those limits it found no difference in all-cause or cardiac mortality over five years. The human evidence in non-obstructive disease points against treating.
+  The atenolol evidence in preclinical hypertrophic cardiomyopathy is frequently described as a trial. It is in fact a prospective observational cohort, open-label and not randomised, so the reason a cat was treated cannot be separated from what subsequently happened to it. Within those limits it found no difference in all-cause or cardiac mortality over five years. The human evidence in non-obstructive disease points against treating.
 ---
 
 question: Pimobendan in feline congestive heart failure
@@ -177,7 +177,7 @@ direction: unclear
 basis: Retrospective records only
 limitations: Retrospective · Selection bias · No prospective study
 verdict:
-  Pimobendan in feline congestive heart failure rests on retrospective records alone, with no prospective study and no control group. Cats given the drug were selected by their clinicians for reasons the records do not capture. The usual justification is extrapolation from dogs, and the human trials of oral inotropes are a reason to be careful about extrapolating this particular class. Widely used, and essentially untested.
+  Pimobendan in feline congestive heart failure rests on retrospective records alone, with no prospective study and no control group. Cats given the drug were selected by their clinicians for reasons the records do not capture. The usual justification is extrapolation from dogs, and the human trials of oral inotropes are a reason to be careful about extrapolating this particular drug class. The drug is therefore in wide use on the basis of almost no direct evidence.
 ---
 
 question: Rapamycin (sirolimus) in subclinical hypertrophic cardiomyopathy
@@ -191,7 +191,7 @@ sources: RAPACAT, 2023 · FDA FOI summary 141-604, 2025 · [full appraisal](revi
 appraisal: review-rapamycin.html
 limitations: FDA records that the endpoint was chosen after exploratory analysis; the paper does not · The report calls itself nonpivotal, exploratory and dose-determining · Alpha set at 0.10, three contrasts, no correction · Overall treatment effect not significant · No individual wall measurement significant at day 180 · Analysed per protocol · All cardiac withdrawals in the high-dose arm · Transaminase elevations in 15 of 24 cats in the laboratory safety study, with no dose-response · No safety study enrolled a cat with cardiomyopathy or used the label regimen · Funded by the sponsor
 verdict:
-  RAPACAT is a dose-finding study, described as such by its own authors, that is now carrying a marketing approval. Wall thickness at six months was 7.41 mm on low dose against 8.40 mm on placebo, but the overall treatment effect was not significant and alpha was set at 0.10 across three uncorrected contrasts. The FDA record states that the endpoint was selected after exploratory analysis, which the published paper does not disclose. Wall thickness is in any case a proxy for heart failure rather than heart failure.
+  RAPACAT is a dose-finding study, described as such by its own authors, that is now carrying a marketing approval. Wall thickness at six months was 7.41 mm on low dose against 8.40 mm on placebo, but the overall treatment effect was not significant and alpha was set at 0.10 across three uncorrected contrasts. The FDA record states that the endpoint was selected after exploratory analysis, which the published paper does not disclose. Wall thickness is in any case a proxy for heart failure rather than a measure of it.
 ---
 
 question: Any therapy that delays the onset of heart failure in hypertrophic cardiomyopathy
@@ -202,7 +202,7 @@ direction: untested
 basis: No study with a clinical endpoint
 limitations: Every trial to date has measured wall thickness
 verdict:
-  No study with a clinical endpoint has tested whether any drug delays the onset of heart failure in feline hypertrophic cardiomyopathy. Every trial so far has measured wall thickness instead. Until one measures heart failure, survival or quality of life, this question is unanswered rather than answered in the negative, and the two should not be confused.
+  No study with a clinical endpoint has tested whether any drug delays the onset of heart failure in feline hypertrophic cardiomyopathy. Every trial so far has measured wall thickness instead. Until a trial measures heart failure, survival or quality of life, this question should be regarded as unanswered rather than as answered in the negative, since the two are not the same thing.
 ---
 
 question: Do glucocorticoids precipitate congestive heart failure?
@@ -215,7 +215,7 @@ sources: Smith, 2004 · Ployngam, 2006 · Khelik, 2019 · Dutch, 2023 · [full c
 appraisal: review-steroids-chf.html
 limitations: Original series had no control group, no denominator and no pre-treatment echocardiograms · Dosing studies are mixed: two negative, one found larger atrial and ventricular dimensions · No dosing study has enrolled a cat with cardiomyopathy · Largest cohort found no excess · Steroid exposure equal in transient thickening and true cardiomyopathy
 verdict:
-  That glucocorticoids precipitate congestive heart failure in cats is widely taught, and the evidence does not establish it. The experimental literature is mixed rather than negative: plasma volume expansion has been demonstrated after methylprednisolone acetate, and one study found larger atrial and ventricular dimensions after short oral courses, while two others found nothing. No cat in any of them developed heart failure, and none of them enrolled a cat with cardiomyopathy, which is the population in which the effect is supposed to occur. In the only cohort with a control group, heart failure occurred in 0.82% of treated cats against 1.90% of untreated ones.
+  The teaching that glucocorticoids precipitate congestive heart failure in cats is widespread, and the published evidence does not establish it. The experimental literature is mixed rather than negative: plasma volume expansion has been demonstrated after methylprednisolone acetate, and one study found larger atrial and ventricular dimensions after short oral courses, while two others found nothing. No cat in any of them developed heart failure, and none of them enrolled a cat with cardiomyopathy, which is the population in which the effect is supposed to occur. In the only cohort with a control group, heart failure occurred in 0.82% of treated cats against 1.90% of untreated ones.
 ---
 
 == Congestive heart failure: management
@@ -231,7 +231,7 @@ sources: TEST, 2017
 appraisal_in_preparation: yes
 limitations: Non-inferiority margin set at minus 20% · Survival composite was secondary and analysed after the fact · Two trials pooled with different dosing rules · Three-month follow-up only · Funded by the manufacturer, five of nine authors employed there
 verdict:
-  TEST was designed to show that torasemide is not appreciably worse than furosemide, and it showed that, against a non-inferiority margin of minus 20% chosen by the investigators. The survival hazard ratio widely quoted from it was a secondary endpoint analysed after the fact, pooled across two trials with different dosing rules. Follow-up was three months.
+  TEST was designed to show that torasemide is not appreciably worse than furosemide, and it showed that, against a non-inferiority margin of minus 20% chosen by the investigators. The survival hazard ratio that is widely quoted from it was a secondary endpoint, analysed after the fact and pooled across two trials that used different dosing rules. Follow-up in both trials extended to three months only.
 ---
 
 question: Sacubitril–valsartan (ARNi) in congestive heart failure
@@ -254,7 +254,7 @@ direction: untested
 basis: No studies in dogs
 limitations: Extrapolated from human medicine
 verdict:
-  No trial in dogs has tested sodium restriction against any outcome. The practice is extrapolated from human medicine, where a randomised trial has since found no effect on death or hospitalisation. Restriction also reduces palatability in animals that frequently eat poorly already, so the cost of the advice is not zero even if the benefit were real.
+  No trial in dogs has tested sodium restriction against any outcome. The practice is extrapolated from human medicine, where a randomised trial has since found no effect on death or hospitalisation. Restriction also reduces palatability in animals that are frequently eating poorly already, so the advice carries a cost even if the benefit were real.
 ---
 
 question: Exercise restriction after diagnosis
@@ -265,7 +265,7 @@ direction: untested
 basis: No studies
 limitations: Convention only
 verdict:
-  Exercise restriction is advised almost universally after a cardiac diagnosis, on no evidence in either species. Human patients with heart failure are prescribed supervised aerobic training instead, and it is safe in advanced disease. Restricting exertion to prevent sudden death in an arrhythmogenic cardiomyopathy is a different question from restricting it in stable heart failure, and is equally untested.
+  Exercise restriction is advised almost universally after a cardiac diagnosis, on no evidence in either species. Human patients with heart failure are prescribed supervised aerobic training instead, and it is safe in advanced disease. Restricting exertion in order to prevent sudden death in an arrhythmogenic cardiomyopathy is a different question from restricting it in stable heart failure, and both are equally untested.
 ---
 
 == Arrhythmias
@@ -281,7 +281,7 @@ basis: 1 randomised crossover study, 18 dogs, surrogate endpoint
 sources: Gelzer et al., 2009
 limitations: 18 dogs · Two weeks per arm · Measures heart rate, not survival or signs
 verdict:
-  Diltiazem with digoxin controls ventricular rate in atrial fibrillation better than either drug alone. That much is shown, in eighteen dogs over two weeks per arm. Whether controlling rate in this way changes clinical signs, survival, or anything an owner would notice has not been studied. The endpoint here is a measurement rather than an outcome.
+  Diltiazem combined with digoxin controls ventricular rate in atrial fibrillation better than either drug given alone, and that much is demonstrated in eighteen dogs studied for two weeks per arm. Whether controlling rate in this way alters clinical signs, survival, or anything an owner would notice has not been studied, because the endpoint used here is a measurement rather than an outcome.
 ---
 
 question: Sotalol versus mexiletine–atenolol in Boxer arrhythmogenic cardiomyopathy
@@ -295,7 +295,7 @@ basis: 1 randomised four-arm study, 49 Boxers, surrogate endpoint
 sources: Meurs et al., 2002
 limitations: Around 11 to 16 dogs per arm · 21 to 28 days · Measures VPC counts · Syncope did not differ between the two effective arms
 verdict:
-  Sotalol and mexiletine–atenolol both reduce ventricular ectopy in Boxers, across four arms and forty-nine dogs over three to four weeks. Whether either reduces sudden death is untested, and syncope did not differ between the two effective arms. Suppressing ectopy is the exact intervention that raised mortality in human trials, which is why the distinction matters here.
+  Sotalol and mexiletine–atenolol both reduce ventricular ectopy in Boxers, across four arms and forty-nine dogs over three to four weeks. Whether either reduces sudden death is untested, and syncope did not differ between the two effective arms. Suppression of ventricular ectopy is the intervention that increased mortality in the human trials, which is why the distinction between the count and the outcome matters here.
 ---
 
 question: When to treat ventricular arrhythmias in asymptomatic dogs
@@ -306,7 +306,7 @@ direction: untested
 basis: No outcome data
 limitations: No study links treatment to survival
 verdict:
-  No study links antiarrhythmic treatment of asymptomatic ventricular ectopy in dogs to survival, in either direction. The same question was asked directly in human medicine and answered against treatment: mortality rose while the Holter recordings improved. Practice rests on the assumption that fewer ectopics is better, and that assumption is the one that failed.
+  No study links antiarrhythmic treatment of asymptomatic ventricular ectopy in dogs to survival, in either direction. The same question was asked directly in human medicine and answered against treatment: mortality rose while the Holter recordings improved. Practice rests on the assumption that fewer ectopic beats is better, and that is precisely the assumption which failed when it was tested in people.
 ---
 
 question: Holter thresholds that predict sudden death
@@ -318,5 +318,5 @@ basis: Screening cohorts, 28 Dobermanns on seven-day monitoring
 sources: Wess et al., 2017 · Gunasekaran et al., 2020
 limitations: Breed cutoffs are screening conventions · No prospective outcome validation found · Positivity depends on how long you record
 verdict:
-  The Holter cutoffs used to predict sudden death are screening conventions rather than thresholds validated prospectively against outcome. Whether a dog falls above or below one depends partly on how long it was recorded: six of eleven positive Dobermanns in a seven-day study were identified only after the first day. The same animal can be classified either way by the same test.
+  The Holter cutoffs used to predict sudden death are screening conventions rather than thresholds validated prospectively against outcome. Whether a dog falls above or below one depends partly on how long it was recorded: six of eleven positive Dobermanns in a seven-day study were identified only after the first day. The same animal can therefore be classified either way by the same test, depending only on the recording duration.
 ---

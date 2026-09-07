@@ -21,47 +21,48 @@ method: Re-analysis of reconstructed data
 
 == abstract
 :Claim
-That pimobendan delays the onset of congestive heart failure
-in dogs with stage B2 preclinical mitral valve disease. One randomised trial (EPIC study) provides supportive evidence, and it is
-perhaps the best randomized trial in the field.
+Pimobendan is claimed to delay the onset of congestive heart failure
+in dogs with stage B2 preclinical mitral valve disease. One randomised trial supports that claim,
+and it is the best trial in the field.
 
 :Method
 The published survival curves were digitised and
-approximate individual-level event times reconstructed, reproducing the EPIC study's medians, hazard ratio and P value, so
+approximate individual-level event times reconstructed, reproducing the paper's medians, hazard ratio and P value, so
 that analyses the trial does not report could be run.
 
 :Robustness
-Nine reclassified dogs remove statistical
-significance. On proportions of dogs reaching events alone the result is not significant (P = 0.135). The entire absolute
-separation between the arms occurs in the first six months, and significance is lost once first 23 weeks
-are removed, faster than the loss of events can explain.
+Reclassifying nine dogs removes statistical
+significance, and on proportions alone the result is not significant (P = 0.135). The entire
+absolute separation between the arms occurs within the first six months, and significance is lost
+once 23 weeks are removed, which happens faster than the loss of events can account for.
 
 :Residual effect
-A real effect. Restarting the clock at 23 weeks still
-leaves a 380-day median difference and 107 days of average event-free time gained, so this is not
-only early failures.
+A real effect nonetheless survives that cut.
+Restarting the clock at 23 weeks still leaves a 380-day median difference and 107 days of average
+event-free time gained, so the result is not composed of early failures alone.
 
 :Regulatory basis
-Three non-identical versions of the trial are on
-the public record and none cross-references the others. FDA judged the EPIC trial not adequate and
-well-controlled without saying why for preclinical MMVD approval. Full approval rests on a single-arm study whose success
-threshold was set below its own historical control rate.
+Three non-identical versions of the trial appear on
+the public record, and none of them cross-references the others. The FDA judged the trial not
+adequate and well-controlled without stating why. Full approval rests on a single-arm study whose
+success threshold was set below its own historical control rate.
 
 :Position
-Dogs with severe MMVD (B2) are likely to benefit from pimobendan therapy during asymptomatic stage. Whether dogs
-at the mild end of stage B2 benefit is not answerable from the published data, and the analysis that
-would answer several of these questions has already been collected and not reported.
+The evidence supports treating dogs that meet the trial's
+criteria. Whether dogs at the mild end of stage B2 benefit is not answerable from the published
+data, and the analysis that would answer several of these questions has already been collected and
+has not been reported.
 
 == summary
 Evidence :: One randomised, placebo-controlled, blinded, multicentre trial. 360 dogs; 354 in the analysis of the primary endpoint (178 pimobendan, 176 control).[1]
 Entry criteria :: LA/Ao &ge; 1.6, LVIDDN &ge; 1.7 and VHS &gt; 10.5, all three required. These are also the numeric criteria on the current label.[1,7]
-Endpoint :: Composite: onset of congestive heart failure, cardiac death, or euthanasia for cardiac disease. Roughly one dog in six reached it by dying rather than by developing heart failure.
-Reported effect :: Median time to endpoint 1228 days against 766; hazard ratio 0.64 (95% CI 0.47--0.87); log-rank P = .0038. Median survival 1059 days against 902 (P = .012).
-Robustness :: Reclassifying **nine** late placebo events as censored removes significance. On proportions alone, 74 of 178 against 88 of 176, Fisher's exact P = 0.135.
-Where the effect sits :: By day 180 the arms differ by 16 events, more than the 14 they finish with; thereafter they accrue 63 and 61. Removing 23 weeks gives P = 0.0501, against 0.0075 expected had the effect been constant.
-What survives that cut :: A 380-day median difference and 107 days of mean event-free time gained, in dogs alive and event-free at six months. The benefit is not confined to early failures.
-Regulatory basis :: Full approval (NADA 141-273, 19 December 2025) rests on a single-arm study of 125 dogs against a historical control. EPIC was treated as corroborative only, having "not met certain characteristics of an adequate and well-controlled study."[5]
-Not established :: Whether dogs at the mild end of stage B2 benefit; whether survival after heart failure is shortened in dogs treated beforehand. EPIC holds randomised data on the second question that have never been analysed.
+Endpoint :: The endpoint was a composite of the onset of congestive heart failure, cardiac death, or euthanasia for cardiac disease. Roughly one dog in six reached it by dying rather than by developing heart failure.
+Reported effect :: Median time to the endpoint was 1228 days against 766, giving a hazard ratio of 0.64 (95% CI 0.47--0.87) and a log-rank P of .0038. Median survival was 1059 days against 902 (P = .012).
+Robustness :: Reclassifying **nine** late placebo events as censored removes significance altogether. On proportions alone, which are 74 of 178 against 88 of 176, Fisher's exact test gives P = 0.135.
+Where the effect sits :: By day 180 the arms differ by 16 events, which is more than the 14 they finish with, and thereafter they accrue 63 and 61 respectively. Removing 23 weeks gives P = 0.0501, against the 0.0075 that would be expected had the effect been constant.
+What survives that cut :: A 380-day median difference and 107 days of mean event-free time gained remain, among dogs that were alive and event-free at six months. The benefit is therefore not confined to early failures.
+Regulatory basis :: Full approval (NADA 141-273, 19 December 2025) rests on a single-arm study of 125 dogs measured against a historical control. EPIC was treated as corroborative only, on the ground that it had "not met certain characteristics of an adequate and well-controlled study."[5]
+Not established :: It has not been established whether dogs at the mild end of stage B2 benefit, nor whether survival after heart failure is shortened in dogs that were treated beforehand. EPIC holds randomised data bearing on the second question, and they have never been analysed.
 
 == 1. What the trial reported
 EPIC randomised dogs with preclinical myxomatous mitral valve disease and cardiomegaly to
@@ -69,17 +70,18 @@ pimobendan or placebo, and reported a median time to the primary endpoint of 122
 766, a hazard ratio of 0.64 and a log-rank P of .0038.[1] The primary endpoint was a composite:
 the onset of congestive heart failure, cardiac death, or euthanasia for cardiac disease.
 
-It is the best-conducted trial in canine cardiology and the basis on which pimobendan is now
-licensed for stage B2 disease. This appraisal takes the result seriously enough to ask how much of
-it survives being pulled apart, and then sets it beside what the regulatory record actually says.
+It is the best-conducted trial in canine cardiology, and it is the basis on which pimobendan is
+now licensed for stage B2 disease. This appraisal takes the result seriously enough to ask how much
+of it survives close examination, and it then sets that examination beside what the regulatory
+record actually says.
 
 == 2. Rebuilding the trial
 The published survival curves were digitised and approximate individual-level event times
 reconstructed from them, so that analyses the paper does not report could be run. These are
-pseudo-individual event times recovered from the curve, not the trial's own patient records;
-nothing here recovers an actual dog. Group sizes and total event counts were fixed to the published
-values; medians, hazard ratio and P were left free, so agreement with the paper is a genuine check
-rather than an assumption.
+pseudo-individual event times recovered from the curve rather than the trial's own patient records,
+and nothing here recovers an actual dog. Group sizes and total event counts were fixed to the published
+values, whereas medians, hazard ratio and P were left free, so that agreement with the paper serves
+as a genuine check rather than as an assumption.
 
 | Primary endpoint | Reconstructed | Published[1] |
 |---|---|---|
@@ -94,16 +96,16 @@ published 1059 and 902, and a hazard ratio of 0.652, which the paper does not re
 **Read this section with the reconstruction in mind.** Everything that follows
 in sections 3 to 7, and the modelling in section 14, is computed on reconstructed data, not on the
 trial's own dataset. Reconstruction from published curves recovers group-level quantities well
-and individual dogs only approximately. The agreement above is a reason to take these analyses
-seriously; it is not a substitute for the investigators running them.
+and individual dogs only approximately. The agreement shown above is a reason to take these analyses
+seriously, and it is not a substitute for the investigators running them on the original data.
 
 == 3. When the separation happens
-By day 180 the placebo arm has accrued 27 events against 11 on pimobendan. That gap of 16 events
-is already larger than the 14-event difference the trial finishes with. Over the whole of the
+By day 180 the placebo arm has accrued 27 events against 11 on pimobendan. The gap of 16 events at that point is
+already larger than the 14-event difference with which the trial finishes. Over the whole of the
 remaining follow-up the two arms accrue 63 and 61 events respectively.
 
-Put plainly: the entire absolute separation between the arms occurs in the first six months, and
-after that the two curves fall at the same rate.
+The entire absolute separation between the arms therefore occurs within the first six months, and
+after that point the two curves fall at the same rate.
 
 == 4. Dropping the early period
 If the effect were confined to that early period, removing it should dissolve the result.
@@ -121,17 +123,18 @@ Removing the first several weeks from both arms and restarting the clock:
 
 Significance goes at 23 weeks, with 134 of the original 162 events still in hand.
 
-On its own that is only a power argument, and it deserves to be dismissed as one: a quarter of
-the events have gone and the point estimate has moved no further than 0.63 to 0.71. The argument
-only works as a comparison. The last column is the P that would be expected if the hazard ratio
+Taken on its own that is only a power argument, and it deserves to be dismissed as one, because a
+quarter of the events have gone and the point estimate has moved no further than from 0.63 to 0.71.
+The argument works only as a comparison. The last column is the P that would be expected if the hazard ratio
 never changed and the only thing lost were events, taken from the standard approximation
 SE(log HR) = 2/&radic;<span class="rt">d</span>. At 134 events a constant effect of 0.630 would
 still give P = 0.0075. What is observed is P = 0.0501, nearly seven times higher.
 
 [[figure: review-pimobendan-b2-fig1.html]]
 
-The observed P deteriorates faster than the loss of events can account for. That divergence is
-the argument, and the bare loss of significance is not.
+The observed P deteriorates faster than the loss of events can account for. The divergence between
+the observed and expected columns is therefore the argument, and the bare loss of significance is
+not.
 
 == 5. What survives the cut
 Losing significance is not the same as losing the effect. Restarting the clock at 23 weeks and
@@ -146,17 +149,18 @@ Restricted mean survival is calculated to 1200 days and does not depend on where
 fifty per cent. In calendar terms the day-161 analysis puts the medians at 1225 and 845 days from
 randomisation.
 
-So conditioning on a dog being alive and event-free at six months, the median gap is still 380
-days and the average event-free time gained is still 107. Smaller than the headline, and a long way
-from nothing. If the whole result were early failures, the residual gap among dogs nowhere near
-heart failure at six months should be small. It is not.
+Conditioning on a dog being alive and event-free at six months, the median gap is therefore still
+380 days and the average event-free time gained is still 107 days. Those figures are smaller than
+the headline result and they are a long way from nothing. If the whole result were composed of early
+failures, the residual gap among dogs nowhere near heart failure at six months should be small, and
+it is not.
 
 == 6. How fragile the result is
-Taking placebo events latest-first and reclassifying them as censored, which is the least
-favourable realistic change that could be made. This is a sensitivity analysis, not the
-conventional fragility index: the fragility index converts events to non-events in the smaller
-arm of a two-by-two table, whereas this reclassifies late events as censorings in a
-time-to-event analysis. The counts below are therefore not comparable to published fragility
+Placebo events were taken latest-first and reclassified as censored, which is the least
+favourable realistic change that could be made to the data. This is a sensitivity analysis rather
+than the conventional fragility index, because the fragility index converts events to non-events in the smaller
+arm of a two-by-two table, whereas the procedure used here reclassifies late events as censorings in
+a time-to-event analysis. The counts below are therefore not comparable to published fragility
 indices and are not offered as such.
 
 | Analysis | Events | Starting P | Dogs needed to lose P &lt; 0.05 |
@@ -166,25 +170,27 @@ indices and are not offered as such.
 | From day 112 | 150 | 0.0072 | 7 |
 | From day 161 | 134 | 0.0501 | already above 0.05 |
 
-Nine dogs. Reclassify nine late placebo events as censored and the trial loses significance. For
-scale, the journal and FDA accounts of this same trial differ from each other by more than that:
-the control arm gains three events between the two, and loses six dogs.
+Nine dogs are sufficient. Reclassifying nine late placebo events as censored causes the trial to
+lose significance. For scale, the journal and FDA accounts of this same trial differ from each other
+by more than that, since the control arm gains three events between the two documents and loses six
+dogs.
 
 == 7. Timing, not counts
-Judged on proportions alone, 74 of 178 against 88 of 176, Fisher's exact test
-gives P = 0.135. Not significant.
+Judged on proportions alone, which are 74 of 178 against 88 of 176, Fisher's exact test gives
+P = 0.135, which is not significant.
 
-All of EPIC's statistical significance comes from *when* dogs had events, not from
-how many did. Much the same number of dogs reached heart failure in each arm. They reached it at
-different times.
+All of EPIC's statistical significance therefore comes from *when* dogs had events
+rather than from how many of them did. Much the same number of dogs reached heart failure in each
+arm, and they reached it at different times.
 
-That is not a criticism. Delaying the onset of heart failure is precisely what the drug claims to
-do, and a time-to-event analysis is the right way to test it. But it explains why the result is so
-sensitive to any analysis that touches timing, and why nine reclassifications can undo it.
+This is not in itself a criticism of the trial. Delaying the onset of heart failure is precisely
+what the drug claims to do, and a time-to-event analysis is the correct way to test that claim. It
+does, however, explain why the result is so sensitive to any analysis that touches timing, and why
+nine reclassifications are enough to undo it.
 
 == 8. Three versions on the public record
-The 2022 conditional approval and the 2025 full approval both summarise this trial. Neither
-agrees with the published paper, and they do not agree with each other.
+The 2022 conditional approval and the 2025 full approval both summarise this trial. Neither of
+them agrees with the published paper, and they do not agree with each other either.
 
 <table class="cmp">
 
@@ -207,9 +213,9 @@ conflated: 363 dogs enrolled, an effectiveness population of 353, and 343
 "included in the effectiveness population in the final analysis" (173 pimobendan and
 170 control), which is the denominator for the event counts above.[5]
 
-The 2022 version sits almost exactly on the paper, down to the component event counts. The 2025
-version has ten fewer dogs and a stronger effect. The control arm loses six dogs and gains three
-events, which is what drags the hazard ratio down.
+The 2022 version sits almost exactly on the paper, down to the component event counts, whereas the
+2025 version has ten fewer dogs and reports a stronger effect. The control arm loses six dogs and
+gains three events between the two documents, and that is what drags the hazard ratio down.
 
 There is a plausible and innocent explanation, and the documents supply it. The paper describes an
 endpoint committee reviewing the radiographs and the case records.[1] The 2025 summary states
@@ -217,10 +223,11 @@ that "each case of CHF was verified by an endpoint committee, under masked condi
 on the radiographs alone."[5] Re-adjudicating the same dogs under a narrower rule would
 move cases in both directions, which is what the component counts show.
 
-That can be tested. On the reconstructed data, removing five and six dogs from the two arms and
-reclassifying a few early censorings as events reproduces the FDA hazard ratio at 0.596 against
-their 0.591, the control median at 727 against 732, and the P at 0.0011 against 0.0008. So this is
-one dataset under two adjudication rules, not two different trials.
+That explanation can be tested directly. On the reconstructed data, removing five and six dogs from the two
+arms and reclassifying a few early censorings as events reproduces the FDA hazard ratio at 0.596
+against their 0.591, the control median at 727 days against 732, and the P at 0.0011 against 0.0008.
+What the record contains is therefore one dataset under two adjudication rules rather than two
+different trials.
 
 What is not resolved is that nothing cross-references the three. Anyone citing EPIC is citing one
 version of it without being told the others exist.
@@ -231,8 +238,8 @@ well-controlled study [21 CFR 514.117]," and that it was "considered corroborati
 support this indication when evaluated in conjunction with Study No. 2019035, a single-arm field
 study with a historical control."[5]
 
-It never says which characteristics. The regulation is cited; the deficiencies are not
-enumerated anywhere in the document.
+The summary never says which characteristics were not met. The regulation is cited, and the
+deficiencies are not enumerated anywhere in the document.
 
 The 2022 conditional approval was softer, accepting the data as a reasonable expectation of
 effectiveness.[4] Pimobendan was therefore marketed for preclinical B2 disease from June 2022
@@ -256,34 +263,34 @@ enrollment criteria for this study," and, separately, that applying the new succ
 to EPIC "cases enrolled at US sites … resulted in a success rate of 80% with a lower
 80% confidence interval of 72%."[5]
 
-Two things follow, and the first is the more important.
+Two consequences follow from this, and the first of them is the more important.
 
 **The success threshold was set below the comparator.** If the 80 per cent figure
 describes untreated EPIC dogs, then the bar the pivotal study had to clear, a point estimate
 of 65 per cent, sat fifteen points beneath the historical control rate, and the observed 79.2
 per cent did not exceed that rate but matched it. The study was never required to beat its own
 comparator, and the document records no comparison against it. A single-arm design is not worthless in itself. The difficulty is that without a contemporaneous
-randomised comparator the
-result depends entirely on whether the historical benchmark describes a population comparable to the
-one enrolled, and the benchmark here was set below the rate it was drawn from.
+randomised comparator the result depends entirely on whether the historical benchmark describes a
+population comparable to the one enrolled, and the benchmark used here was set below the rate from
+which it was drawn.
 
 **The derivation of the benchmark is under-specified.** The two passages describe
 the source differently: a subset of the control population meeting this study's
-enrolment criteria in one place, and cases enrolled at US sites in another. They are not stated to
-be the same dogs. The arithmetic adds to the doubt: the failure definition in 2019035 is broader
-than EPIC's endpoint, so applying it to EPIC must give a *lower* rate than the
-event-free rate. EPIC placebo dogs at LA/Ao 1.8 and above are in the region of 70 per cent
+enrolment criteria in one place, and cases enrolled at US sites in another. The two passages are not stated to describe
+the same dogs. The arithmetic adds to the doubt, because the failure definition in 2019035 is
+broader than EPIC's endpoint, so applying it to EPIC must give a *lower* rate than the
+event-free rate does. EPIC placebo dogs at LA/Ao 1.8 and above are in the region of 70 per cent
 event-free at one year on the narrow definition, which does not obviously leave room for 80 per cent
 on a broader one. That estimate scales the published hazard ratio for LA/Ao by the study's own
-failure breakdown; it is arithmetic on published numbers rather than a measurement, and it is
-offered as a reason the derivation should be stated rather than as a finding.
+failure breakdown. It is arithmetic performed on published numbers rather than a measurement, and it
+is offered as a reason for stating the derivation rather than as a finding in itself.
 
 Two further features of the design deserve recording. Dogs with "current or previous
 evidence of clinically significant coughing" or "current or previous evidence of
 syncope" were excluded; new syncope, and "advanced coughing that required concomitant
-therapy in absence of radiographic CHF," then counted as treatment failures.[5] And entry
+therapy in absence of radiographic CHF," then counted as treatment failures.[5] Entry to the pivotal study also
 required LA/Ao &ge; 1.8 and VHS &gt; 10.5, with no LVIDDN criterion at all,[5] so the two studies
-did not define stage B2 the same way.
+did not define stage B2 in the same way.
 
 == 11. The label
 The approved indication is qualitative: asymptomatic disease with "a moderate or loud mitral
@@ -295,7 +302,7 @@ meet the label's definition on a radiograph alone.
 Those three values are EPIC's enrolment criteria.[1] They are not the pivotal
 study's, which required LA/Ao &ge; 1.8 and set no LVIDDN threshold.[5]
 
-So the label's numeric gate is drawn from the trial the regulator declined to treat as
+The label's numeric gate is therefore drawn from the trial that the regulator declined to treat as
 adequate and well-controlled, rather than from the study that supported full approval. Dogs with an
 LA/Ao between 1.6 and 1.8 are label-eligible and were never enrolled in 2019035. For that group the
 entire evidence base is EPIC.
@@ -313,8 +320,8 @@ Its origin is the original 2007 safety package. In healthy Beagles at three and 
 label dose, pimobendan produced "severe left ventricular hypertrophy with multifocal
 subendocardial ischemic lesions," "moderate to marked myxomatous thickening of the
 mitral valves," and new murmurs of mitral insufficiency.[6] At the label dose there was
-nothing beyond what control dogs showed. This is not evidence of harm at 0.5 mg/kg. It is the
-reason the contraindication exists.
+nothing beyond what the control dogs showed. Those findings are not evidence of harm at 0.5 mg/kg,
+and they are the reason the contraindication exists.
 
 == 12. What EPIC's post-endpoint data can and cannot show
 Two retrospective cohorts report shorter survival after heart failure in dogs treated
@@ -331,18 +338,18 @@ The crude comparison cannot be interpreted, for three reasons. Pimobendan dogs r
 later, so they had less remaining follow-up before the study closed, and the two proportions are not
 measured over comparable time. The endpoint is a composite: roughly one dog in six reached it by
 dying of a cardiac cause and so has no post-heart-failure course at all, which means neither
-denominator is a count of dogs at risk of dying after heart failure. And the difference is nowhere
+denominator is a count of dogs at risk of dying after heart failure. The difference is also nowhere
 near significance on the counts alone, Fisher's exact P being 0.464, which settles nothing in either
 direction given the first two problems.
 
 What can be said is narrower. EPIC's randomised all-cause mortality curve stays favourable and does
-not converge toward placebo through a 365-day landmark.[1] That is weak evidence against a large and
+not converge toward placebo through a 365-day landmark.[1] That constitutes weak evidence against a large and
 persistent post-heart-failure penalty overwhelming the preclinical benefit. It does not exclude a
 short-lived hazard around the point of decompensation, which is what the retrospective work
 proposes.
 
 The analysis that would settle it is a time-to-event comparison restricted to the dogs who reached
-the endpoint by developing heart failure, with time measured from that date. That requires the
+the endpoint by developing heart failure, with time measured from that date. That analysis requires the
 trial's own patient-level records rather than its published figures, so it is available to the trial
 holders and to nobody else. Until somebody runs it, the question stays open, and the retrospective
 cohorts remain the only direct evidence on it.
@@ -357,17 +364,18 @@ animals, some of whom would have responded had they been treated. Give both grou
 decompensation and the pretreated group does worse, because it has been enriched for animals the
 drug was never going to help.
 
-That is a selection effect, and it would produce exactly the pattern the retrospective studies
-report. It also explains the early concentration of benefit at the same time, since dogs closer to
-decompensation supply both most of the events and most of the opportunity to delay them.
+The mechanism described here is a selection effect, and it would produce exactly the pattern that
+the retrospective studies report. It also explains the early concentration of benefit at the same
+time, since dogs closer to decompensation supply both most of the events and most of the opportunity
+to delay them.
 
 Selection and harm make opposite predictions about one thing, which is what makes them
 separable:
 
 - <h3>If the drug causes harm</h3>
 
-The deficit should grow with exposure. More
-time on treatment, worse outcome afterwards.
+The deficit should grow with exposure, so that more
+time on treatment produces a worse outcome afterwards.
 
 - <h3>If it is selection</h3>
 
@@ -375,15 +383,15 @@ The deficit should be largest in dogs that reached
 heart failure quickly despite treatment, since those are the most refractory, and should shrink in
 dogs that stayed preclinical for years before failing.
 
-The test is post-heart-failure survival regressed on time to heart failure, within the treated
-arm. A positive slope favours selection; a negative slope favours harm. The retrospective studies
+The test is a regression of post-heart-failure survival on time to heart failure, within the
+treated arm. A positive slope favours selection, and a negative slope favours harm. The retrospective studies
 cannot do this, because the duration of preclinical treatment was not recorded. EPIC has it exactly:
 time to the primary endpoint is the trial's own primary variable.
 
 == 14. Does the trade-off still favour treating?
 If pimobendan delays heart failure but dogs then survive a shorter time after it, the question is
-whether the strategy still comes out ahead on total time. That can be modelled by adding a
-preclinical phase and a post-heart-failure phase, taking the first from EPIC and the second from the
+whether the strategy still comes out ahead on total time. That question can be modelled by adding a
+preclinical phase to a post-heart-failure phase, taking the first from EPIC and the second from the
 retrospective studies.[8,9]
 
 One correction is needed first. The EPIC primary endpoint is a composite, not the date of heart
@@ -399,23 +407,26 @@ phase at all. Adding one inflates every strategy, so the post-CHF term below is 
 On that basis treating in B2 is roughly break-even once the reported post-heart-failure penalty is
 carried, and waiting until heart failure is clearly the worst of the three.
 
-But the answer turns on one choice. The preclinical advantage can be measured two ways and they
-disagree badly. The area between the observed curves out to day 1570 gives 190 days. The mean of a
-Weibull fitted to the same data and extrapolated to infinity gives 478. Neither is right: the first
-truncates the pimobendan curve while it is still at 40 per cent and understates; the second
-extrapolates far beyond any data and overstates. On the measured basis treating in B2 loses 13 days.
-On the extrapolated basis it gains 275. **The comparison changes sign inside a range the trial
+The answer nonetheless turns on a single choice. The preclinical advantage can be measured in two
+ways and the two disagree badly with each other. The area between the observed curves out to day
+1570 gives 190 days, whereas the mean of a Weibull fitted to the same data and extrapolated to
+infinity gives 478 days. Neither figure is correct, because the first truncates the pimobendan curve
+while it is still at 40 per cent and therefore understates the advantage, and the second
+extrapolates far beyond any observed data and therefore overstates it. On the measured basis,
+treating in B2 loses 13 days, and on the extrapolated basis it gains 275. **The comparison changes sign inside a range the trial
 never observed.**
 
 Break-even sits at a post-heart-failure median penalty of about 179 days on the measured basis.
-The reported penalties are 191 days[8] and 269 days.[9] So on measured data the reported
-penalties just cancel the preclinical gain, and on extrapolated data they do not come close.
+The reported penalties are 191 days[8] and 269 days.[9] On measured data the reported penalties
+therefore just cancel the preclinical gain, and on extrapolated data they do not come close to
+doing so.
 
 The one result stable across both bases is that waiting until heart failure before starting
 pimobendan is the worst of the three strategies, by roughly 98 days.
 
-This is a way of framing the trade-off, not an estimate. It combines three studies
-with different populations and endpoints, and both post-heart-failure inputs are retrospective. The
+This calculation is a way of framing the trade-off rather than an estimate of it. It combines
+three studies with different populations and endpoints, and both post-heart-failure inputs are
+retrospective. The
 analysis in section 12 would replace both of them with a randomised comparison and settle which side
 of break-even this falls on.
 
@@ -425,23 +436,23 @@ the headline estimate suggests. Reclassifying nine dogs removes statistical sign
 proportions alone are not significant. The great majority of the absolute separation happens in the
 first six months.
 
-It is not confined to that period. Restarting the clock at 23 weeks still leaves a 380-day median
-difference and 107 days of average event-free time gained, so dogs nowhere near heart failure at six
-months still show a benefit. That landmark comparison is computed on reconstructed curves and is not
-a randomised landmark analysis of patient-level data; it cannot establish the effect with the
-certainty the trial's own data would.
+The effect is not confined to that period, however. Restarting the clock at 23 weeks still leaves a
+380-day median difference and 107 days of average event-free time gained, so dogs that were nowhere
+near heart failure at six months still show a benefit. That landmark comparison is computed on
+reconstructed curves and is not a randomised landmark analysis of patient-level data, so it cannot
+establish the effect with the certainty that the trial's own data would.
 
 The most defensible reading is that dogs approaching heart failure have the most to gain, because
 they have the most events available to delay, and that the trial's statistical signal is
 dominated by them. Whether dogs at the mild end of B2 benefit is not answerable from the published
-data. EPIC found no significant treatment-by-severity interaction, but it was never powered to find
-one, and no detected interaction is not evidence that none exists.
+data. EPIC found no significant treatment-by-severity interaction, but it was never powered to find one,
+and the absence of a detected interaction is not evidence that no interaction exists.
 
 The regulatory record is the sharper problem. The trial was judged not adequate and
 well-controlled without a stated reason; the pivotal evidence is a single-arm study with no
 concurrent comparator and success thresholds of unexplained origin, set below the historical control
-rate; and the label's numeric criteria come from the original EPIC study rather than
-from the study that the regulator asked the company to perform due to the original study not meeting the regulatory standards.
+rate; and the label's numeric criteria come from the trial the regulator set aside rather than
+from the study that replaced it.
 
 **What would settle it.** From the investigators: time from the primary endpoint to
 death, by randomised arm, as Kaplan--Meier curves and a Cox model; within the pimobendan arm,

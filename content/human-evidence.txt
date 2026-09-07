@@ -27,11 +27,11 @@ transfer:
   systolic dysfunction, in which the arrhythmic substrate thought to drive the excess
   mortality is already present. Myxomatous mitral valve disease is a volume-overload lesion
   in a non-ischaemic ventricle.
-  Those differences are real and may be sufficient. What they do not do is dispose of the
-  human result. The mechanism of harm was never established, so the mechanistic argument for
-  exemption is an assertion rather than a finding; and neither EPIC nor QUEST was designed to
-  detect a mortality difference of that size, death being one component of a composite
-  primary endpoint in both.
+  Those differences are real and they may well be sufficient, but they do not dispose of the
+  human result. The mechanism of harm was never established in the human trials, so the
+  mechanistic argument for exemption remains an assertion rather than a finding. Neither EPIC
+  nor QUEST was designed to detect a mortality difference of that size, since death was one
+  component of a composite primary endpoint in both trials.
 bears_on: Pimobendan in preclinical stage B2 disease · Pimobendan in congestive heart failure · Pimobendan in preclinical dilated cardiomyopathy (Dobermanns) · Pimobendan in feline congestive heart failure · Does preclinical pimobendan shorten survival once heart failure develops?
 ---
 
@@ -39,7 +39,7 @@ bears_on: Pimobendan in preclinical stage B2 disease · Pimobendan in congestive
 key: raas
 analogy: close
 trials:
-  The best-populated area of the comparison. Enalapril in 4,228 asymptomatic patients
+  This is the best-populated area of the comparison. Enalapril in 4,228 asymptomatic patients
   with an ejection fraction of 35% or less cut the combined incidence of death or heart
   failure by 29%, and heart-failure hospitalisation by 20%, but **did not reduce
   mortality** (8% risk reduction, p = 0.30). Spironolactone
@@ -49,15 +49,15 @@ trials:
   comparator in 8,442 patients.
 transfer:
   Neurohormonal activation is the shared final pathway, and the analogy holds better
-  here than anywhere else on this page. It is not exact: human trials enrolled reduced
-  ejection fraction of ischaemic or idiopathic origin, whereas canine heart failure is
-  usually valvular with preserved systolic function until late.
+  here than anywhere else on this page. The analogy is not exact, because the human trials
+  enrolled patients with reduced ejection fraction of ischaemic or idiopathic origin, whereas
+  canine heart failure is usually valvular with systolic function preserved until late.
   Read together, the two literatures say the same thing. Blockade before symptoms alters
   progression at best and has never shown a survival benefit in either species, which is
   what SVEP and VETPROOF found in dogs and what SOLVD-Prevention found in people. Blockade
-  after symptoms appear is where benefit has been demonstrated. The difference between them
-  is one of strength rather than direction: the canine spironolactone result rests on 39
-  events, the human one on 1,663 patients.
+  after symptoms appear is where benefit has been demonstrated. The difference between the two literatures
+  is one of strength rather than of direction, since the canine spironolactone result rests on
+  39 events and the human one on 1,663 patients.
 bears_on: ACE inhibitors before heart failure · Spironolactone with benazepril to delay the onset of heart failure · Spironolactone added to standard heart-failure therapy · Sacubitril--valsartan (ARNi) in congestive heart failure
 ---
 
@@ -76,10 +76,11 @@ trials:
   trial in either species.
 transfer:
   Both species are being asked the same pharmacological question about the same class
-  of drug acting on the same segment of the nephron, and the answers agree: the veterinary
-  non-inferiority result says what a trial ten times larger says in people. The dosing gap
-  is shared, not veterinary-specific, which is worth stating plainly rather than treating as
-  a failure peculiar to this field.
+  of drug acting on the same segment of the nephron, and the answers agree with each other, in that the
+  veterinary non-inferiority result says what a trial ten times larger says in people. The
+  gap in dosing evidence is shared between the two fields rather than specific to veterinary
+  medicine, which is worth stating plainly rather than treating as a failure peculiar to this
+  field.
 bears_on: Torasemide as an alternative to furosemide (dogs) · Furosemide dose and dosing frequency in stage C disease
 ---
 
@@ -89,17 +90,17 @@ analogy: partial
 trials:
   CAST randomised 1,727 patients with asymptomatic or minimally symptomatic ectopy
   after myocardial infarction to encainide, flecainide or placebo. The drugs suppressed
-  ectopy as intended. Total mortality was 7.7% against 3.0%, a relative risk of about 2.5,
-  and the trial was stopped early. No intermediate measure identified the harm: the Holter
-  recordings improved throughout.
+  ectopy as intended. Total mortality was nonetheless 7.7% against 3.0%, a relative risk of
+  about 2.5, and the trial was stopped early. No intermediate measure identified the harm,
+  because the Holter recordings improved throughout.
 transfer:
-  At drug level the analogy is weak. Encainide and flecainide are class Ic sodium
+  At the level of the drug the analogy is weak. Encainide and flecainide are class Ic sodium
   channel blockers acting on scarred post-infarct myocardium, and the proarrhythmia is
   attributed to conduction slowing in that substrate. Sotalol and mexiletine belong to other
   classes, and arrhythmogenic cardiomyopathy in the Boxer is a different substrate again.
-  At method level the analogy is exact, and that is the part that transfers. Ectopy count
-  is a surrogate. It was suppressed, the surrogate moved in the intended direction, and the
-  patients did worse. Any protocol judged on Holter suppression, in any species, is exposed
+  At the level of method the analogy is exact, and that is the part which transfers. Ectopy
+  count is a surrogate outcome, it was suppressed, it moved in the intended direction, and
+  the patients nonetheless did worse. Any protocol judged on Holter suppression, in any species, is exposed
   to the same failure, and no amount of suppression can serve as evidence of benefit on its
   own.
 bears_on: When to treat ventricular arrhythmias in asymptomatic dogs · Sotalol versus mexiletine--atenolol in Boxer arrhythmogenic cardiomyopathy · Holter thresholds that predict sudden death
@@ -111,18 +112,18 @@ analogy: partial
 trials:
   In obstructive disease, metoprolol reduced outflow gradients and improved symptoms
   against placebo, and remains a comparator in current trials. In **non-obstructive**
-  disease a placebo-controlled triple-crossover trial found the opposite: bisoprolol reduced
-  exercise capacity and quality of life and increased NT-proBNP and left atrial size. No
-  trial in either phenotype has tested a hard outcome.
+  disease a placebo-controlled triple-crossover trial found the opposite, in that bisoprolol
+  reduced exercise capacity and quality of life while increasing NT-proBNP and left atrial
+  size. No trial in either phenotype has tested a hard outcome.
 transfer:
   The diseases are not equivalent. Human hypertrophic cardiomyopathy is a sarcomeric
   genetic disorder with an established mutation in around half of patients; feline
   hypertrophic cardiomyopathy is heterogeneous and, outside two breed-specific mutations, of
   unknown genotype.
   The distinction that does carry across is haemodynamic rather than genetic. Beta
-  blockade helps the obstructive phenotype by slowing the heart and reducing the gradient,
-  and appears to harm the non-obstructive one by limiting the rate response a stiff ventricle
-  depends on. Most cats given atenolol are subclinical and non-obstructive, which is the
+  blockade helps the obstructive phenotype by slowing the heart and reducing the gradient, and
+  it appears to harm the non-obstructive phenotype by limiting the rate response on which a
+  stiff ventricle depends. Most cats given atenolol are subclinical and non-obstructive, which is the
   phenotype in which the human evidence is negative rather than merely absent.
 bears_on: Atenolol in preclinical hypertrophic cardiomyopathy
 ---
@@ -143,10 +144,10 @@ transfer:
   thromboembolism is usually distal aortic, arises from an atrium enlarged by cardiomyopathy,
   frequently in sinus rhythm, and occurs in a species in which anticoagulant monitoring is
   impractical and the bleeding trade-off is therefore different.
-  What transfers is a question rather than an answer. The comparison that settled the
-  human field, antiplatelet against anticoagulant, has not been made in cats.
-  FAT CAT compared clopidogrel with aspirin, which is a comparison between two members
-  of the weaker class.
+  What transfers here is a question rather than an answer. The comparison that settled the
+  human field, which set antiplatelet therapy against anticoagulation, has not been made in
+  cats. FAT CAT compared clopidogrel with aspirin, and that is a comparison between two
+  members of the weaker class.
 bears_on: Clopidogrel to prevent recurrent arterial thromboembolism
 ---
 
@@ -158,13 +159,13 @@ trials:
   to strict control for a composite of cardiovascular events in 614 patients, and was far
   easier to achieve.
 transfer:
-  The arrhythmia is the same; the setting is not. Human atrial fibrillation is
+  The arrhythmia is the same in both species, and the setting is not. Human atrial fibrillation is
   frequently lone or hypertensive with preserved ventricular function, whereas canine atrial
   fibrillation usually accompanies advanced structural disease at much higher rates. The
   targets are not interchangeable either, being derived from Holter averages in dogs and
   resting rate in people.
-  What survives translation is the burden of proof. Aggressive rate targets were assumed
-  to be better until they were tested, and then were not.
+  What survives translation is the burden of proof. Aggressive rate targets were assumed to
+  be better until the assumption was tested, at which point it did not hold.
 bears_on: Rate control in atrial fibrillation: diltiazem with digoxin versus monotherapy
 ---
 
@@ -181,13 +182,13 @@ trials:
 transfer:
   Sodium intake is not comparable between a free-living human adding salt at table and
   a dog eating a formulated diet, and the achievable range of restriction differs
-  accordingly. Exercise advice needs separating too: where restriction is advised in a dog
-  with an arrhythmogenic cardiomyopathy the aim is preventing sudden death during exertion,
-  a different question from functional capacity in stable heart failure, and one the human
-  exercise trials do not address.
-  For the ordinary case, a dog with stable treated heart failure told to stay
-  quiet and fed a sodium-restricted diet, neither practice has a trial behind it in
-  either species, and the human trials that do exist are neutral or point the other way.
+  accordingly. Exercise advice needs to be separated in the same way. Where restriction is advised in a
+  dog with an arrhythmogenic cardiomyopathy the aim is to prevent sudden death during
+  exertion, which is a different question from functional capacity in stable heart failure and
+  one that the human exercise trials do not address.
+  In the ordinary case, meaning a dog with stable treated heart failure that is told to stay
+  quiet and fed a sodium-restricted diet, neither practice has a trial behind it in either
+  species, and the human trials that do exist are either neutral or point the other way.
 bears_on: Dietary sodium restriction · Exercise restriction after diagnosis
 ---
 
@@ -195,7 +196,7 @@ bears_on: Dietary sodium restriction · Exercise restriction after diagnosis
 key: steroids
 analogy: partial
 trials:
-  Two separate literatures, and they point different ways. **Acute exposure:** a
+  Two separate literatures exist here, and they point in different directions. **Acute exposure:** a
   self-controlled case series of 2,623,327 adults given a single oral burst of fourteen days or
   less found a heart-failure incidence rate ratio of **2.37 (2.13--2.63) at days 5 to
   30**, attenuating thereafter, at an absolute rate of 1.3 per 1000 person-years. The commonest
@@ -209,9 +210,10 @@ trials:
   methylprednisolone *pulses* do suppress urinary sodium for up to 32 hours, with escape.
 transfer:
   The acute association is the closest human analogue to the feline claim, and it is
-  confounded in exactly the same way: people receive steroid bursts because they are acutely
-  unwell, and respiratory infection is itself a common precipitant of decompensation. Drug and
-  precipitant arrive together, just as illness, handling and stress arrive together in the cat.
+  confounded in exactly the same way, because people receive steroid bursts on account of being
+  acutely unwell, and respiratory infection is itself a common precipitant of decompensation.
+  The drug and the precipitant arrive together, just as illness, handling and stress arrive
+  together in the cat.
   The one population where that confounding was tested directly settles it as far as human data
   can. Among 11,356 patients in acute heart failure, those newly started on a corticosteroid had
   worse crude outcomes "essentially because corticosteroid-treated patients were
@@ -219,9 +221,10 @@ transfer:
   appears: 584 patients randomised to methylprednisolone or placebo for severe pneumonia had
   cardiovascular complications, on a definition explicitly including new or worsening
   congestive heart failure, in 4% against 5% by day 28.
-  So the transfer is partial in a specific way. The *mechanism* proposed in cats is not
-  supported: plasma volume was measured after the exact drug classes used in cats and did not
-  change. The *association* transfers completely, including its confounding.
+  The transfer is therefore partial in a specific way. The *mechanism* proposed in cats is not
+  supported, because plasma volume was measured after the same drug classes used in cats and
+  did not change. The *association* transfers completely, and it carries its confounding
+  with it.
 bears_on: Do glucocorticoids precipitate congestive heart failure?
 ---
 
@@ -235,8 +238,8 @@ trials:
   is being withdrawn at the same time. The results are small and mixed and the design
   confounds the question.
 transfer:
-  Nothing to extrapolate from, in either direction. This is the one question on the map
-  where the veterinary evidence leads the human literature, which is a statement about human
+  There is nothing here to extrapolate from in either direction. This is the one question on
+  the map on which the veterinary evidence leads the human literature, which is a statement about human
   medicine and not an endorsement of the veterinary trial. A single 43-cat study reporting an
   effect below the measurement noise of its own endpoint is weak evidence whether or not
   anyone else has done better.

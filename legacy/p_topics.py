@@ -81,7 +81,7 @@ for domain, fn, qs in PAGES:
 """
     open(fn, 'w', encoding='utf-8').write(page(
         fn, f'{domain} &mdash; evidencegap.vet',
-        f'The evidence behind clinical practice in {domain.lower()}.',
+        f'What the evidence behind clinical practice in {domain.lower()} actually amounts to.',
         body, width='wide'))
 
 # ------------------------------------------------------------- specialty
@@ -96,8 +96,9 @@ if featured:
 body = f"""
 <div class="kicker">Specialty</div>
 <h1>Cardiology</h1>
-<p class="standfirst">What the evidence behind each practice actually is,
-question by question.</p>
+<p class="standfirst">These pages set out what the evidence behind each
+practice in small-animal cardiology actually amounts to, taking one clinical
+question at a time.</p>
 {tabs(None)}
 {feat}
 <section class="sec"><h2>Everything else on the map</h2>

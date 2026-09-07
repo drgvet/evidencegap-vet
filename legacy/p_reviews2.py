@@ -15,7 +15,7 @@ ART = [
  ("EG-2026-005","Commentary","Feline cardiology","August 2026",
   "review-steroids-chf.html",
   "Steroids and heart failure in cats: science, or an old wives' tale?",
-  "Two papers from 2004 and 2006 are cited repeatedly as the literature behind this. Neither supports it. Two studies dosing cats deliberately found no cardiac change, steroid exposure was no more common in transient thickening than in true cardiomyopathy, and in people prednisone is used to increase diuresis in heart failure.",
+  "Two papers published in 2004 and 2006 are cited repeatedly as the literature behind this belief, and neither of them supports it. Two studies that dosed cats deliberately found no cardiac change, steroid exposure was no more common in transient thickening than in true cardiomyopathy, and in people prednisone is used to increase diuresis in heart failure rather than withheld.",
   "low", "Smith, 2004 to Poissonnier, 2025", True),
  ("EG-2026-004","Editorial appraisal","Feline cardiology","August 2026",
   "review-rapamycin.html",
@@ -32,7 +32,7 @@ ART = [
   "low", "TEST, 2017", False),
  ("EG-2026-001","Editorial appraisal","Nutrition and supplements","May 2026", None,
   "Cannabidiol for osteoarthritis pain in dogs",
-  "Several small placebo-controlled trials point in different directions. Outcomes are owner-reported throughout, and caregiver placebo effects are large enough in this setting to account for much of the reported signal.",
+  "Several small placebo-controlled trials point in different directions. The outcomes are owner-reported throughout, and caregiver placebo effects are large enough in this setting to account for much of the reported signal.",
   "low", "Multiple small RCTs, 2018&ndash;2025", False),
 ]
 
@@ -60,13 +60,13 @@ for aid, atype, dom, date, href, title, summ, grade, src, live in ART:
 body = f"""
 <div class="kicker">Editorial appraisals</div>
 <h1>Appraisals of the veterinary evidence base</h1>
-<p class="standfirst">Close readings of single studies. What the paper claims, and whether its methods can carry the claim.</p>
+<p class="standfirst">Each appraisal is a close reading of a single study. It sets out what the paper claims, and asks whether the methods used can carry that claim.</p>
 <div class="meta"><span>{PUB} published &middot; {PREP} in preparation</span><span>Signed editorial appraisals</span><span>Revised August 2026</span></div>
 
 <section>
   <h2>Scope and method</h2>
-  <p>Each appraisal states the claim under examination, sets out the design and the data as reported, then works through the specific features of the study that bear on whether the claim follows. Where a limitation is identified it is named by type &mdash; methodological, measurement, safety, practice, regulatory &mdash; so that the shape of the deficiency is legible, not merely its existence.</p>
-  <p>Appraisals are written from the published record: the primary report, its supplementary material, and, where the intervention is licensed, the regulatory summary. Where an analysis is unavailable, that absence is recorded rather than inferred around. Each carries a stable identifier, a revision date, and a full declarations block.</p>
+  <p>Each appraisal states the claim under examination, sets out the design and the data as reported, then works through the specific features of the study that bear on whether the claim follows. Where a limitation is identified it is named by type, whether methodological, measurement, safety, practice or regulatory, so that the shape of the deficiency is legible rather than only its existence.</p>
+  <p>Appraisals are written from the published record, which comprises the primary report, its supplementary material, and, where the intervention is licensed, the regulatory summary. Where an analysis is unavailable, that absence is recorded rather than inferred around. Each appraisal carries a stable identifier, a revision date and a full declarations block.</p>
   <p class="note" style="margin-top:20px"><strong>Editorial status.</strong> These are signed editorial appraisals, not peer-reviewed articles. They are presented in journal format for legibility and citation, and each states its review status explicitly.</p>
 </section>
 
@@ -77,7 +77,7 @@ body = f"""
 
 <section>
   <h2>Related</h2>
-  <p>The <a href="gapmap.html">gap map</a> places these appraisals in context, mapping twenty-four clinical questions in small-animal cardiology against the strongest evidence available for each. Mapping proceeds one discipline at a time; anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology, behaviour, oncology, surgery, equine and food-animal medicine are planned and not yet mapped.</p>
+  <p>The <a href="gapmap.html">gap map</a> places these appraisals in context, mapping twenty-four clinical questions in small-animal cardiology against the strongest evidence available for each. Mapping proceeds one discipline at a time, and anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology, behaviour, oncology, surgery, equine and food-animal medicine are all planned rather than started.</p>
 </section>
 """
 

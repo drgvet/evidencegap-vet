@@ -28,24 +28,27 @@ def motif(seed, tint='#EBDCBE', dark='#17456F'):
 
 MAPS = [
  ("Small-animal cardiology", "gapmap.html", True,
-  "Mitral valve disease, cardiomyopathies, heart-failure management and arrhythmias, "
-  "graded against the strongest evidence available for each question.",
+  "This map covers mitral valve disease, the cardiomyopathies, the management of "
+  "heart failure and the common arrhythmias. Each question is graded against the "
+  "strongest evidence that exists for it.",
   f"{len(Q)} entries", f"{GAPS} open gaps", 1),
  ("Anaesthesia and analgesia", None, False,
-  "Protocol selection, multimodal analgesia and monitoring thresholds across "
-  "species and procedure types.", "", "", 2),
+  "This map will cover protocol selection, multimodal analgesia and the monitoring "
+  "thresholds in routine use, across species and procedure types.", "", "", 2),
  ("Antimicrobials", None, False,
-  "Empirical selection, duration of therapy and the evidence behind first-line "
-  "recommendations in common presentations.", "", "", 3),
+  "This map will cover empirical drug selection, duration of therapy, and the "
+  "evidence behind the first-line recommendations made in common presentations.",
+  "", "", 3),
  ("Nutrition and supplements", None, False,
-  "Therapeutic diets, joint supplements and nutraceuticals, where marketing "
-  "claims and trial evidence most often diverge.", "", "", 4),
+  "This map will cover therapeutic diets, joint supplements and nutraceuticals, a "
+  "field in which marketing claims and trial evidence diverge more often than in "
+  "most others.", "", "", 4),
  ("Dermatology", None, False,
-  "Atopic disease, otitis and the long-term management protocols that rest "
-  "largely on convention.", "", "", 5),
+  "This map will cover atopic disease, otitis, and the long-term management "
+  "protocols that rest largely on convention.", "", "", 5),
  ("Oncology", None, False,
-  "Protocol comparisons, adjuvant therapy and the outcome measures used to "
-  "judge them.", "", "", 6),
+  "This map will cover protocol comparisons, adjuvant therapy, and the outcome "
+  "measures that are used to judge both.", "", "", 6),
 ]
 
 mapcards = ''
@@ -76,15 +79,15 @@ body = f"""
 <section class="hero2">
   <div class="bar">
     <p class="kick">Evidence gaps in veterinary medicine</p>
-    <h1>Not every recommendation has strong evidence behind it.</h1>
-    <p class="lede">Some routine practice is supported by sound studies. Some rests on a single small paper, or on convention. This site records which is which, question by question, together with the reasoning behind each judgement.</p>
+    <h1>The evidence behind small-animal practice varies more than the recommendations do.</h1>
+    <p class="lede">Some routine practice is supported by well-conducted studies, while other practice rests on a single small paper or on convention alone. This site records which is which for each clinical question, together with the reasoning behind the assessment.</p>
     <div class="acts">
       <a class="btn light" href="gapmap.html">Browse the gap map</a>
       <a class="btn outline" href="#find">Find a clinical question</a>
     </div>
     <div class="hstats">
       <div><div class="fig">{len(Q)}</div><div class="cap">Clinical questions and practices mapped</div></div>
-      <div><div class="fig">{GAPS}</div><div class="cap">With no evidence at all</div></div>
+      <div><div class="fig">{GAPS}</div><div class="cap">Supported by no evidence at all</div></div>
       <div><div class="fig">{len(DOMS)}</div><div class="cap">Cardiology domains</div></div>
       <div><div class="fig">{R["published"]}</div><div class="cap">Appraisals published</div></div>
       <div><div class="fig">1</div><div class="cap">Discipline mapped so far</div></div>
@@ -99,7 +102,7 @@ body = f"""
       <span class="more"><a href="gapmap.html">Open the cardiology map &rarr;</a></span>
     </div>
     <div class="maps">{mapcards}</div>
-    <p class="note" style="margin-top:22px">Each map covers one area of practice, question by question. Cardiology is complete; the remainder are in preparation.</p>
+    <p class="note" style="margin-top:22px">Each map covers one area of practice, question by question. The cardiology map is complete, and the remaining maps are in preparation.</p>
   </div>
 </section>
 
@@ -130,22 +133,22 @@ body = f"""
       <li>
         <div class="lt">Commentary &middot; Canine cardiology &middot; August 2026</div>
         <h3><a href="review-pimobendan-b2.html">Pimobendan in preclinical stage B2 mitral valve disease</a></h3>
-        <p>Reconstructed from the published curves: nine reclassified dogs remove significance, the proportions alone are not significant, and full approval rests on a single-arm study measured against a benchmark it was not required to beat.</p>
+        <p>The trial was reconstructed from its published survival curves. Reclassifying nine dogs removes the significance of the primary result, the event proportions alone are not significant, and the subsequent full approval rests on a single-arm study that was measured against a benchmark it was never required to beat.</p>
       </li>
       <li>
         <div class="lt">Commentary &middot; Feline cardiology &middot; August 2026</div>
         <h3><a href="review-steroids-chf.html">Steroids and heart failure in cats: science, or an old wives' tale?</a></h3>
-        <p>The belief rests on two papers from 2004 and 2006. Neither shows it, the controlled studies found no cardiac change, and the largest cohort found no excess.</p>
+        <p>The belief that corticosteroids precipitate heart failure in cats rests on two papers published in 2004 and 2006. Neither paper demonstrates the effect, the controlled studies that followed found no cardiac change, and the largest cohort reported no excess of heart failure in treated cats.</p>
       </li>
       <li>
         <div class="lt">Editorial appraisal &middot; Feline cardiology &middot; August 2026</div>
         <h3><a href="review-rapamycin.html">Rapamycin (sirolimus) for subclinical hypertrophic cardiomyopathy in cats</a></h3>
-        <p>The FDA record and the published paper disagree about whether the endpoint of the single supporting trial was chosen before the data were seen.</p>
+        <p>The published report and the FDA record disagree with each other about whether the endpoint of the single supporting trial was specified before the data were examined. The regulatory summary states that it was not.</p>
       </li>
       <li>
         <div class="lt">Editorial appraisal &middot; Canine cardiology &middot; June 2026</div>
         <h3>Torasemide as an alternative to furosemide in canine congestive heart failure</h3>
-        <p>Non-inferiority on a composite endpoint is a weaker claim than the result is generally taken to support. In preparation.</p>
+        <p>Non-inferiority demonstrated on a composite endpoint is a weaker claim than this result is generally taken to support. This appraisal is in preparation.</p>
       </li>
     </ul>
   </div>
@@ -155,7 +158,7 @@ body = f"""
   <div class="bar">
     <div class="bandhead"><h2>How the marks work</h2></div>
     <div class="gradekey">
-      <div><div class="k"><span class="cf cf--moderate">Moderate certainty</span></div><div class="v">One sound study, with material limitations</div></div>
+      <div><div class="k"><span class="cf cf--moderate">Moderate certainty</span></div><div class="v">One sound study, carrying material limitations</div></div>
       <div><div class="k"><span class="cf cf--low">Low certainty</span></div><div class="v">Serious limitations, or observational only</div></div>
       <div><div class="k"><span class="cf cf--verylow">Very low certainty</span></div><div class="v">Insufficient to support a claim</div></div>
       <div><div class="k"><span class="cf cf--none">No evidence</span></div><div class="v">Not studied</div></div>
@@ -170,15 +173,15 @@ body = f"""
     <ol class="numbered" style="max-width:76ch">
       <li>
         <h3>Absence of direct evidence</h3>
-        <p>Interventions in routine use that have never been tested against a control in the species they are given to. Dietary sodium restriction in canine congestive heart failure is one; the practice is near-universal and the trial does not exist.</p>
+        <p>Some interventions in routine use have never been tested against a control in the species they are given to. Dietary sodium restriction in canine congestive heart failure is one such practice, and although it is close to universal, the trial that would justify it has not been performed.</p>
       </li>
       <li>
         <h3>Borrowed evidence</h3>
-        <p>Findings carried across from human medicine, or from one species to another, without data establishing that they transfer. Dose, pharmacokinetics and disease phenotype rarely translate cleanly, and the assumption that they do is seldom stated.</p>
+        <p>Other recommendations are carried across from human medicine, or from one species to another, without data establishing that the finding transfers. Dose, pharmacokinetics and disease phenotype rarely translate cleanly between species, and the assumption that they do is seldom stated explicitly.</p>
       </li>
       <li>
         <h3>Consensus in place of data</h3>
-        <p>Screening intervals, treatment thresholds and monitoring conventions that originate in expert judgement and are subsequently cited as established. Such conventions may well be correct; the point is that they should be labelled as what they are.</p>
+        <p>A third group consists of screening intervals, treatment thresholds and monitoring conventions that originated in expert judgement and were subsequently cited as though they had been established by study. Such conventions may well turn out to be correct, but they should be identified as consensus rather than as evidence.</p>
       </li>
     </ol>
   </div>
@@ -250,6 +253,6 @@ SCRIPT = """
 
 open('index.html','w',encoding='utf-8').write(page(
  'index.html','Evidence gaps in veterinary medicine &mdash; evidencegap.vet',
- 'Some of what we do in small-animal practice is backed by good studies. Some rests on one small paper, or on habit. This site works out which is which.',
+ 'Some of what is done in small-animal practice is supported by well-conducted studies, while other practice rests on a single small paper or on convention. This site records which is which, question by question.',
  body, raw=True, script=SCRIPT))
 print('wrote index.html')

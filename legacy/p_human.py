@@ -21,11 +21,11 @@ NOEQ = [
  ("Spironolactone with benazepril to delay the onset of heart failure",
   "The corresponding human trials enrolled patients who already had symptoms."),
  ("Diet change and taurine in diet-associated dilated cardiomyopathy",
-  "No equivalent condition, and no equivalent trial."),
+  "There is no equivalent condition in people, and therefore no equivalent trial."),
  ("Screening intervals in at-risk breeds",
-  "Family screening in inherited human cardiomyopathy is set by guideline, not by trial."),
+  "Family screening in inherited human cardiomyopathy is set by guideline rather than by trial."),
  ("Any therapy that delays the onset of heart failure in hypertrophic cardiomyopathy",
-  "Equally unanswered in humans; no trial has tested delay of onset."),
+  "The question is equally unanswered in humans, where no trial has tested delay of onset."),
 ]
 
 WORD = {2:'Two',3:'Three',4:'Four',5:'Five',6:'Six',7:'Seven',8:'Eight',9:'Nine',
@@ -71,23 +71,23 @@ refs = ''.join(f'<li>{r}</li>' for r in HUMAN_REFS)
 body = f"""
 <div class="kicker">Comparative evidence</div>
 <h1>The same drugs, in people</h1>
-<p class="standfirst">What the human trials tested, what they found, and how far each result can reasonably be carried into small-animal cardiology. Organised by drug class rather than by disease, because it is the drug class that travels.</p>
+<p class="standfirst">This page sets out what the human trials tested, what they found, and how far each result can reasonably be carried into small-animal cardiology. It is organised by drug class rather than by disease, because the drug class is what travels between species.</p>
 <div class="meta"><span>{WORD[len(CATS)]} intervention classes</span><span>{len(HUMAN_REFS)} human trials cited</span><span>Revised August 2026</span></div>
 
 <section>
   <h2>How far the comparison can be carried</h2>
-  <p>Human and small-animal cardiac disease are not the same disease. Human heart-failure trials enrolled patients with predominantly ischaemic or idiopathic systolic dysfunction; the commonest canine cardiac disease is a primary valvular volume overload in a ventricle with normal coronary arteries. Human hypertrophic cardiomyopathy is a sarcomeric genetic disorder; feline hypertrophic cardiomyopathy is largely of unknown cause. Cardiac embolism in humans is atrial fibrillation causing stroke; in cats it is atrial enlargement causing distal aortic obstruction, usually in sinus rhythm.</p>
-  <p>None of that makes the human literature irrelevant, and none of it makes the human literature decisive. Drug classes travel further than diseases do. A phosphodiesterase-3 inhibitor does the same thing to a myocyte in either species; whether the consequence is the same depends on the substrate it acts on, which is exactly what differs.</p>
-  <p>This page therefore does not claim that a human result determines the veterinary answer. Each class is set out with what was tested, what it showed, and an explicit judgement of how close the analogy is. Where a class behaved badly in a large human trial, that is a reason to look for the equivalent signal in the veterinary data, and to notice when nobody has looked. It is not, by itself, evidence that the signal is there.</p>
+  <p>Human and small-animal cardiac disease are not the same disease. The human heart-failure trials enrolled patients with predominantly ischaemic or idiopathic systolic dysfunction, whereas the commonest canine cardiac disease is a primary valvular volume overload in a ventricle with normal coronary arteries. Human hypertrophic cardiomyopathy is a sarcomeric genetic disorder, while feline hypertrophic cardiomyopathy is largely of unknown cause. Cardiac embolism in humans arises from atrial fibrillation and causes stroke, whereas in cats it arises from atrial enlargement and causes distal aortic obstruction, usually in an animal in sinus rhythm.</p>
+  <p>None of those differences makes the human literature irrelevant, and none of them makes it decisive either. Drug classes travel further between species than diseases do. A phosphodiesterase-3 inhibitor does the same thing to a myocyte in either species, but whether the consequence is the same depends on the substrate it acts on, and the substrate is exactly what differs.</p>
+  <p>This page therefore does not claim that a human result determines the veterinary answer. Each class is set out with what was tested, what the trial showed, and an explicit judgement of how close the analogy is. Where a class behaved badly in a large human trial, that is a reason to look for the equivalent signal in the veterinary data and to note when nobody has looked for it. It is not, on its own, evidence that the signal is present.</p>
   <div class="gradekey">{key}</div>
-  <p class="note" style="margin-top:18px">The analogy judgements are the editor's and are open to argument. The trial results are not: every name, figure and effect direction below was checked against the primary report, and the citations are listed at the foot of the page.</p>
+  <p class="note" style="margin-top:18px">The analogy judgements are the editor's own and are open to argument. The trial results are not open in the same way, because every name, figure and effect direction below was checked against the primary report, and the citations are listed at the foot of the page.</p>
 </section>
 
 {blocks}
 
 <section>
   <h2>Entries with no human counterpart</h2>
-  <p>{WORD[len(NOEQ)]} entries on the map have nothing to compare against. That is worth recording separately, because an absent comparison is often mistaken for an unfavourable one.</p>
+  <p>{WORD[len(NOEQ)]} entries on the map have nothing to compare against. These are recorded separately, because an absent comparison is often mistaken for an unfavourable one.</p>
   <ul class="plain">{noeq}</ul>
 </section>
 
@@ -98,7 +98,7 @@ body = f"""
 
 <section>
   <h2>Status</h2>
-  <p>This page covers the intervention classes represented on the cardiology gap map and will grow with it. Corrections, and human trials that should be here and are not, are welcome. See <a href="about.html">about</a>.</p>
+  <p>This page covers the intervention classes represented on the cardiology gap map, and it will grow as the map does. Corrections are welcome, as are human trials that should appear here and do not, and the <a href="about.html">about page</a> explains how to send them.</p>
 </section>
 """
 

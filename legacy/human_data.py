@@ -31,7 +31,7 @@ HUMAN = {
  txt="Antiplatelet therapy is the <b>fallback</b>, not the preferred option in humans. Anticoagulation beat clopidogrel plus aspirin (RR 1.44 favouring anticoagulation); across trials antiplatelets cut stroke 22%, warfarin 64%.",
  ref="ACTIVE-W 2006 &middot; Hart 2007"),
 "Atenolol in preclinical hypertrophic cardiomyopathy": dict(dirn="opposite",
- txt="No outcome trial in HCM anywhere. In <b>non-obstructive</b> HCM &mdash; the phenotype most feline patients have &mdash; a placebo-controlled crossover found bisoprolol reduced exercise capacity and quality of life and raised NT-proBNP and atrial size.",
+ txt="No outcome trial in HCM anywhere. In <b>non-obstructive</b> HCM, which is the phenotype most feline patients have, a placebo-controlled crossover found bisoprolol reduced exercise capacity and quality of life and raised NT-proBNP and atrial size.",
  ref="Bjerregaard 2026 &middot; TEMPO 2021 &middot; MAPLE-HCM 2025"),
 "Pimobendan in feline congestive heart failure": dict(dirn="opposite",
  txt="Oral inotropes increased mortality in human heart failure.", ref="PROMISE 1991"),
