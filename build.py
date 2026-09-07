@@ -62,7 +62,7 @@ def main():
         cwd = os.getcwd()
         os.chdir(OUT)
         sys.path.insert(0, legacy)
-        for mod in ('p_home', 'p_gapmap', 'p_human', 'p_reviews2',
+        for mod in ('p_home', 'p_gapmap', 'p_topics', 'p_human', 'p_reviews2',
                     'p_teaching', 'p_pages'):
             src = os.path.join(legacy, mod + '.py')
             if not os.path.exists(src):

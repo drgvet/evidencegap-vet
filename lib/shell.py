@@ -1,6 +1,6 @@
 FONTS = ''  # system font stacks only; no webfont request
 
-NAV = [('index.html','Home'),('gapmap.html','Gap map'),
+NAV = [('index.html','Home'),('cardiology.html','Cardiology'),('gapmap.html','Gap map'),
        ('human-evidence.html','Human evidence'),('reviews.html','Appraisals'),
        ('teaching.html','Teaching'),('about.html','About')]
 

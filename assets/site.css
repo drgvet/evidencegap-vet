@@ -1162,3 +1162,15 @@ h2,h3,.abstract h2{color:var(--ink)}
 .artmeta,.artmeta .id,.rail .id{color:var(--muted) !important}
 .rail li a{color:var(--ink)}
 .affil,.keywords{color:var(--muted)}
+
+/* specialty hub: the list of subtopics */
+.topiclist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.topiclist li{padding:20px 0;border-bottom:1px solid var(--rule)}
+.topiclist h3{margin:0 0 4px;font-size:20px}
+.topiclist h3 a{color:var(--accent);text-decoration:none}
+.topiclist h3 a:hover{text-decoration:underline}
+.topiclist .cardmeta{margin:0;font-size:15.5px;color:var(--muted)}
+
+.page--hero{padding-top:26px}
+.page--hero section.sec:first-child{margin-top:0}
+.page--hero section.sec:first-child>h2{margin-top:0}
