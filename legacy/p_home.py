@@ -28,32 +28,32 @@ def motif(seed, tint='#EBDCBE', dark='#17456F'):
 
 MAPS = [
  ("Small-animal cardiology", "gapmap.html", True,
-  "This map covers mitral valve disease, the cardiomyopathies, the management of "
-  "heart failure and the common arrhythmias. Each question is graded against the "
-  "strongest evidence that exists for it.",
+  "Mitral valve disease, the cardiomyopathies, the management of heart failure and "
+  "the common arrhythmias. Every question is graded against the strongest evidence "
+  "that exists for it, with the reasons for the grade listed underneath.",
   f"{len(Q)} entries", f"{GAPS} open gaps", 1),
  ("Anaesthesia and analgesia", None, False,
-  "This map will cover protocol selection, multimodal analgesia and the monitoring "
-  "thresholds in routine use, across species and procedure types.", "", "", 2),
+  "Protocol selection, multimodal analgesia and the monitoring thresholds in routine "
+  "use, across species and procedure types.", "", "", 2),
  ("Antimicrobials", None, False,
-  "This map will cover empirical drug selection, duration of therapy, and the "
-  "evidence behind the first-line recommendations made in common presentations.",
-  "", "", 3),
+  "Empirical drug selection, duration of therapy, and the evidence behind the "
+  "first-line recommendations made in common presentations.", "", "", 3),
  ("Nutrition and supplements", None, False,
-  "This map will cover therapeutic diets, joint supplements and nutraceuticals, a "
-  "field in which marketing claims and trial evidence diverge more often than in "
-  "most others.", "", "", 4),
+  "Therapeutic diets, joint supplements and nutraceuticals, a field in which "
+  "marketing claims and trial evidence diverge more often than in most others.",
+  "", "", 4),
  ("Dermatology", None, False,
-  "This map will cover atopic disease, otitis, and the long-term management "
-  "protocols that rest largely on convention.", "", "", 5),
+  "Atopic disease, otitis, and the long-term management protocols that rest largely "
+  "on convention.", "", "", 5),
  ("Oncology", None, False,
-  "This map will cover protocol comparisons, adjuvant therapy, and the outcome "
-  "measures that are used to judge both.", "", "", 6),
+  "Protocol comparisons, adjuvant therapy, and the outcome measures that are used "
+  "to judge both.", "", "", 6),
 ]
 
 mapcards = ''
 for title, href, live, desc, m1, m2, seed in MAPS:
-    tag = ('<span class="pill live">Live</span>' if live else '<span class="pill plan">Planned</span>')
+    tag = ('<span class="pill live">Open to read</span>' if live
+           else '<span class="pill plan">In progress</span>')
     metas = ''.join(f'<span>{m}</span>' for m in (m1, m2) if m)
     inner = (f'{motif(seed)}<div class="body"><div class="type">Evidence gap map</div>'
              f'<h3>{title}</h3><p>{desc}</p>'
@@ -79,18 +79,19 @@ body = f"""
 <section class="hero2">
   <div class="bar">
     <p class="kick">Evidence gaps in veterinary medicine</p>
-    <h1>The evidence behind small-animal practice varies more than the recommendations do.</h1>
-    <p class="lede">Some routine practice is supported by well-conducted studies, while other practice rests on a single small paper or on convention alone. This site records which is which for each clinical question, together with the reasoning behind the assessment.</p>
+    <h1>How good is the evidence behind what we actually do?</h1>
+    <p class="lede">Some of small-animal practice is backed by well-conducted trials. Some of it rests on one small study, on a result borrowed from human medicine, or on nothing but convention. Very little of it is labelled, so a clinician has no easy way to tell which kind of recommendation they are following.</p>
+    <p class="lede">This site works through small-animal practice one clinical question at a time and records the answer. Each question gets two marks: how far the evidence can be relied on, and which way it points. Where no study exists, that is written down as well, because an untested practice and a disproven one are not the same thing.</p>
+    <p class="lede">Six specialties are covered, each with its own map, and all of them are being built out and expanded.</p>
     <div class="acts">
-      <a class="btn light" href="gapmap.html">Browse the gap map</a>
-      <a class="btn outline" href="#find">Find a clinical question</a>
+      <a class="btn light" href="gapmap.html">Start with the cardiology map</a>
+      <a class="btn outline" href="#find">Look up a drug or a question</a>
     </div>
     <div class="hstats">
-      <div><div class="fig">{len(Q)}</div><div class="cap">Clinical questions and practices mapped</div></div>
-      <div><div class="fig">{GAPS}</div><div class="cap">Supported by no evidence at all</div></div>
-      <div><div class="fig">{len(DOMS)}</div><div class="cap">Cardiology domains</div></div>
-      <div><div class="fig">{R["published"]}</div><div class="cap">Appraisals published</div></div>
-      <div><div class="fig">1</div><div class="cap">Discipline mapped so far</div></div>
+      <div><div class="fig">6</div><div class="cap">Specialties covered, all of them expanding</div></div>
+      <div><div class="fig">{len(Q)}</div><div class="cap">Questions assessed and graded so far</div></div>
+      <div><div class="fig">{GAPS}</div><div class="cap">With no supporting study of any kind</div></div>
+      <div><div class="fig">{R["published"]}</div><div class="cap">Studies read closely and written up</div></div>
     </div>
   </div>
 </section>
@@ -98,11 +99,34 @@ body = f"""
 <section class="band">
   <div class="bar">
     <div class="bandhead">
-      <h2>Evidence gap maps</h2>
+      <h2>The six maps</h2>
       <span class="more"><a href="gapmap.html">Open the cardiology map &rarr;</a></span>
     </div>
+    <p style="max-width:78ch;font-size:19px;line-height:1.6;margin-bottom:30px">Each specialty has its own map, built the same way and to the same standard. All six are being expanded as the literature is worked through.</p>
     <div class="maps">{mapcards}</div>
-    <p class="note" style="margin-top:22px">Each map covers one area of practice, question by question. The cardiology map is complete, and the remaining maps are in preparation.</p>
+    <p class="note" style="margin-top:24px;max-width:78ch">If you work in one of these areas and would be willing to draft entries or check them, that speeds the work up considerably. Write to <a href="mailto:contact@evidencegap.vet">contact@evidencegap.vet</a>.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="bar">
+    <div class="bandhead"><h2>What the two marks mean</h2></div>
+    <p style="max-width:76ch;font-size:19px;line-height:1.6;margin-bottom:26px">The first mark says how far the evidence behind a question can be relied on. It follows GRADE, the system used for the same purpose in human medicine.</p>
+    <div class="gradekey">
+      <div><div class="k"><span class="cf cf--high">High certainty</span></div><div class="v">Replicated, with consistent findings. Nothing on the map reaches this yet</div></div>
+      <div><div class="k"><span class="cf cf--moderate">Moderate certainty</span></div><div class="v">One sound study, carrying material limitations</div></div>
+      <div><div class="k"><span class="cf cf--low">Low certainty</span></div><div class="v">Serious limitations, or observational only</div></div>
+      <div><div class="k"><span class="cf cf--verylow">Very low certainty</span></div><div class="v">Insufficient to support a claim</div></div>
+      <div><div class="k"><span class="cf cf--none">No evidence</span></div><div class="v">Not studied</div></div>
+    </div>
+    <p style="max-width:76ch;font-size:19px;line-height:1.6;margin:30px 0 26px">The second mark says which way that evidence points. The two are kept apart because a question can rest on weak evidence and still point clearly, and because <em>nobody looked</em> and <em>somebody looked and found nothing</em> are different answers that are routinely treated as the same one.</p>
+    <div class="gradekey">
+      <div><div class="k"><span class="cvd">Points to benefit</span></div><div class="v">The studies that exist point to the treatment helping</div></div>
+      <div><div class="k"><span class="cvd">No benefit shown</span></div><div class="v">Somebody looked for a benefit and did not find one</div></div>
+      <div><div class="k"><span class="cvd">Cannot say either way</span></div><div class="v">Studies exist but cannot answer the question</div></div>
+      <div><div class="k"><span class="cvd">Untested</span></div><div class="v">Nobody has studied the question at all</div></div>
+    </div>
+    <p class="note" style="margin-top:24px;max-width:76ch">Study design sets the starting point of an assessment and not its conclusion. A trial that was funded by the manufacturer, measured a surrogate outcome and has never been replicated does not outrank a well-conducted observational study by virtue of being a trial. The specific reasons certainty was not rated higher are recorded against every question, so that each judgement can be examined rather than accepted. <a href="gapmap.html">The full method is on the map page</a>.</p>
   </div>
 </section>
 
@@ -154,19 +178,6 @@ body = f"""
   </div>
 </section>
 
-<section class="band band--tint">
-  <div class="bar">
-    <div class="bandhead"><h2>How the marks work</h2></div>
-    <div class="gradekey">
-      <div><div class="k"><span class="cf cf--moderate">Moderate certainty</span></div><div class="v">One sound study, carrying material limitations</div></div>
-      <div><div class="k"><span class="cf cf--low">Low certainty</span></div><div class="v">Serious limitations, or observational only</div></div>
-      <div><div class="k"><span class="cf cf--verylow">Very low certainty</span></div><div class="v">Insufficient to support a claim</div></div>
-      <div><div class="k"><span class="cf cf--none">No evidence</span></div><div class="v">Not studied</div></div>
-    </div>
-    <p class="note" style="margin-top:20px;max-width:76ch">Study design sets the starting point of the assessment, not its conclusion. A trial that was funded by the manufacturer, measured a surrogate outcome and has never been replicated does not outrank a well-conducted observational study by virtue of its design. The specific reasons certainty was not rated higher are recorded against every question, so that each judgement can be examined rather than accepted.</p>
-  </div>
-</section>
-
 <section class="band">
   <div class="bar">
     <div class="bandhead"><h2>Three ways the evidence falls short</h2></div>
@@ -205,7 +216,7 @@ body = f"""
     <div class="twoup">
       <div>
         <h3>Scope</h3>
-        <p>Small-animal cardiology at present, {len(Q)} entries across {len(DOMS)} domains. The other disciplines listed above are planned rather than started. Within cardiology the map is not exhaustive: it covers the questions and practices that come up often enough to be worth appraising.</p>
+        <p>Six specialties are covered, each with its own map, and all of them are being expanded. The cardiology map currently holds {len(Q)} entries across {len(DOMS)} disease areas. No map is exhaustive, because each covers the questions and practices that come up often enough to be worth appraising.</p>
       </div>
       <div>
         <h3>Method</h3>

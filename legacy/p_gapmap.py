@@ -114,19 +114,78 @@ key = ''.join(
   f'<div><div class="k"><span class="cf cf--{k}">{CONF[k][0]}</span></div>'
   f'<div class="v">{CONF[k][1]}</div></div>' for k in ORDER)
 
+DIRNDEF = [
+ ('benefit',  'The studies that exist point to the treatment helping.'),
+ ('noeffect', 'The studies looked for a benefit and did not find one.'),
+ ('against',  'The studies point to the treatment being unhelpful or harmful.'),
+ ('unclear',  'Studies exist, but they cannot answer the question either way.'),
+ ('untested', 'Nobody has studied the question, so there is nothing to point anywhere.'),
+]
+dirkey = ''.join(
+  f'<div><div class="k"><span class="cvd">{DIRN[k]}</span></div>'
+  f'<div class="v">{v}</div></div>' for k, v in DIRNDEF)
+
 body = f"""
-<div class="kicker">Evidence and gap map</div>
+<div class="kicker">Evidence gap map</div>
 <h1>Small-animal cardiology</h1>
 <p class="standfirst">This map sets out {WORD[NQ].lower()} clinical questions and practices in small-animal cardiology. Each one is assessed for the certainty of the evidence behind it and for what that evidence actually says, and {WORD[NGAP].lower()} of them have no supporting evidence of any kind.</p>
+<p class="note" style="max-width:74ch;margin-top:14px">This is one of six specialty maps. The others cover anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology and oncology, and all of them are being expanded. The <a href="index.html">home page</a> lists them.</p>
 <div class="meta"><span>Living document</span><span>{NQ} entries &middot; {NDOM} domains</span><span>Revised August 2026</span></div>
 
 <section>
   <h2>How each question is assessed</h2>
-  <p>Study design determines where the assessment begins; it does not determine where it ends. A randomised trial that measured a surrogate outcome, was funded by the manufacturer of the drug under test and has never been replicated may warrant less confidence than a well-conducted observational study. Each question therefore carries two marks rather than one composite score.</p>
-  <p><strong>Certainty</strong> is the first mark. It is a GRADE-informed editorial judgement rather than a formal GRADE assessment: design sets the starting point, certainty is then rated down for risk of bias, imprecision, indirectness and inconsistency, and may be rated up for a large and consistent effect. GRADE itself has four levels; the fifth label used here, <em>No evidence</em>, is an editorial category for questions nobody has studied and has no GRADE equivalent.</p>
-  <p><strong>Direction</strong> is the second mark, and it is recorded alongside the studies on which it rests. The reasons why certainty was not rated higher are set out in the assessment attached to each entry, so that the judgement can be examined and disputed.</p>
+  <p>Every question on this map carries two marks, and they answer two different
+  questions. <strong>Certainty</strong> says how much the evidence can be relied on.
+  <strong>Direction</strong> says which way that evidence points. A question can score
+  low on the first and still be clear on the second, and the two are recorded
+  separately for that reason.</p>
+
+  <p>Take atenolol in preclinical hypertrophic cardiomyopathy as an example. The
+  certainty is <em>Low</em>, because the only study is an open-label observational
+  cohort in 63 cats rather than a randomised trial. The direction is <em>No benefit
+  shown</em>, because that cohort looked for a survival difference over five years and
+  did not find one. Reporting a single combined score would lose one of those two
+  facts.</p>
+
+  <h3>Certainty: how far the evidence can be relied on</h3>
   <div class="gradekey">{key}</div>
-  <p class="note" style="margin-top:18px">One editorial rule is applied without exception: <strong>evidence resting solely on a surrogate outcome cannot be rated above Very low, irrespective of design.</strong> Wall thickness, ectopic counts and circulating biomarkers are proxies for outcomes that matter to the patient, and a proxy can improve without the patient benefiting. The principle is taken from SORT, the grading scheme used in human primary care, which assigns its weakest recommendation grade to evidence resting on disease-oriented outcomes; the hard cap applied here is this site's rule, not SORT's, since SORT grades recommendations rather than bodies of evidence. Those questions are flagged.</p>
+  <p style="margin-top:18px">These five labels follow GRADE, the system used for the
+  same purpose in human medicine. The starting point is the study design, and the
+  certainty is then rated down for risk of bias, for imprecision, for evidence that
+  is indirect, and for findings that disagree between studies. It may be rated up
+  where an effect is large and consistent. GRADE has four levels, and the fifth label
+  used here, <em>No evidence</em>, marks a question nobody has studied at all.</p>
+
+  <h3>Direction: which way the evidence points</h3>
+  <div class="gradekey">{dirkey}</div>
+  <p style="margin-top:18px">The last two are frequently confused with each other, and
+  the distinction matters at the bedside. <em>No benefit shown</em> means somebody
+  looked and found nothing, which is a finding. <em>Untested</em> means nobody looked,
+  which is not.</p>
+
+  <h3>Why the two marks are kept apart</h3>
+  <p>Study design determines where an assessment begins, and it does not determine
+  where it ends. A randomised trial that measured a surrogate outcome, was funded by
+  the manufacturer of the drug under test and has never been replicated may warrant
+  less confidence than a well-conducted observational study. A single ranking that
+  puts every trial above every cohort would get that case backwards, which is why
+  design here sets the starting point and the specific problems with each study then
+  move the mark.</p>
+  <p>The reasons why certainty was not rated higher are listed under each entry rather
+  than summarised, so that any judgement on this map can be checked against the studies
+  it came from and disputed.</p>
+
+  <h3>One rule applied without exception</h3>
+  <p><strong>Evidence resting only on a surrogate outcome cannot be rated above Very
+  low, whatever its design.</strong> A surrogate is a measurement that stands in for
+  something the animal experiences: wall thickness in place of heart failure, ectopic
+  counts in place of sudden death, a blood marker in place of survival. A surrogate can
+  improve while the animal is no better off, and in human cardiology drugs have
+  improved the surrogate and increased mortality at the same time. Entries resting on a
+  surrogate are marked <em>Surrogate endpoint only</em> beneath the question,
+  and <em>Surrogate only</em> in the table above. The rule is
+  this site\'s own, adapted from SORT, the grading scheme used in human primary
+  care.</p>
 </section>
 
 <section>
@@ -137,7 +196,7 @@ body = f"""
   </div>
   <div class="tscroll">{compare}</div>
   <p class="scrollhint scrollhint--cmp">Scroll the table sideways for the assessment column.</p>
-  <p class="note" style="margin-top:16px"><strong>Table 1.</strong> Certainty is a GRADE-informed editorial judgement and direction is recorded separately; neither is derived from study design alone.</p>
+  <p class="note" style="margin-top:16px"><strong>Table 1.</strong> Certainty and direction are recorded as separate marks, and neither of them is derived from study design alone.</p>
 </section>
 
 <section class="callout">

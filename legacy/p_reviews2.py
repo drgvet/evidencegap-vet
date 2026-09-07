@@ -77,7 +77,7 @@ body = f"""
 
 <section>
   <h2>Related</h2>
-  <p>The <a href="gapmap.html">gap map</a> places these appraisals in context, mapping twenty-four clinical questions in small-animal cardiology against the strongest evidence available for each. Mapping proceeds one discipline at a time, and anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology, behaviour, oncology, surgery, equine and food-animal medicine are all planned rather than started.</p>
+  <p>The <a href="gapmap.html">gap map</a> places these appraisals in context, mapping twenty-four clinical questions in small-animal cardiology against the strongest evidence available for each. The project covers six specialties in total, adding anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology and oncology, and all of the maps are being built out and expanded.</p>
 </section>
 """
 

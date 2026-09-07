@@ -577,6 +577,11 @@ ol.reflist>li::before{content:counter(r) ".";position:absolute;left:0;top:11px;
 .gradekey .k{font-family:var(--sans);font-size:22px;font-weight:600;color:var(--accent);line-height:1}
 .gradekey .k.zero{color:var(--rust)}
 .gradekey .v{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+/* direction labels in a legend: a label, not a colour chip. Colour on this
+   site encodes certainty only, so direction is set as outlined ink. */
+.gradekey .cvd{display:inline-block;margin:0;font-family:var(--sans);font-size:12.5px;
+  font-weight:600;color:var(--ink);letter-spacing:.02em;line-height:1;
+  padding:5px 9px;border:1px solid var(--ink);border-radius:2px}
 
 .twoup{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:34px 48px}
 .band--dark .twoup h3{font-size:21px;margin-bottom:8px}
