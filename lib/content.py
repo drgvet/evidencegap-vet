@@ -75,11 +75,14 @@ def _table(rows):
     th = ''.join(f'<th>{inline(c)}</th>' for c in head)
     trs = ''
     for r in body:
-        tds = ''.join(
-            f'<td class="n">{inline(c)}</td>' if re.match(r'^[\d.−+\-—\s]*$', c)
-            and c.strip() not in ('', '—') or re.match(r'^[\d.]+$', c.strip())
-            else f'<td>{inline(c)}</td>'
-            for c in r)
+        tds = ''
+        for c in r:
+            # a cell that starts with a figure is a figure, even when it carries
+            # a percentage, a range or a unit after it: right-align them all so
+            # the column reads as a column
+            numeric = bool(re.match(r'^[−+\-]?[\d.,]+', c.strip()))
+            tds += (f'<td class="n">{inline(c)}</td>' if numeric
+                    else f'<td>{inline(c)}</td>')
         trs += f'<tr>{tds}</tr>'
     return (f'<div class="tscroll"><table><thead><tr>{th}</tr></thead>'
             f'<tbody>{trs}</tbody></table></div>')

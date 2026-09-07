@@ -316,33 +316,36 @@ mitral valves," and new murmurs of mitral insufficiency.[6] At the label dose th
 nothing beyond what control dogs showed. This is not evidence of harm at 0.5 mg/kg. It is the
 reason the contraindication exists.
 
-== 12. The randomised test EPIC already contains
+== 12. What EPIC's post-endpoint data can and cannot show
 Two retrospective cohorts report shorter survival after heart failure in dogs treated
 beforehand.[8,9] Both are confounded by indication, and the appraisal of that question is
 <a href="gapmap.html#q-does-preclinical-pimobendan-shorten-survival-once-heart-fa">on the gap map
 separately</a>.
 
-What appears to have been missed is that EPIC contains a randomised version of the same question.
-Figure 1 of the trial reports, for dogs that reached the primary endpoint, what happened to them
-afterwards:[1]
+EPIC holds data bearing on the same question, and it has never been analysed. Of the dogs who
+reached the primary endpoint, 54 of 74 on pimobendan and 69 of 88 on placebo subsequently died of
+any cause.[1] Those are the only post-endpoint outcome figures the trial reports, and they appear
+as counts rather than as a time-to-event analysis.
 
-| Arm | Reached endpoint | Later died | Alive at close | Lost |
-|---|---|---|---|---|
-| Pimobendan | 74 | 54 (73.0%) | 17 | 3 |
-| Placebo | 88 | 69 (78.4%) | 16 | 3 |
+The crude comparison cannot be interpreted, for three reasons. Pimobendan dogs reached the endpoint
+later, so they had less remaining follow-up before the study closed, and the two proportions are not
+measured over comparable time. The endpoint is a composite: roughly one dog in six reached it by
+dying of a cardiac cause and so has no post-heart-failure course at all, which means neither
+denominator is a count of dogs at risk of dying after heart failure. And the difference is nowhere
+near significance on the counts alone, Fisher's exact P being 0.464, which settles nothing in either
+direction given the first two problems.
 
-The only post-endpoint outcome data EPIC publishes.
+What can be said is narrower. EPIC's randomised all-cause mortality curve stays favourable and does
+not converge toward placebo through a 365-day landmark.[1] That is weak evidence against a large and
+persistent post-heart-failure penalty overwhelming the preclinical benefit. It does not exclude a
+short-lived hazard around the point of decompensation, which is what the retrospective work
+proposes.
 
-This is a randomised comparison of survival after heart failure, in the same dogs, with allocation
-by chance rather than by clinician judgement. It has never been published as a time-to-event
-analysis. The crude proportions cannot settle it: Fisher's exact P is 0.464, and pimobendan
-dogs reached the endpoint later, so they had less remaining follow-up before the study closed.
-
-Simulating the analysis with EPIC's own event counts and censoring structure, at the hazard
-ratio the retrospective work reports the trial would detect it about 91 per cent of the time. At a
-modest effect of 1.3 it would not. So this is a specific, adequately powered analysis on data
-already collected, free of the confounding that undermines the retrospective studies, and reported
-so far only as counts in a flow diagram.
+The analysis that would settle it is a time-to-event comparison restricted to the dogs who reached
+the endpoint by developing heart failure, with time measured from that date. That requires the
+trial's own patient-level records rather than its published figures, so it is available to the trial
+holders and to nobody else. Until somebody runs it, the question stays open, and the retrospective
+cohorts remain the only direct evidence on it.
 
 == 13. Selection or harm
 There is an account of the retrospective findings that requires no harm from the drug at all.
