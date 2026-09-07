@@ -1257,3 +1257,45 @@ h1.arttitle{font-size:31px;line-height:1.28;font-weight:500;margin:0 0 20px}
   .artgrid{grid-template-columns:minmax(0,1fr)}
   .article{max-width:720px;margin:0 auto}
 }
+
+/* The outline sits on the right when there is room for three columns, and
+   folds back into the left column when there is not. It is never hidden. */
+.artgrid{grid-template-columns:186px minmax(0,660px) 196px;gap:0 40px}
+.article{max-width:660px}
+.railtoc{display:none}
+
+@media (max-width:1140px){
+  .artgrid{grid-template-columns:196px minmax(0,1fr);gap:0 44px}
+  .outline{display:none}
+  .railtoc{display:block}
+  .article{max-width:720px}
+}
+@media (max-width:860px){
+  .artgrid{grid-template-columns:minmax(0,1fr)}
+  .article{max-width:720px;margin:0 auto}
+}
+.railtoc ol{list-style:none;margin:0;padding:0;font-size:14px}
+.railtoc li{margin-bottom:9px;line-height:1.4}
+.railtoc li a{color:var(--muted);text-decoration:none;display:grid;
+  grid-template-columns:16px 1fr;gap:6px}
+.railtoc li a:hover{color:var(--accent)}
+.railtoc li a .n{color:var(--faint);font-variant-numeric:tabular-nums}
+.railtoc .lab{font-size:15px;font-weight:500;color:var(--ink);
+  font-style:normal !important;margin:0 0 10px}
+
+/* a grid item defaults to min-width:auto, so wide content (a table) pushes
+   the column open and the page scrolls sideways; this stops that */
+.artgrid>*{min-width:0}
+.article,.rail,.outline{min-width:0}
+.article table{max-width:100%}
+
+/* On a phone the three columns become three plain blocks. Using block rather
+   than a one-column grid avoids implicit columns sizing themselves to their
+   content and pushing the page sideways. */
+@media (max-width:860px){
+  .artgrid{display:block}
+  .artgrid>.rail,.artgrid>.article,.artgrid>.outline{width:auto;max-width:none}
+  .rail{position:static;margin-bottom:30px}
+  .outline{display:none}
+  .railtoc{display:block}
+}

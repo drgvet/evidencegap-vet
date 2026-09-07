@@ -72,6 +72,7 @@ def appraisal(path):
     <p class="id">{meta.get('id', '')} &middot; {meta.get('domain', '')}</p>
   </div>
   <div class="blk">{rail_rows}</div>
+  <div class="blk railtoc"><p class="lab">Outline</p><ol>{contents}</ol></div>
   <div class="blk"><p class="flag">Not peer reviewed</p></div>'''
 
     outline = f'<aside class="outline"><p class="lab">Outline</p><ol>{contents}</ol></aside>'
