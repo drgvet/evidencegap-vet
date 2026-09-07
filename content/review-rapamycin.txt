@@ -68,9 +68,6 @@ Scroll sideways to see all three arms.
 Both dose arms pooled against placebo gave 7.72 mm, p = 0.054. Across the whole trial the main effect of treatment was not significant (p = 0.150); the treatment-by-visit interaction that licensed the day-180 comparison reached p = 0.084, significant only against the trial's alpha of 0.10.
 
 == 3. Issues with the evidence
-A useful discipline drawn from the research-writing literature is not merely to assert that a gap exists but to name its type. Each subsection below is identified accordingly.
-
-== 3. Issues with the evidence
 Each of the following is a separate problem with the evidence base, and they compound: the endpoint, the statistical handling, the measurement, the missing animals, the safety record and the regulatory route.
 
 === 3.1 The published report and the regulatory record disagree about the endpoint

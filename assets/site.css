@@ -1163,14 +1163,97 @@ h2,h3,.abstract h2{color:var(--ink)}
 .rail li a{color:var(--ink)}
 .affil,.keywords{color:var(--muted)}
 
-/* specialty hub: the list of subtopics */
-.topiclist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
-.topiclist li{padding:20px 0;border-bottom:1px solid var(--rule)}
-.topiclist h3{margin:0 0 4px;font-size:20px}
-.topiclist h3 a{color:var(--accent);text-decoration:none}
-.topiclist h3 a:hover{text-decoration:underline}
-.topiclist .cardmeta{margin:0;font-size:15.5px;color:var(--muted)}
 
 .page--hero{padding-top:26px}
 .page--hero section.sec:first-child{margin-top:0}
 .page--hero section.sec:first-child>h2{margin-top:0}
+
+/* ------------------------------------------------------------------
+   Specialty pages: a tab row and a grid of items, after the way a
+   journal sets out its article list.
+   ------------------------------------------------------------------ */
+.tabrow{display:flex;flex-wrap:wrap;gap:0 30px;margin:26px 0 34px;
+  border-bottom:1px solid var(--rule)}
+.tabrow a{font-size:17px;color:var(--muted);text-decoration:none;
+  padding:0 0 11px;margin-bottom:-1px;border-bottom:2px solid transparent}
+.tabrow a:hover{color:var(--ink)}
+.tabrow a.on{color:var(--ink);border-bottom-color:var(--ink)}
+
+.itemgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:38px 34px;
+  margin:26px 0 0}
+@media (max-width:1080px){.itemgrid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.itemgrid{grid-template-columns:1fr;gap:30px}}
+
+.item{min-width:0}
+.item .ilab{margin:0 0 7px;font-size:14.5px;color:var(--muted);
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.item .ilab .cf{font-size:14.5px !important}
+.item .idir{color:var(--muted)}
+.item h3{margin:0 0 8px;font-size:19px;line-height:1.32;font-weight:600;
+  letter-spacing:0;text-wrap:pretty}
+.item h3 a{color:var(--ink);text-decoration:none}
+.item h3 a:hover{text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:2px}
+.item .isrc{margin:0;font-size:15px;line-height:1.5;color:var(--muted)}
+.item .iread{margin:7px 0 0;font-size:15px}
+.item .iread a{color:var(--accent)}
+.item .iread.soon{color:var(--faint);font-style:italic}
+.itemgrid+.note{margin-top:26px}
+main.page section.sec+section.sec{margin-top:52px}
+
+/* specialty pages sit closer to their header, and the tab row does not wrap
+   mid-word on narrow screens */
+.page--hero .tabrow:first-child,
+.page--hero .kicker+h1+.tabrow{margin-top:0}
+.tabrow{margin:0 0 30px}
+h1+.tabrow,.standfirst+.tabrow{margin-top:22px}
+.tabrow a{white-space:nowrap}
+main.page section.sec:first-of-type{margin-top:34px}
+.item .ilab{gap:5px 14px}
+
+.phero{margin-bottom:0}
+main.page--hero{margin-top:0;padding-top:30px}
+
+/* ------------------------------------------------------------------
+   Article pages set the way the journal sets them: humanist sans
+   throughout, a metadata column on the left, the outline on the right,
+   headings large but light, and a narrower measure for the text.
+   ------------------------------------------------------------------ */
+:root{
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Roboto,
+         Helvetica,Arial,sans-serif;
+  --serif:var(--sans);          /* the site is set in sans now */
+}
+body{font-size:17px;line-height:1.62}
+
+h1,h2,h3,h4{font-weight:500;letter-spacing:0}
+h1.arttitle{font-size:31px;line-height:1.28;font-weight:500;margin:0 0 20px}
+.sec>h2{font-size:25px;font-weight:500;letter-spacing:0;margin-top:52px}
+.subsec h3{font-size:20px;font-weight:500}
+.sec>h2 .num,.subsec h3 .num{color:var(--faint);font-weight:400}
+
+/* three columns: metadata, article, outline */
+.artgrid{grid-template-columns:206px minmax(0,700px) 214px;gap:0 46px;
+  justify-content:center}
+.article{max-width:700px}
+.rail{border-right:none;padding-right:0}
+
+.outline{position:sticky;top:82px;align-self:start;font-family:var(--sans);
+  border-left:1px solid var(--rule);padding-left:20px}
+.outline .lab{font-size:17px;font-weight:500;color:var(--ink);
+  font-style:normal !important;margin:0 0 14px}
+.outline ol{list-style:none;margin:0;padding:0;font-size:14.5px}
+.outline li{margin-bottom:11px;line-height:1.4}
+.outline li a{color:var(--muted);text-decoration:none;display:grid;
+  grid-template-columns:18px 1fr;gap:6px}
+.outline li a:hover{color:var(--accent);text-decoration:underline}
+.outline li a .n{color:var(--faint);font-variant-numeric:tabular-nums}
+
+@media (max-width:1180px){
+  .artgrid{grid-template-columns:196px minmax(0,1fr)}
+  .outline{display:none}
+}
+@media (max-width:860px){
+  .artgrid{grid-template-columns:minmax(0,1fr)}
+  .article{max-width:720px;margin:0 auto}
+}

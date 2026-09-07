@@ -1,10 +1,10 @@
 """Specialty and subtopic pages.
 
-The gap map stays as the one-page view of everything. These add the layer
-above it: a specialty hub listing its subtopics, and one page per subtopic
-carrying only that subtopic's questions. Nothing here has its own text —
-every word comes from content/gapmap.txt, so the two views can never
-disagree.
+Laid out the way a journal lays out its article list: a row of tabs across the
+top, then a grid of items. Each item carries a small label line, a title, and
+the studies it rests on. No counts, no summaries of the collection.
+
+Nothing here has its own text. Every word comes from content/gapmap.txt.
 """
 
 import os as _os
@@ -27,7 +27,6 @@ CONF = {'high': 'High certainty', 'moderate': 'Moderate certainty',
 DIRN = {'benefit': 'Points to benefit', 'noeffect': 'No benefit shown',
         'against': 'Points against', 'unclear': 'Cannot say either way',
         'untested': 'Untested'}
-STAGES = [('pre', 'Asymptomatic'), ('clin', 'Symptomatic')]
 
 
 def slug(t):
@@ -35,100 +34,81 @@ def slug(t):
     return _re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:58].strip('-')
 
 
-def qslug(t):
-    return 'q-' + slug(t)
+HUB = 'cardiology.html'
+PAGES = [(d, f'topic-{slug(d)}.html', qs) for d, qs in Q]
 
 
-SPECIALTY = ('Cardiology', 'cardiology.html',
-             'Small-animal cardiology: what the evidence behind each practice '
-             'actually is, question by question.')
+def tabs(active):
+    """The row across the top, one per subtopic, the way a journal does it."""
+    out = f'<a href="{HUB}"' + (' class="on"' if active is None else '') + '>All</a>'
+    for domain, fn, _ in PAGES:
+        on = ' class="on"' if active == domain else ''
+        out += f'<a href="{fn}"{on}>{domain}</a>'
+    return f'<nav class="tabrow">{out}</nav>'
 
 
-def entry(q):
-    """One question, rendered the same way the gap map renders it."""
-    sur = ('<span class="surro">Surrogate endpoint only</span>'
-           if q.get('surrogate') else '')
-    qual = f' &mdash; {q["qual"]}' if q.get('qual') else ''
-    src = f'<p class="qsrc">{q["src"]}</p>' if q['src'] else ''
+def card(q):
+    """One question, set as an item in the grid."""
+    title = q['t']
     if q.get('more'):
-        more = (f'<p class="seemore"><a href="{q["more"]}">'
-                f'&#42; Caveats in full &mdash; read the appraisal</a></p>')
+        title = f'<a href="{q["more"]}">{title}</a>'
+    src = q.get('src') or ''
+    src = _re.sub(r'\s*(&middot;|·)\s*<a [^>]*>[^<]*(appraisal|commentary)</a>\s*$',
+                  '', src)
+    src = f'<p class="isrc">{src}</p>' if src.strip() else ''
+    read = ''
+    if q.get('more'):
+        read = f'<p class="iread"><a href="{q["more"]}">Read the appraisal</a></p>'
     elif q.get('soon'):
-        more = '<p class="seemore soon">&#42; Full appraisal in preparation</p>'
-    else:
-        more = ''
-    return (f'<div class="q" id="{qslug(q["t"])}">'
-            f'<div class="qhead"><div class="qtitle">{q["t"]}</div>'
-            f'<span class="cf cf--{q["conf"]}">{CONF[q["conf"]]}</span></div>'
-            f'<p class="qbasis">{q["basis"]}<br><b>{DIRN[q["dirn"]]}</b>'
-            f'{qual}{sur}</p>'
-            f'<p class="qverdict">{q["verdict"]}</p>{src}{more}</div>')
+        read = '<p class="iread soon">Appraisal in preparation</p>'
+    return (f'<article class="item">'
+            f'<p class="ilab"><span class="cf cf--{q["conf"]}">{CONF[q["conf"]]}</span>'
+            f'<span class="idir">{DIRN[q["dirn"]]}</span></p>'
+            f'<h3>{title}</h3>{src}{read}</article>')
 
 
-def counts(qs):
-    n = len(qs)
-    gaps = sum(1 for q in qs if q['conf'] == 'none')
-    appraised = sum(1 for q in qs if q.get('more'))
-    bits = [f'{n} question' + ('' if n == 1 else 's')]
-    if gaps:
-        bits.append(f'{gaps} with no evidence')
-    if appraised:
-        bits.append(f'{appraised} appraised in full')
-    return ' &middot; '.join(bits)
+def grid(qs):
+    return '<div class="itemgrid">' + ''.join(card(q) for q in qs) + '</div>'
 
 
 # ------------------------------------------------------------- subtopics
-built = []
-for domain, qs in Q:
-    fn = f'topic-{slug(domain)}.html'
-    inner = ''
-    for sk, slabel in STAGES:
-        sub = [q for q in qs if q['stage'] == sk]
-        if not sub:
-            continue
-        inner += (f'<div class="stageblock"><h4 class="stagelab">{slabel}</h4>'
-                  + ''.join(entry(q) for q in sub) + '</div>')
-
+for domain, fn, qs in PAGES:
     body = f"""
 <div class="kicker">Cardiology</div>
 <h1>{domain}</h1>
-<p class="standfirst">{counts(qs)}. Each question carries the certainty of the
-evidence behind it and, separately, what that evidence points to.</p>
-<div class="meta"><span><a href="{SPECIALTY[1]}">All of cardiology</a></span>
-<span><a href="gapmap.html">The full map, all domains on one page</a></span></div>
-
-<div class="qgroup">{inner}</div>
-
-<p class="note" style="margin-top:36px">
-<a href="{SPECIALTY[1]}">&larr; Back to cardiology</a></p>
+{tabs(domain)}
+{grid(qs)}
 """
     open(fn, 'w', encoding='utf-8').write(page(
         fn, f'{domain} &mdash; evidencegap.vet',
         f'The evidence behind clinical practice in {domain.lower()}.',
-        body, width='mid'))
-    built.append((domain, fn, qs))
+        body, width='wide'))
 
 # ------------------------------------------------------------- specialty
-cards = ''
-for domain, fn, qs in built:
-    cards += (f'<li><h3><a href="{fn}">{domain}</a></h3>'
-              f'<p class="cardmeta">{counts(qs)}</p></li>')
+featured = [q for _, qs in Q for q in qs if q.get('more')]
+rest = [q for _, qs in Q for q in qs if not q.get('more')]
 
-nq = sum(len(qs) for _, _, qs in built)
+feat = ''
+if featured:
+    feat = (f'<section class="sec"><h2>Appraised in full</h2>'
+            f'{grid(featured)}</section>')
+
 body = f"""
 <div class="kicker">Specialty</div>
-<h1>{SPECIALTY[0]}</h1>
-<p class="standfirst">{SPECIALTY[2]}</p>
-<div class="meta"><span>{nq} questions</span><span>{len(built)} subtopics</span>
-<span><a href="gapmap.html">Or see the full map on one page</a></span></div>
-
-<section class="sec">
-  <h2>Subtopics</h2>
-  <ul class="topiclist">{cards}</ul>
+<h1>Cardiology</h1>
+<p class="standfirst">What the evidence behind each practice actually is,
+question by question.</p>
+{tabs(None)}
+{feat}
+<section class="sec"><h2>Everything else on the map</h2>
+{grid(rest)}
+<p class="note" style="margin-top:26px"><a href="gapmap.html">See the whole map
+on one page, with the summary table</a></p>
 </section>
 """
-open(SPECIALTY[1], 'w', encoding='utf-8').write(page(
-    SPECIALTY[1], f'{SPECIALTY[0]} &mdash; evidencegap.vet',
-    SPECIALTY[2], body, width='mid'))
+open(HUB, 'w', encoding='utf-8').write(page(
+    HUB, 'Cardiology &mdash; evidencegap.vet',
+    'Small-animal cardiology: what the evidence behind each practice actually is.',
+    body, width='wide'))
 
-print(f'wrote {SPECIALTY[1]} and {len(built)} subtopic pages')
+print(f'wrote {HUB} and {len(PAGES)} subtopic pages')

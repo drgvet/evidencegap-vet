@@ -72,8 +72,9 @@ def appraisal(path):
     <p class="id">{meta.get('id', '')} &middot; {meta.get('domain', '')}</p>
   </div>
   <div class="blk">{rail_rows}</div>
-  <div class="blk"><p class="lab">Contents</p><ol>{contents}</ol></div>
   <div class="blk"><p class="flag">Not peer reviewed</p></div>'''
+
+    outline = f'<aside class="outline"><p class="lab">Outline</p><ol>{contents}</ol></aside>'
 
     # ---- abstract and summary -----------------------------------------
     abstract = ''
@@ -174,5 +175,6 @@ Correspondence: <a href="mailto:contact@evidencegap.vet">contact@evidencegap.vet
 {out}
 {related}
 </div>
+{outline}
 </div>
 '''
