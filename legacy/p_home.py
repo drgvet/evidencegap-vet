@@ -122,7 +122,7 @@ body = f"""
     <div class="gradekey">
       <div><div class="k"><span class="cvd">Points to benefit</span></div><div class="v">The studies that exist point to the treatment helping</div></div>
       <div><div class="k"><span class="cvd">No benefit shown</span></div><div class="v">Somebody looked for a benefit and did not find one</div></div>
-      <div><div class="k"><span class="cvd">Cannot say either way</span></div><div class="v">Studies exist but cannot answer the question</div></div>
+      <div><div class="k"><span class="cvd">Inconclusive</span></div><div class="v">Somebody looked, and the study cannot answer the question</div></div>
       <div><div class="k"><span class="cvd">Untested</span></div><div class="v">Nobody has studied the question at all</div></div>
     </div>
     <p class="note" style="margin-top:24px;max-width:76ch">Study design sets the starting point of an assessment and not its conclusion. A trial that was funded by the manufacturer, measured a surrogate outcome and has never been replicated does not outrank a well-conducted observational study by virtue of being a trial. The specific reasons certainty was not rated higher are recorded against every question, so that each judgement can be examined rather than accepted. <a href="gapmap.html">The full method is on the map page</a>.</p>

@@ -29,6 +29,7 @@ species: dog
 stage: pre
 certainty: low
 direction: unclear
+qualifier: both cohorts report shorter survival, and confounding by indication explains it equally well
 basis: 2 retrospective cohorts, 137 and 143 dogs, no randomisation
 sources: McAulay, 2026 · Park, 2025
 limitations: Retrospective · Confounding by indication visible in the data · Underpowered
@@ -185,6 +186,7 @@ species: cat
 stage: pre
 certainty: verylow
 direction: unclear
+qualifier: one trial reported a wall-thickness difference, on an endpoint the FDA records as selected after exploratory analysis
 surrogate: yes
 basis: 1 randomised trial, 43 cats, surrogate endpoint only
 sources: RAPACAT, 2023 · FDA FOI summary 141-604, 2025 · [full appraisal](review-rapamycin.html)
@@ -314,6 +316,7 @@ species: dog
 stage: pre
 certainty: low
 direction: unclear
+qualifier: the same dog can fall either side of a cutoff depending on how long it was recorded
 basis: Screening cohorts, 28 Dobermanns on seven-day monitoring
 sources: Wess et al., 2017 · Gunasekaran et al., 2020
 limitations: Breed cutoffs are screening conventions · No prospective outcome validation found · Positivity depends on how long you record

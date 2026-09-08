@@ -25,7 +25,7 @@ CONF = {'high': 'High certainty', 'moderate': 'Moderate certainty',
         'low': 'Low certainty', 'verylow': 'Very low certainty',
         'none': 'No evidence'}
 DIRN = {'benefit': 'Points to benefit', 'noeffect': 'No benefit shown',
-        'against': 'Points against', 'unclear': 'Cannot say either way',
+        'against': 'Points against', 'unclear': 'Inconclusive',
         'untested': 'Untested'}
 
 

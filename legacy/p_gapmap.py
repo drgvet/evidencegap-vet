@@ -43,7 +43,7 @@ DIRN = {
  'benefit' : "Points to benefit",
  'noeffect': "No benefit shown",
  'against' : "Points against",
- 'unclear' : "Cannot say either way",
+ 'unclear' : "Inconclusive",
  'untested': "Untested",
 }
 
@@ -144,7 +144,7 @@ DIRNDEF = [
  ('benefit',  'The studies that exist point to the treatment helping.'),
  ('noeffect', 'The studies looked for a benefit and did not find one.'),
  ('against',  'The studies point to the treatment being unhelpful or harmful.'),
- ('unclear',  'Studies exist, but they cannot answer the question either way.'),
+ ('unclear',  'Studies exist, and they cannot settle the question in either direction.'),
  ('untested', 'Nobody has studied the question, so there is nothing to point anywhere.'),
 ]
 dirkey = ''.join(
@@ -183,10 +183,15 @@ body = f"""
 
   <h3>Direction: which way the evidence points</h3>
   <div class="gradekey">{dirkey}</div>
-  <p style="margin-top:18px">The last two are frequently confused with each other, and
-  the distinction matters at the bedside. <em>No benefit shown</em> means somebody
-  looked and found nothing, which is a finding. <em>Untested</em> means nobody looked,
-  which is not.</p>
+  <p style="margin-top:18px">Three of these are routinely run together, and the
+  distinctions matter at the bedside. <em>No benefit shown</em> means somebody looked
+  and found nothing, which is a finding. <em>Inconclusive</em> means somebody looked
+  and the study cannot answer the question, which is not the same as a null result.
+  <em>Untested</em> means nobody looked at all.</p>
+  <p><em>Inconclusive</em> describes what the studies show rather than how good they
+  are. A question can be marked inconclusive on a well-conducted study that was
+  simply built to answer something else, and the certainty mark is where the quality
+  of the work is recorded.</p>
 
   <h3>Why the two marks are kept apart</h3>
   <p>Study design determines where an assessment begins, and it does not determine
