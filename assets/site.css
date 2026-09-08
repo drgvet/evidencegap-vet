@@ -577,6 +577,18 @@ ol.reflist>li::before{content:counter(r) ".";position:absolute;left:0;top:11px;
 .gradekey .k{font-family:var(--sans);font-size:22px;font-weight:600;color:var(--accent);line-height:1}
 .gradekey .k.zero{color:var(--rust)}
 .gradekey .v{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+/* specialty blocks on the gap map: cardiology carries the question groups,
+   the rest carry their remit and a status chip */
+.specblock{margin:0 0 42px}
+.specblock--soon{padding:22px 24px;border:1px solid var(--rule);background:var(--paw)}
+.speclab{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:0 0 18px;
+  font-family:var(--sans);font-size:25px;font-weight:650;color:var(--ink);
+  letter-spacing:-.01em;line-height:1.2}
+.specblock--soon .speclab{margin-bottom:9px;font-size:21px;color:var(--muted)}
+.specnote{margin:0;max-width:74ch;font-family:var(--sans);font-size:15px;
+  color:var(--muted);line-height:1.55}
+@media (max-width:600px){.speclab{font-size:21px}.specblock--soon .speclab{font-size:19px}}
+
 /* direction labels in a legend: a label, not a colour chip. Colour on this
    site encodes certainty only, so direction is set as outlined ink. */
 .gradekey .cvd{display:inline-block;margin:0;font-family:var(--sans);font-size:12.5px;

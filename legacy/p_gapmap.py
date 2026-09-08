@@ -110,6 +110,32 @@ for dom, qs in Q:
     groups += (f'<div class="qgroup" data-group>'
                f'<h3><span class="spdot sp--{SLOT[dom][0]}"></span>{dom}</h3>{inner}</div>')
 
+OTHER_SPECIALTIES = [
+ ("Anaesthesia and analgesia",
+  "Protocol selection, multimodal analgesia and the monitoring thresholds in "
+  "routine use, across species and procedure types."),
+ ("Antimicrobials",
+  "Empirical drug selection, duration of therapy, and the evidence behind the "
+  "first-line recommendations made in common presentations."),
+ ("Nutrition and supplements",
+  "Therapeutic diets, joint supplements and nutraceuticals, a field in which "
+  "marketing claims and trial evidence diverge more often than in most others."),
+ ("Dermatology",
+  "Atopic disease, otitis, and the long-term management protocols that rest "
+  "largely on convention."),
+ ("Oncology",
+  "Protocol comparisons, adjuvant therapy, and the outcome measures that are "
+  "used to judge both."),
+]
+
+specblocks = (f'<div class="specblock"><h3 class="speclab">Cardiology'
+              f'<span class="pill live">{NQ} questions</span></h3>{groups}</div>')
+for name, blurb in OTHER_SPECIALTIES:
+    specblocks += (f'<div class="specblock specblock--soon">'
+                   f'<h3 class="speclab">{name}'
+                   f'<span class="pill plan">In progress</span></h3>'
+                   f'<p class="specnote">{blurb}</p></div>')
+
 key = ''.join(
   f'<div><div class="k"><span class="cf cf--{k}">{CONF[k][0]}</span></div>'
   f'<div class="v">{CONF[k][1]}</div></div>' for k in ORDER)
@@ -126,11 +152,10 @@ dirkey = ''.join(
   f'<div class="v">{v}</div></div>' for k, v in DIRNDEF)
 
 body = f"""
-<div class="kicker">Evidence gap map</div>
-<h1>Small-animal cardiology</h1>
-<p class="standfirst">This map sets out {WORD[NQ].lower()} clinical questions and practices in small-animal cardiology. Each one is assessed for the certainty of the evidence behind it and for what that evidence actually says, and {WORD[NGAP].lower()} of them have no supporting evidence of any kind.</p>
-<p class="note" style="max-width:74ch;margin-top:14px">This is one of six specialty maps. The others cover anaesthesia and analgesia, antimicrobials, nutrition and supplements, dermatology and oncology, and all of them are being expanded. The <a href="index.html">home page</a> lists them.</p>
-<div class="meta"><span>Living document</span><span>{NQ} entries &middot; {NDOM} domains</span><span>Revised August 2026</span></div>
+<div class="kicker">Small-animal practice</div>
+<h1>Evidence gap map</h1>
+<p class="standfirst">This map runs specialty by specialty across small-animal practice and sets out the clinical questions and practices in each. Every question is assessed for the certainty of the evidence behind it and for what that evidence actually says. {WORD[NQ]} are assessed at present, and {WORD[NGAP].lower()} of those have no supporting evidence of any kind.</p>
+<div class="meta"><span>Living document</span><span>{NQ} entries assessed</span><span>Revised August 2026</span></div>
 
 <section>
   <h2>How each question is assessed</h2>
@@ -190,7 +215,7 @@ body = f"""
 
 <section>
   <h2>Summary of findings</h2>
-  <p>The table lists every entry on the map together with the evidence that exists behind it and the assessment that follows from that evidence. Each row links to the full entry below, where the verdict and the specific limitations are set out.</p>
+  <p>The table lists every entry assessed so far, together with the evidence that exists behind it and the assessment that follows from that evidence. Each row links to the full entry below, where the verdict and the specific limitations are set out.</p>
   <div class="maplegend">
     <p class="lgrow"><span class="lglab">Domain</span>{splegend}</p>
   </div>
@@ -232,7 +257,7 @@ body = f"""
     </div>
   </div>
   <p class="count" id="count">Showing {total} of {total} entries</p>
-  {groups}
+  {specblocks}
 </section>
 
 <section>
@@ -277,8 +302,8 @@ INDEX = [{'domain':dom,'title':q['t'],'conf':q['conf'],'dirn':q['dirn'],'stage':
 json.dump(INDEX, open('questions.json','w'), indent=1)
 
 open('gapmap.html','w',encoding='utf-8').write(page(
- 'gapmap.html','Gap map: small-animal cardiology &mdash; evidencegap.vet',
- f'{NQ} clinical questions and practices in small-animal cardiology, each assessed for the certainty of the evidence behind it and for what that evidence says.',
+ 'gapmap.html','Evidence gap map &mdash; evidencegap.vet',
+ f'The evidence behind small-animal practice, specialty by specialty and question by question, each assessed for the certainty of the evidence behind it and for what that evidence says.',
  body, width='wide', script=SCRIPT))
 print('questions:', len(INDEX))
 for k in ORDER:

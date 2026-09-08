@@ -55,7 +55,7 @@ for title, href, live, desc, m1, m2, seed in MAPS:
     tag = ('<span class="pill live">Open to read</span>' if live
            else '<span class="pill plan">In progress</span>')
     metas = ''.join(f'<span>{m}</span>' for m in (m1, m2) if m)
-    inner = (f'{motif(seed)}<div class="body"><div class="type">Evidence gap map</div>'
+    inner = (f'{motif(seed)}<div class="body"><div class="type">Specialty</div>'
              f'<h3>{title}</h3><p>{desc}</p>'
              f'<div class="foot">{tag}{metas}</div></div>')
     mapcards += (f'<a class="mapcard" href="{href}">{inner}</a>' if live
@@ -79,16 +79,15 @@ body = f"""
 <section class="hero2">
   <div class="bar">
     <p class="kick">Evidence gaps in veterinary medicine</p>
-    <h1>How good is the evidence behind what we actually do?</h1>
+    <h1>How good is the evidence for what we actually do?</h1>
     <p class="lede">Some of small-animal practice is backed by well-conducted trials. Some of it rests on one small study, on a result borrowed from human medicine, or on nothing but convention. Very little of it is labelled, so a clinician has no easy way to tell which kind of recommendation they are following.</p>
     <p class="lede">This site works through small-animal practice one clinical question at a time and records the answer. Each question gets two marks: how far the evidence can be relied on, and which way it points. Where no study exists, that is written down as well, because an untested practice and a disproven one are not the same thing.</p>
-    <p class="lede">Six specialties are covered, each with its own map, and all of them are being built out and expanded.</p>
+    <p class="lede">The map runs specialty by specialty across small-animal practice, and every specialty on it is being built out and expanded. Further ones are added as the work goes on.</p>
     <div class="acts">
-      <a class="btn light" href="gapmap.html">Start with the cardiology map</a>
+      <a class="btn light" href="gapmap.html">Open the gap map</a>
       <a class="btn outline" href="#find">Look up a drug or a question</a>
     </div>
     <div class="hstats">
-      <div><div class="fig">6</div><div class="cap">Specialties covered, all of them expanding</div></div>
       <div><div class="fig">{len(Q)}</div><div class="cap">Questions assessed and graded so far</div></div>
       <div><div class="fig">{GAPS}</div><div class="cap">With no supporting study of any kind</div></div>
       <div><div class="fig">{R["published"]}</div><div class="cap">Studies read closely and written up</div></div>
@@ -99,10 +98,10 @@ body = f"""
 <section class="band">
   <div class="bar">
     <div class="bandhead">
-      <h2>The six maps</h2>
-      <span class="more"><a href="gapmap.html">Open the cardiology map &rarr;</a></span>
+      <h2>The specialties</h2>
+      <span class="more"><a href="gapmap.html">Open the gap map &rarr;</a></span>
     </div>
-    <p style="max-width:78ch;font-size:19px;line-height:1.6;margin-bottom:30px">Each specialty has its own map, built the same way and to the same standard. All six are being expanded as the literature is worked through.</p>
+    <p style="max-width:78ch;font-size:19px;line-height:1.6;margin-bottom:30px">The gap map covers each of these, worked through the same way and to the same standard. All of them are being expanded as the literature is covered, and further specialties are added as the work goes on.</p>
     <div class="maps">{mapcards}</div>
     <p class="note" style="margin-top:24px;max-width:78ch">If you work in one of these areas and would be willing to draft entries or check them, that speeds the work up considerably. Write to <a href="mailto:contact@evidencegap.vet">contact@evidencegap.vet</a>.</p>
   </div>
@@ -216,7 +215,7 @@ body = f"""
     <div class="twoup">
       <div>
         <h3>Scope</h3>
-        <p>Six specialties are covered, each with its own map, and all of them are being expanded. The cardiology map currently holds {len(Q)} entries across {len(DOMS)} disease areas. No map is exhaustive, because each covers the questions and practices that come up often enough to be worth appraising.</p>
+        <p>Every specialty on the map is being expanded, and more are added as the work goes on. Cardiology currently holds {len(Q)} entries across {len(DOMS)} disease areas. No specialty is covered exhaustively, because each takes the questions and practices that come up often enough to be worth appraising.</p>
       </div>
       <div>
         <h3>Method</h3>
